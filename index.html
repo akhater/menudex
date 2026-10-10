@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Menudex</title>
+  <meta name="description" content="Every camera setting. Exact tab, page, row.">
+  <meta name="theme-color" content="#0b0c0e">
+  <meta name="color-scheme" content="dark light">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Menudex">
+  <link rel="stylesheet" href="css/app.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="bar">
+      <a class="brand" href="#/" aria-label="Menudex home">
+        <img src="icons/icon.svg" alt="" width="28" height="28"><span>Menu<b>dex</b></span>
+      </a>
+      <button class="camera-btn" id="cameraBtn" type="button" aria-haspopup="dialog">
+        <span class="cam-name"><span class="cam-brand"></span><span class="cam-model">Loading…</span></span><span class="cam-fw"></span>
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="m6 9.5 6 6 6-6"/></svg>
+      </button>
+    </div>
+    <div class="search">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+      <input id="q" type="search" placeholder="Search settings…" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" aria-label="Search camera settings">
+      <button id="clearQ" type="button" aria-label="Clear search" hidden>
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div class="modes" role="group" aria-label="Photo/Movie switch position">
+      <span class="modes-label">Switch</span>
+      <button type="button" data-mode="photo" aria-pressed="true">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l1.6-2.2h6.8L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13.3" r="3.4"/></svg>Photo
+      </button>
+      <button type="button" data-mode="movie" aria-pressed="false">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="12" height="10" rx="1.5"/><path d="m15 11 6-3.5v9L15 13"/></svg>Movie
+      </button>
+    </div>
+  </header>
+
+  <main id="view" aria-live="polite"></main>
+
+  <footer class="foot">
+    <p class="foot-row">
+      <span id="offline"></span>
+      <button class="btn small" id="installBtn" type="button" hidden>Install app</button>
+    </p>
+    <p id="iosHint" hidden>To install: tap Share, then “Add to Home Screen”.</p>
+    <p class="muted">Positions are for Creative Zone modes (P/Tv/Av/M/Fv/B/C). Auto and scene modes hide some items.</p>
+    <p id="source" class="muted"></p>
+  </footer>
+
+  <dialog id="picker" aria-labelledby="pickTitle">
+    <form id="pickForm" method="dialog">
+      <h2 id="pickTitle">Your camera</h2>
+      <label>Brand<select id="pickBrand"></select></label>
+      <label>Model<select id="pickModel"></select></label>
+      <label>Firmware<select id="pickFw"></select></label>
+      <p class="muted">More cameras coming. Menus can change with firmware, so pick the version your camera shows under Set-up › Firmware.</p>
+      <div class="actions">
+        <button class="btn ghost" type="button" id="pickCancel">Cancel</button>
+        <button class="btn" type="submit">Use this camera</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

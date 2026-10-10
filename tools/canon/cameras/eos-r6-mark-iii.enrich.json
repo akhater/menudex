@@ -1,0 +1,2449 @@
+{
+ "_pages": {
+  "af-photo-3": {
+   "layout": "graphic",
+   "notes": [
+    "This page is a picture, not a list: pick AUTO (Case Auto) or M (Case Manual) on the left, then adjust the settings shown for it. Row numbers here follow the manual's callouts."
+   ]
+  },
+  "af-photo-7": {
+   "name": "Various settings"
+  },
+  "mymenu-all-1": {
+   "notes": [
+    "Only this management page exists until you add your own My Menu tabs. Each tab you add becomes another page here."
+   ]
+  }
+ },
+ "image-quality": {
+  "desc": "File type and size for stills: RAW, C-RAW, JPEG/HEIF and their sizes, or RAW+JPEG.",
+  "kw": [
+   "raw",
+   "craw",
+   "c-raw",
+   "cr3",
+   "jpeg",
+   "jpg",
+   "heif",
+   "hif",
+   "10-bit",
+   "file format",
+   "file size",
+   "fine",
+   "resolution",
+   "megapixels",
+   "raw+jpeg",
+   "image size",
+   "compressed raw"
+  ]
+ },
+ "dual-pixel-raw": {
+  "desc": "Records extra Dual Pixel data in RAW files so you can fine-tune them in Canon software later. Files get much bigger.",
+  "kw": [
+   "dpraw",
+   "dual pixel",
+   "raw microadjust",
+   "bokeh shift"
+  ]
+ },
+ "stills-cropping-aspect-ratio": {
+  "desc": "Shoot full-frame, 1.6x crop (APS-C), or with a 1:1, 4:3 or 16:9 aspect ratio.",
+  "kw": [
+   "crop",
+   "aps-c",
+   "1.6x",
+   "crop mode",
+   "aspect ratio",
+   "square",
+   "1:1",
+   "4:3",
+   "16:9",
+   "3:2",
+   "crop factor"
+  ]
+ },
+ "digital-tele-conv": {
+  "desc": "Digital teleconverter: in-camera digital zoom for stills (crops and enlarges the center of the frame).",
+  "kw": [
+   "digital zoom",
+   "teleconverter",
+   "tele converter",
+   "2x",
+   "4x",
+   "zoom"
+  ]
+ },
+ "expo-comp-aeb": {
+  "desc": "Exposure compensation plus auto exposure bracketing (AEB) for stills.",
+  "kw": [
+   "exposure compensation",
+   "ev",
+   "brighter",
+   "darker",
+   "aeb",
+   "bracketing",
+   "bracket",
+   "hdr bracket",
+   "plus minus"
+  ]
+ },
+ "stills-iso-speed-settings": {
+  "desc": "ISO for stills: the manual ISO range, the Auto ISO range, and the minimum shutter speed Auto ISO will allow.",
+  "kw": [
+   "iso",
+   "auto iso",
+   "iso range",
+   "iso limit",
+   "max iso",
+   "minimum shutter speed",
+   "min shutter speed",
+   "sensitivity",
+   "gain",
+   "extended iso",
+   "h iso",
+   "low iso"
+  ]
+ },
+ "anti-flicker-shoot": {
+  "desc": "Detects flickering lights (e.g. fluorescent) and times each shot to the brightest moment so exposure and color stay even.",
+  "kw": [
+   "flicker",
+   "fluorescent",
+   "led flicker",
+   "indoor sports",
+   "gym lights",
+   "banding"
+  ]
+ },
+ "hf-anti-flicker-shooting": {
+  "desc": "High-frequency anti-flicker: finds a shutter speed that avoids banding from fast-flickering LED lights.",
+  "kw": [
+   "flicker",
+   "high frequency",
+   "led",
+   "banding",
+   "stripes",
+   "electronic shutter banding",
+   "led wall",
+   "screen"
+  ]
+ },
+ "external-speedlite-control": {
+  "desc": "Settings for a flash on the hot shoe: firing, E-TTL metering, flash exposure compensation, sync and the flash's own custom functions.",
+  "kw": [
+   "flash",
+   "speedlite",
+   "strobe",
+   "ettl",
+   "e-ttl",
+   "flash compensation",
+   "fec",
+   "high speed sync",
+   "hss",
+   "second curtain",
+   "rear curtain",
+   "flash sync",
+   "wireless flash",
+   "fe lock",
+   "fe memory"
+  ]
+ },
+ "metering-mode": {
+  "desc": "How the camera measures light: evaluative, partial, spot or center-weighted average.",
+  "kw": [
+   "metering",
+   "spot metering",
+   "evaluative",
+   "matrix",
+   "center weighted",
+   "partial",
+   "light meter"
+  ]
+ },
+ "detect-priority-ae-while-af": {
+  "desc": "Weights exposure toward the subject the AF has detected (face, animal, vehicle).",
+  "kw": [
+   "face exposure",
+   "subject exposure",
+   "face priority metering",
+   "expose for face"
+  ]
+ },
+ "color-mode": {
+  "desc": "Picture Style (Standard, Portrait, Landscape, Monochrome...) or Custom Picture / Canon Log, plus sharpness, contrast, saturation and tone tweaks.",
+  "kw": [
+   "picture style",
+   "picture profile",
+   "color profile",
+   "monochrome",
+   "black and white",
+   "b&w",
+   "custom picture",
+   "canon log",
+   "clog",
+   "c-log",
+   "log",
+   "clog2",
+   "clog3",
+   "look file",
+   "lut",
+   "sharpness",
+   "contrast",
+   "saturation",
+   "color tone",
+   "film simulation",
+   "neutral",
+   "faithful",
+   "fine detail"
+  ]
+ },
+ "color-space": {
+  "desc": "Color space for stills: sRGB or Adobe RGB.",
+  "kw": [
+   "srgb",
+   "adobe rgb",
+   "adobergb",
+   "gamut"
+  ]
+ },
+ "clarity": {
+  "desc": "Adds or reduces mid-tone edge contrast (like a clarity slider in editing software).",
+  "kw": [
+   "clarity",
+   "local contrast",
+   "texture",
+   "dehaze",
+   "punch"
+  ]
+ },
+ "hdr-shooting-pq": {
+  "desc": "Records HDR stills/movies with the PQ curve (HEIF for stills) for viewing on HDR screens.",
+  "kw": [
+   "hdr",
+   "pq",
+   "hdr pq",
+   "hdr10",
+   "heif",
+   "hlg",
+   "high dynamic range"
+  ]
+ },
+ "hdr-mode": {
+  "desc": "In-camera HDR stills: merges several exposures into one image with more dynamic range.",
+  "kw": [
+   "hdr",
+   "hdr mode",
+   "merge exposures",
+   "dynamic range",
+   "backlit",
+   "high dynamic range"
+  ]
+ },
+ "auto-lighting-optimizer": {
+  "desc": "Automatically lifts shadows and corrects contrast in JPEG/HEIF images. Off, Low, Standard or High.",
+  "kw": [
+   "alo",
+   "auto lighting",
+   "shadow recovery",
+   "d-lighting",
+   "dro",
+   "dynamic range optimizer",
+   "contrast correction"
+  ]
+ },
+ "highlight-tone-priority": {
+  "desc": "Protects highlight detail (raises the minimum ISO). Enable or Enhanced.",
+  "kw": [
+   "htp",
+   "highlight",
+   "blown highlights",
+   "clipping",
+   "d+"
+  ]
+ },
+ "white-balance-setting": {
+  "desc": "White balance presets, Kelvin, custom WB, WB correction/bracketing and how quickly Auto WB reacts.",
+  "kw": [
+   "wb",
+   "white balance",
+   "awb",
+   "kelvin",
+   "color temperature",
+   "custom white balance",
+   "grey card",
+   "gray card",
+   "tungsten",
+   "daylight",
+   "cloudy",
+   "shade",
+   "fluorescent",
+   "wb shift",
+   "wb bracketing",
+   "warm",
+   "cool",
+   "color cast"
+  ]
+ },
+ "lens-aberration-correction": {
+  "desc": "Lens corrections: vignetting, distortion, chromatic aberration, diffraction, Digital Lens Optimizer and focus-breathing correction.",
+  "kw": [
+   "vignetting",
+   "peripheral illumination",
+   "distortion",
+   "chromatic aberration",
+   "ca",
+   "purple fringing",
+   "diffraction",
+   "dlo",
+   "digital lens optimizer",
+   "focus breathing",
+   "lens profile",
+   "lens correction"
+  ]
+ },
+ "long-exp-noise-reduction": {
+  "desc": "Dark-frame noise reduction for exposures of 1 second or longer. Doubles the wait after each long shot.",
+  "kw": [
+   "long exposure",
+   "lenr",
+   "dark frame",
+   "noise reduction",
+   "hot pixels",
+   "night",
+   "astro",
+   "stars"
+  ]
+ },
+ "high-iso-speed-nr": {
+  "desc": "Noise reduction strength for high-ISO JPEG/HEIF images (and movies).",
+  "kw": [
+   "noise reduction",
+   "nr",
+   "high iso",
+   "grain",
+   "noise",
+   "denoise"
+  ]
+ },
+ "dust-delete-data": {
+  "desc": "Captures a reference of sensor dust so Canon software can erase the spots from images later.",
+  "kw": [
+   "dust",
+   "sensor dust",
+   "dust spots",
+   "dust removal"
+  ]
+ },
+ "multiple-exposure": {
+  "desc": "Blends several shots into one image (additive, average, bright or dark).",
+  "kw": [
+   "multiple exposure",
+   "double exposure",
+   "multi exposure",
+   "overlay",
+   "blend"
+  ]
+ },
+ "focus-bracketing": {
+  "desc": "Shoots a burst while stepping focus, for focus stacking. Can also merge the frames in camera (depth composite).",
+  "kw": [
+   "focus stacking",
+   "focus stack",
+   "focus bracket",
+   "macro",
+   "depth of field",
+   "depth composite",
+   "stacking"
+  ]
+ },
+ "drive-mode": {
+  "desc": "Single shot, high-speed/low-speed continuous (burst) or self-timer.",
+  "kw": [
+   "drive",
+   "burst",
+   "continuous",
+   "fps",
+   "frames per second",
+   "high speed",
+   "self timer",
+   "self-timer",
+   "10 sec",
+   "2 sec",
+   "timer",
+   "single shot",
+   "h+",
+   "spray"
+  ]
+ },
+ "pre-cont-shooting": {
+  "desc": "Pre-continuous (pre-capture): buffers frames while you half-press, so the burst starts slightly before you fully press.",
+  "kw": [
+   "pre capture",
+   "pre-capture",
+   "pre shot",
+   "pre-burst",
+   "raw burst",
+   "pro capture",
+   "buffer before",
+   "birds in flight"
+  ]
+ },
+ "interval-timer": {
+  "desc": "Intervalometer: takes a set number of stills at a fixed interval.",
+  "kw": [
+   "intervalometer",
+   "interval",
+   "time lapse",
+   "timelapse",
+   "interval shooting"
+  ]
+ },
+ "bulb-timer": {
+  "desc": "Sets a fixed bulb exposure time (e.g. 2 minutes) so you don't need to hold the shutter button.",
+  "kw": [
+   "bulb",
+   "long exposure",
+   "b mode",
+   "astro",
+   "star trails",
+   "timer"
+  ]
+ },
+ "silent-shutter-function": {
+  "desc": "Silent shooting: uses the electronic shutter and turns off sounds.",
+  "kw": [
+   "silent",
+   "silent shutter",
+   "quiet",
+   "no sound",
+   "mute",
+   "wedding",
+   "electronic shutter",
+   "stealth"
+  ]
+ },
+ "shutter-mode": {
+  "desc": "Mechanical, electronic first-curtain or fully electronic shutter.",
+  "kw": [
+   "electronic shutter",
+   "efcs",
+   "electronic first curtain",
+   "mechanical shutter",
+   "silent shutter",
+   "rolling shutter",
+   "shutter type",
+   "elec 1st curtain"
+  ]
+ },
+ "release-shutter-without-card": {
+  "desc": "Whether the camera can take a picture with no card inserted. Disable it so you never shoot without a card.",
+  "kw": [
+   "no card",
+   "without card",
+   "card missing",
+   "shoot without card",
+   "demo mode"
+  ]
+ },
+ "is-image-stabilizer-mode": {
+  "desc": "In-body/lens image stabilization settings, including Digital IS and Movie IS, and the focal length for non-communicating lenses.",
+  "kw": [
+   "ibis",
+   "is",
+   "image stabilization",
+   "stabilizer",
+   "stabilisation",
+   "steady",
+   "shake",
+   "digital is",
+   "movie is",
+   "enhanced is",
+   "focal length",
+   "manual lens",
+   "vintage lens",
+   "adapted lens",
+   "tripod"
+  ]
+ },
+ "metering-timer": {
+  "desc": "How long exposure info stays active after you release the shutter button.",
+  "kw": [
+   "metering timer",
+   "meter",
+   "exposure lock time"
+  ]
+ },
+ "image-review": {
+  "desc": "Shows the picture right after you take it, and for how long (off, 2 s, 4 s, 8 s, hold).",
+  "kw": [
+   "review",
+   "preview after shot",
+   "image review",
+   "show picture after shot",
+   "instant review",
+   "chimping"
+  ]
+ },
+ "high-speed-display": {
+  "desc": "Shows the live view between frames during high-speed continuous shooting.",
+  "kw": [
+   "blackout",
+   "continuous display",
+   "burst display",
+   "live view during burst"
+  ]
+ },
+ "display-simulation": {
+  "desc": "Whether the screen/EVF previews exposure and depth of field (WYSIWYG).",
+  "kw": [
+   "exposure simulation",
+   "exposure preview",
+   "expsim",
+   "wysiwyg",
+   "dark viewfinder",
+   "studio flash",
+   "dof preview",
+   "live view brightness"
+  ]
+ },
+ "ovf-sim-view-assist": {
+  "desc": "OVF simulation: shows a wider-tone, optical-viewfinder-like view in high-contrast scenes.",
+  "kw": [
+   "ovf",
+   "optical viewfinder",
+   "view assist",
+   "natural view",
+   "high contrast"
+  ]
+ },
+ "stills-movie-play-hdr-c-log-view-assist": {
+  "desc": "View assist: shows a normal-looking image on the screen while shooting HDR PQ or Canon Log.",
+  "kw": [
+   "view assist",
+   "log preview",
+   "lut",
+   "clog",
+   "canon log",
+   "hdr assist",
+   "bt709",
+   "monitoring lut"
+  ]
+ },
+ "shooting-info-disp": {
+  "desc": "What the screen and EVF show: info screens, grid, histogram, waveform, electronic level size, card space, aspect markers.",
+  "kw": [
+   "grid display",
+   "shooting grid",
+   "grid",
+   "grid lines",
+   "rule of thirds",
+   "histogram",
+   "waveform",
+   "electronic level",
+   "level",
+   "horizon",
+   "info display",
+   "overlay",
+   "aspect marker",
+   "frame lines",
+   "card space",
+   "display info",
+   "info button",
+   "vertical display"
+  ],
+  "fw": "Firmware 1.1.0 lets you set the grid display during movie recording too."
+ },
+ "stills-quick-control-customization": {
+  "desc": "Choose and arrange the items on the Q (Quick Control) screen for stills.",
+  "kw": [
+   "q menu",
+   "quick menu",
+   "quick control",
+   "q button",
+   "customize q",
+   "function menu"
+  ]
+ },
+ "display-frame-rate-set": {
+  "desc": "Refresh rate of the screen/EVF: Smooth (higher frame rate) or the power-saving default.",
+  "kw": [
+   "evf refresh",
+   "frame rate",
+   "120fps",
+   "smooth",
+   "viewfinder refresh rate",
+   "lag",
+   "display performance"
+  ]
+ },
+ "vf-display-format": {
+  "desc": "Choose how shooting info is laid out in the viewfinder.",
+  "kw": [
+   "viewfinder layout",
+   "evf info",
+   "viewfinder display",
+   "info outside image"
+  ]
+ },
+ "reverse-display": {
+  "desc": "Mirrored (selfie) view when the screen faces forward.",
+  "kw": [
+   "mirror",
+   "selfie",
+   "flip screen",
+   "vlog",
+   "mirror image"
+  ]
+ },
+ "auto-pwr-off-temp": {
+  "desc": "How hot the camera may get during recording before it shuts down: Standard or High.",
+  "kw": [
+   "overheating",
+   "heat",
+   "temperature",
+   "overheat",
+   "auto power off temperature",
+   "hot"
+  ]
+ },
+ "movie-rec-size": {
+  "desc": "Movie resolution and frame rate (e.g. 4K, Full HD, 60p, 120p) and compression.",
+  "kw": [
+   "4k",
+   "uhd",
+   "1080p",
+   "full hd",
+   "fhd",
+   "resolution",
+   "frame rate",
+   "fps",
+   "24p",
+   "25p",
+   "30p",
+   "50p",
+   "60p",
+   "100p",
+   "120p",
+   "slow motion",
+   "high frame rate",
+   "hfr",
+   "ipb",
+   "all-i",
+   "intra",
+   "long gop",
+   "bitrate"
+  ]
+ },
+ "movie-rec-format": {
+  "desc": "Movie file format and codec: RAW, XF-HEVC S or XF-AVC S, 8-bit or 10-bit, 4:2:0 or 4:2:2. Also proxy and sub-movie recording.",
+  "kw": [
+   "codec",
+   "h.265",
+   "h265",
+   "hevc",
+   "h.264",
+   "avc",
+   "xf-avc",
+   "xf-hevc",
+   "10 bit",
+   "10-bit",
+   "422",
+   "4:2:2",
+   "raw video",
+   "cinema raw light",
+   "proxy",
+   "mp4",
+   "mxf",
+   "bitrate",
+   "format"
+  ]
+ },
+ "sound-recording": {
+  "desc": "Turns movie audio recording on or off.",
+  "kw": [
+   "audio",
+   "sound",
+   "mic",
+   "microphone",
+   "no sound",
+   "mute audio"
+  ]
+ },
+ "audio-format": {
+  "desc": "Movie audio format: AAC or LPCM, 16/24-bit, 2 or 4 channels.",
+  "kw": [
+   "aac",
+   "lpcm",
+   "pcm",
+   "24 bit",
+   "4 channel",
+   "audio codec",
+   "audio quality"
+  ]
+ },
+ "audio-settings": {
+  "desc": "Input (built-in, external mic, hot shoe), recording level, wind filter and attenuator.",
+  "kw": [
+   "audio level",
+   "mic level",
+   "gain",
+   "wind filter",
+   "wind",
+   "attenuator",
+   "external mic",
+   "microphone",
+   "hot shoe mic",
+   "manual audio",
+   "recording level",
+   "xlr"
+  ]
+ },
+ "audio-status": {
+  "desc": "Audio meters and which channels you hear while monitoring.",
+  "kw": [
+   "audio meter",
+   "levels",
+   "monitor channel",
+   "headphones",
+   "audio status"
+  ]
+ },
+ "movie-iso-speed-settings": {
+  "desc": "ISO for movies, including the maximum ISO Auto may use.",
+  "kw": [
+   "iso",
+   "movie iso",
+   "video iso",
+   "auto iso",
+   "max iso",
+   "iso limit",
+   "gain"
+  ]
+ },
+ "movie-auto-slow-shutter": {
+  "desc": "Lets the camera drop to a slower shutter speed in low light during movie recording.",
+  "kw": [
+   "slow shutter",
+   "low light video",
+   "auto slow shutter"
+  ]
+ },
+ "movie-auto-level": {
+  "desc": "Keeps movies level (corrects camera tilt) during recording.",
+  "kw": [
+   "auto level",
+   "horizon",
+   "horizon leveling",
+   "tilt",
+   "straighten",
+   "level video"
+  ]
+ },
+ "shooting-mode": {
+  "desc": "Picks the scene or special movie mode used when the Mode dial is set to SCN (or the special movie position).",
+  "kw": [
+   "scene mode",
+   "special scene",
+   "scn",
+   "smooth skin movie",
+   "close-up demo mode",
+   "movie is mode",
+   "hdr movie",
+   "scene"
+  ]
+ },
+ "open-gate": {
+  "desc": "Records movies from the full sensor area (3:2) for reframing to vertical or other aspect ratios later.",
+  "kw": [
+   "open gate",
+   "3:2 video",
+   "full sensor",
+   "vertical video",
+   "reframe",
+   "anamorphic"
+  ]
+ },
+ "movie-cropping": {
+  "desc": "Records movies with a cropped (APS-C sized) area of the sensor.",
+  "kw": [
+   "crop",
+   "apsc video",
+   "super35",
+   "s35",
+   "crop mode",
+   "movie crop",
+   "1.6x"
+  ]
+ },
+ "digital-zoom": {
+  "desc": "Digital zoom for movies.",
+  "kw": [
+   "digital zoom",
+   "zoom",
+   "video zoom"
+  ]
+ },
+ "exposure-comp": {
+  "desc": "Exposure compensation for movies.",
+  "kw": [
+   "exposure compensation",
+   "ev",
+   "brighter",
+   "darker",
+   "movie exposure"
+  ]
+ },
+ "movie-av-1-8-stop-incr": {
+  "desc": "Changes aperture in finer 1/8-stop steps for smoother changes while recording.",
+  "kw": [
+   "aperture steps",
+   "smooth aperture",
+   "1/8 stop",
+   "iris"
+  ]
+ },
+ "hdr-movie-mode": {
+  "desc": "In-camera HDR movie recording for high-contrast scenes.",
+  "kw": [
+   "hdr movie",
+   "hdr video",
+   "dynamic range",
+   "backlit"
+  ]
+ },
+ "pre-recording-set": {
+  "desc": "Pre-recording: continuously buffers a few seconds so the movie starts before you press record.",
+  "kw": [
+   "pre record",
+   "pre-record",
+   "buffer",
+   "pre roll",
+   "pre-roll",
+   "miss the moment"
+  ]
+ },
+ "time-lapse-movie": {
+  "desc": "Shoots stills at intervals and makes them into a time-lapse movie in camera.",
+  "kw": [
+   "timelapse",
+   "time lapse",
+   "hyperlapse",
+   "interval movie"
+  ]
+ },
+ "movie-self-timer": {
+  "desc": "Self-timer delay before movie recording starts.",
+  "kw": [
+   "self timer",
+   "timer",
+   "delay",
+   "countdown",
+   "vlog"
+  ]
+ },
+ "tally-lamp": {
+  "desc": "Front tally lamp that lights while recording.",
+  "kw": [
+   "tally",
+   "red light",
+   "recording light",
+   "lamp",
+   "rec light"
+  ]
+ },
+ "mag-rec-display": {
+  "desc": "Shows a magnified view while recording (useful for focus checks).",
+  "kw": [
+   "magnify while recording",
+   "zoom display",
+   "focus check",
+   "punch in"
+  ]
+ },
+ "metadata": {
+  "desc": "Adds news/XML metadata to movie files.",
+  "kw": [
+   "metadata",
+   "xml",
+   "news metadata",
+   "broadcast"
+  ]
+ },
+ "time-code": {
+  "desc": "Time code for movies: count up, start time, drop frame, HDMI output and user bit.",
+  "kw": [
+   "timecode",
+   "time code",
+   "tc",
+   "free run",
+   "rec run",
+   "drop frame",
+   "sync",
+   "user bit"
+  ]
+ },
+ "false-color-set": {
+  "desc": "False color exposure display for movies.",
+  "kw": [
+   "false color",
+   "exposure tool",
+   "ire"
+  ]
+ },
+ "zebra-settings": {
+  "desc": "Zebra stripes that show over- or correctly-exposed areas, with adjustable levels.",
+  "kw": [
+   "zebra",
+   "zebras",
+   "overexposure",
+   "stripes",
+   "exposure warning",
+   "ire",
+   "highlight warning"
+  ]
+ },
+ "quick-ctrl-screen": {
+  "desc": "Which Quick Control screen style appears in movie mode.",
+  "kw": [
+   "q screen",
+   "quick control",
+   "q menu",
+   "movie quick control"
+  ]
+ },
+ "movie-quick-control-customization-q1": {
+  "desc": "Choose and arrange items on the movie Q (Quick Control) screen.",
+  "kw": [
+   "q menu",
+   "quick menu",
+   "quick control",
+   "customize q",
+   "movie q"
+  ]
+ },
+ "standby-low-res": {
+  "desc": "Lowers live view resolution while not recording to save power and heat.",
+  "kw": [
+   "standby",
+   "low resolution",
+   "overheating",
+   "heat",
+   "battery"
+  ]
+ },
+ "shutdown-warning-guidance": {
+  "desc": "Shows a warning when the camera is about to shut down from heat.",
+  "kw": [
+   "overheat warning",
+   "shutdown",
+   "temperature warning"
+  ]
+ },
+ "hdmi-display": {
+  "desc": "What the HDMI output shows: clean output or with info, and whether the camera screen stays on.",
+  "kw": [
+   "hdmi",
+   "clean hdmi",
+   "external monitor",
+   "recorder",
+   "atomos",
+   "ninja",
+   "hdmi info",
+   "clean output"
+  ]
+ },
+ "hdmi-raw-output": {
+  "desc": "Sends RAW video over HDMI to an external recorder (e.g. ProRes RAW).",
+  "kw": [
+   "prores raw",
+   "raw over hdmi",
+   "atomos",
+   "ninja",
+   "external recorder",
+   "hdmi raw"
+  ]
+ },
+ "hdmi-output-range-for-c-log": {
+  "desc": "HDMI signal range (full or narrow) when outputting Canon Log.",
+  "kw": [
+   "hdmi range",
+   "full range",
+   "legal range",
+   "narrow range",
+   "data levels"
+  ]
+ },
+ "af-operation": {
+  "desc": "One-Shot AF (locks focus) or Servo AF (tracks moving subjects).",
+  "kw": [
+   "one shot",
+   "one-shot",
+   "servo",
+   "ai servo",
+   "af-s",
+   "af-c",
+   "single af",
+   "continuous af",
+   "focus mode",
+   "tracking"
+  ]
+ },
+ "af-area": {
+  "desc": "AF area: Spot, 1-point, Expand AF area, Flexible Zone 1-3 or Whole area AF.",
+  "kw": [
+   "af area",
+   "af point",
+   "focus point",
+   "zone af",
+   "spot af",
+   "1 point",
+   "single point",
+   "expand",
+   "flexible zone",
+   "whole area",
+   "focus area",
+   "af frame"
+  ]
+ },
+ "whole-area-tracking-servo-af": {
+  "desc": "In Servo AF, lets tracking follow the subject anywhere in the frame, starting from your chosen AF area.",
+  "kw": [
+   "tracking",
+   "subject tracking",
+   "whole area tracking",
+   "track anywhere",
+   "servo tracking"
+  ]
+ },
+ "focus-mode": {
+  "desc": "AF or MF, shown when the lens has no AF/MF switch.",
+  "kw": [
+   "manual focus",
+   "mf",
+   "af mf switch",
+   "autofocus off"
+  ]
+ },
+ "movie-servo-af": {
+  "desc": "Continuous AF while recording movies.",
+  "kw": [
+   "video af",
+   "continuous af video",
+   "movie af",
+   "af during recording",
+   "dual pixel af"
+  ]
+ },
+ "subject-to-detect": {
+  "desc": "What AF looks for: People, Animals, Vehicles, Auto or None.",
+  "kw": [
+   "subject detection",
+   "animal af",
+   "bird af",
+   "dog",
+   "cat",
+   "bird",
+   "vehicle",
+   "car",
+   "motorsport",
+   "train",
+   "plane",
+   "face detection",
+   "people",
+   "auto detect",
+   "eye af"
+  ]
+ },
+ "eye-detection": {
+  "desc": "Eye AF: Auto, right eye, left eye or off.",
+  "kw": [
+   "eye af",
+   "eye detection",
+   "eye tracking",
+   "eye focus",
+   "left eye",
+   "right eye",
+   "face"
+  ]
+ },
+ "register-people-priority": {
+  "desc": "Register faces so AF prioritizes those people.",
+  "kw": [
+   "face registration",
+   "face priority",
+   "register face",
+   "favorite people",
+   "family",
+   "kids",
+   "registered people"
+  ]
+ },
+ "case-auto": {
+  "desc": "Case Auto: the camera adjusts Servo AF tracking behavior automatically.",
+  "kw": [
+   "af case",
+   "servo case",
+   "case auto",
+   "tracking characteristics"
+  ]
+ },
+ "case-auto-character": {
+  "desc": "Bias for Case Auto: Locked on vs. Responsive.",
+  "kw": [
+   "tracking sensitivity",
+   "locked on",
+   "responsive",
+   "af case"
+  ]
+ },
+ "case-manual": {
+  "desc": "Case Manual: set Servo AF tracking parameters yourself.",
+  "kw": [
+   "af case",
+   "manual case",
+   "tracking characteristics",
+   "servo settings"
+  ]
+ },
+ "tracking-sensitivity": {
+  "desc": "How readily Servo AF switches to obstacles vs. stays on the subject.",
+  "kw": [
+   "tracking sensitivity",
+   "locked on",
+   "responsive",
+   "obstacles",
+   "sticky af"
+  ]
+ },
+ "accel-decel-tracking": {
+  "desc": "How Servo AF handles subjects that suddenly speed up, stop or change direction.",
+  "kw": [
+   "acceleration",
+   "deceleration",
+   "speed changes",
+   "erratic subject",
+   "sports af"
+  ]
+ },
+ "servo-1st-image-priority": {
+  "desc": "First shot in Servo AF: release priority (shoot now) or focus priority.",
+  "kw": [
+   "release priority",
+   "focus priority",
+   "first shot",
+   "servo priority"
+  ]
+ },
+ "one-shot-af-release-prior": {
+  "desc": "In One-Shot AF, whether the shutter can fire before focus is confirmed.",
+  "kw": [
+   "release priority",
+   "focus priority",
+   "shoot without focus",
+   "one shot priority"
+  ]
+ },
+ "preview-af": {
+  "desc": "Keeps focusing continuously even before you half-press (faster AF, more battery use).",
+  "kw": [
+   "continuous af",
+   "pre af",
+   "always focus",
+   "preview af"
+  ]
+ },
+ "lens-drive-when-af-impossible": {
+  "desc": "Whether the lens keeps hunting (focus search) when it can't find focus.",
+  "kw": [
+   "focus hunting",
+   "hunting",
+   "focus search",
+   "lens hunt"
+  ]
+ },
+ "af-assist-beam-firing": {
+  "desc": "Turns the AF-assist light on or off.",
+  "kw": [
+   "af assist",
+   "af light",
+   "focus light",
+   "red light",
+   "assist beam",
+   "af illuminator",
+   "orange light"
+  ]
+ },
+ "limit-af-areas": {
+  "desc": "Hide AF area modes you don't use so switching is quicker.",
+  "kw": [
+   "limit af area",
+   "af modes",
+   "hide af area",
+   "restrict af"
+  ]
+ },
+ "orientation-linked-af-point": {
+  "desc": "Separate AF points/areas for horizontal and vertical holds.",
+  "kw": [
+   "vertical af point",
+   "portrait orientation",
+   "orientation",
+   "remember af point",
+   "vertical"
+  ]
+ },
+ "limit-subject-to-detect": {
+  "desc": "Hide subject types you don't use so switching is quicker.",
+  "kw": [
+   "limit subject",
+   "subject types",
+   "hide subjects"
+  ]
+ },
+ "l-r-eye-detection": {
+  "desc": "Hide Eye detection options (Auto / Right eye / Left eye) you don't use, so switching between them is quicker.",
+  "kw": [
+   "left eye",
+   "right eye",
+   "eye selection",
+   "switch eye"
+  ]
+ },
+ "mf-peaking-settings": {
+  "desc": "Focus peaking: on/off, level and color.",
+  "kw": [
+   "focus peaking",
+   "peaking",
+   "manual focus aid",
+   "mf assist",
+   "outline",
+   "focus highlight"
+  ]
+ },
+ "focus-guide": {
+  "desc": "On-screen guide showing which way to turn the focus ring and when focus is reached.",
+  "kw": [
+   "focus guide",
+   "manual focus aid",
+   "focus assist",
+   "mf guide"
+  ]
+ },
+ "lens-electronic-mf": {
+  "desc": "Full-time manual focus with the focus ring after or during AF.",
+  "kw": [
+   "full time manual",
+   "ftm",
+   "manual override",
+   "focus ring override",
+   "af+mf",
+   "dmf"
+  ]
+ },
+ "half-button-clear-mf-magnify": {
+  "desc": "Half-pressing the shutter button exits the magnified manual-focus view.",
+  "kw": [
+   "exit magnify",
+   "cancel magnification",
+   "punch in",
+   "mf magnify"
+  ]
+ },
+ "register-recall-af-related-settings": {
+  "desc": "Save a set of AF settings and recall them quickly.",
+  "kw": [
+   "save af settings",
+   "af preset",
+   "recall af",
+   "af memory"
+  ]
+ },
+ "subject-switching-sensitivity": {
+  "desc": "How readily movie AF switches between subjects.",
+  "kw": [
+   "subject switching",
+   "af sensitivity",
+   "video af switching"
+  ]
+ },
+ "af-for-close-up-demos": {
+  "desc": "Movie AF that prioritizes objects held up to the camera (product reviews, demos).",
+  "kw": [
+   "product review",
+   "product demo",
+   "close up demo",
+   "vlog",
+   "product showcase",
+   "macro video"
+  ],
+  "fw": "Firmware 1.1.0 makes this available in Creative Zone movie modes, not only the dedicated scene mode."
+ },
+ "movie-servo-af-speed": {
+  "desc": "How fast focus moves in movie AF, and when the speed setting applies.",
+  "kw": [
+   "af speed",
+   "focus speed",
+   "rack focus",
+   "smooth focus",
+   "focus transition"
+  ]
+ },
+ "track-after-focusing": {
+  "desc": "Keeps tracking the subject after you focus manually.",
+  "kw": [
+   "track after focus",
+   "mf tracking",
+   "tracking frame"
+  ]
+ },
+ "protect-images": {
+  "desc": "Protect images from accidental erasing.",
+  "kw": [
+   "protect",
+   "lock image",
+   "keep",
+   "prevent delete"
+  ]
+ },
+ "erase-images": {
+  "desc": "Delete selected images, a range, or all images in a folder/card.",
+  "kw": [
+   "delete",
+   "erase",
+   "remove photos",
+   "delete all",
+   "trash"
+  ]
+ },
+ "rotate-stills": {
+  "desc": "Rotate a still image during playback.",
+  "kw": [
+   "rotate",
+   "turn image",
+   "orientation"
+  ]
+ },
+ "change-mov-rotate-info": {
+  "desc": "Change the rotation info stored in a movie file.",
+  "kw": [
+   "rotate video",
+   "vertical video",
+   "movie orientation"
+  ]
+ },
+ "rating": {
+  "desc": "Rate images 1-5 stars.",
+  "kw": [
+   "rating",
+   "stars",
+   "rate",
+   "favorite",
+   "cull"
+  ]
+ },
+ "protect-when-setting-the-rating": {
+  "desc": "Automatically protects an image when you rate it.",
+  "kw": [
+   "protect rating",
+   "auto protect",
+   "lock rated"
+  ]
+ },
+ "stills-image-copy": {
+  "desc": "Copy images from one card to the other.",
+  "kw": [
+   "copy",
+   "duplicate",
+   "copy to card",
+   "backup images",
+   "card to card"
+  ]
+ },
+ "print-order": {
+  "desc": "Mark images for printing (DPOF).",
+  "kw": [
+   "print",
+   "dpof",
+   "print order"
+  ]
+ },
+ "raw-image-processing": {
+  "desc": "Convert RAW images to JPEG/HEIF in camera with adjustable settings.",
+  "kw": [
+   "raw conversion",
+   "raw processing",
+   "convert raw",
+   "develop raw",
+   "raw to jpeg",
+   "in camera edit"
+  ]
+ },
+ "creative-assist": {
+  "desc": "Apply quick looks and adjustments to RAW images in playback.",
+  "kw": [
+   "filters",
+   "creative assist",
+   "presets",
+   "looks",
+   "vivid"
+  ]
+ },
+ "quick-control-raw-processing": {
+  "desc": "Quick Control-style RAW processing in playback.",
+  "kw": [
+   "raw processing",
+   "quick raw",
+   "convert raw"
+  ]
+ },
+ "resize": {
+  "desc": "Save a smaller copy of a JPEG/HEIF image.",
+  "kw": [
+   "resize",
+   "smaller",
+   "downsize",
+   "reduce size"
+  ]
+ },
+ "cropping": {
+  "desc": "Crop a JPEG/HEIF image in camera and save a copy.",
+  "kw": [
+   "crop",
+   "trim",
+   "reframe"
+  ]
+ },
+ "heif-jpeg-conversion": {
+  "desc": "Convert HEIF (HDR) images to JPEG.",
+  "kw": [
+   "heif",
+   "hif",
+   "jpeg",
+   "convert",
+   "hdr to jpeg"
+  ]
+ },
+ "slide-show": {
+  "desc": "Play images as a slide show.",
+  "kw": [
+   "slideshow",
+   "slide show",
+   "auto play"
+  ]
+ },
+ "set-image-search-conditions": {
+  "desc": "Filter playback by rating, date, folder, protection or file type.",
+  "kw": [
+   "filter",
+   "search images",
+   "find photos",
+   "show only",
+   "rated only"
+  ]
+ },
+ "view-from-last-seen": {
+  "desc": "Playback starts at the last image you viewed instead of the newest.",
+  "kw": [
+   "resume playback",
+   "last viewed",
+   "playback start"
+  ]
+ },
+ "magnification": {
+  "desc": "Initial zoom level and position when magnifying in playback.",
+  "kw": [
+   "playback zoom",
+   "zoom in",
+   "magnify",
+   "100%",
+   "check focus",
+   "actual size",
+   "zoom level"
+  ]
+ },
+ "playback-information-display": {
+  "desc": "Choose which info screens (histogram, shooting data...) appear in playback.",
+  "kw": [
+   "playback info",
+   "histogram",
+   "exif",
+   "shooting info",
+   "info screens"
+  ]
+ },
+ "highlight-alert": {
+  "desc": "Blinking overexposed areas in playback.",
+  "kw": [
+   "blinkies",
+   "highlight warning",
+   "overexposure",
+   "clipping",
+   "blown highlights",
+   "blink"
+  ]
+ },
+ "af-point-disp": {
+  "desc": "Shows the AF point(s) used on images in playback.",
+  "kw": [
+   "af point display",
+   "show focus point",
+   "focus point playback"
+  ]
+ },
+ "playback-grid": {
+  "desc": "Grid overlay in playback.",
+  "kw": [
+   "playback grid",
+   "lines",
+   "tilt check",
+   "composition check"
+  ]
+ },
+ "movie-play-count": {
+  "desc": "Shows recording time or time code during movie playback.",
+  "kw": [
+   "time code playback",
+   "movie counter",
+   "rec time"
+  ]
+ },
+ "connect-to-smartphone-tablet": {
+  "desc": "Pair with a phone (Camera Connect app) via Bluetooth/Wi-Fi: remote shooting, image transfer, auto send.",
+  "kw": [
+   "phone",
+   "smartphone",
+   "camera connect",
+   "app",
+   "bluetooth",
+   "wifi",
+   "transfer to phone",
+   "remote shooting",
+   "pair",
+   "iphone",
+   "android",
+   "send to phone",
+   "auto transfer"
+  ]
+ },
+ "connect-to-wireless-remote": {
+  "desc": "Pair a Bluetooth remote (BR-E1, BR-E2).",
+  "kw": [
+   "remote",
+   "bluetooth remote",
+   "br-e1",
+   "br-e2",
+   "remote control",
+   "wireless shutter"
+  ],
+  "fw": "Firmware 1.1.0 adds support for the BR-E2 wireless remote."
+ },
+ "connect-to-eos-utility": {
+  "desc": "Wireless connection to EOS Utility on a computer (tethering, transfer).",
+  "kw": [
+   "eos utility",
+   "tether",
+   "tethering",
+   "computer",
+   "pc",
+   "mac",
+   "wireless tether"
+  ]
+ },
+ "upload-to-image-canon": {
+  "desc": "Auto-upload to Canon's image.canon cloud service (also used for firmware updates over Wi-Fi).",
+  "kw": [
+   "cloud",
+   "image.canon",
+   "upload",
+   "auto upload",
+   "lightroom",
+   "google photos",
+   "backup"
+  ]
+ },
+ "transfer-images-to-ftp-server": {
+  "desc": "Send images to an FTP/SFTP/FTPS server.",
+  "kw": [
+   "ftp",
+   "sftp",
+   "ftps",
+   "server",
+   "transfer",
+   "news",
+   "agency",
+   "upload"
+  ]
+ },
+ "advanced-connection": {
+  "desc": "Detailed connection setup, including Camera Control API (CCAPI).",
+  "kw": [
+   "ccapi",
+   "camera control api",
+   "advanced wifi",
+   "access point",
+   "connection wizard",
+   "api"
+  ],
+  "fw": "Firmware 1.1.0 adds support for the EDSDK/CCAPI developer kits."
+ },
+ "usb-uvc-uac-streaming": {
+  "desc": "Use the camera as a USB webcam (UVC/UAC), with power over USB.",
+  "kw": [
+   "webcam",
+   "usb webcam",
+   "uvc",
+   "uac",
+   "streaming",
+   "zoom call",
+   "obs",
+   "teams",
+   "live stream",
+   "usb-c power"
+  ]
+ },
+ "hdmi-streaming": {
+  "desc": "Settings for live streaming over HDMI.",
+  "kw": [
+   "hdmi streaming",
+   "live stream",
+   "capture card",
+   "obs",
+   "hdmi webcam"
+  ]
+ },
+ "airplane-mode": {
+  "desc": "Turns off all wireless (Wi-Fi and Bluetooth).",
+  "kw": [
+   "airplane",
+   "flight mode",
+   "wireless off",
+   "radio off",
+   "save battery"
+  ]
+ },
+ "wi-fi-settings": {
+  "desc": "Wi-Fi on/off, band (2.4/5 GHz), channels and saved networks.",
+  "kw": [
+   "wifi",
+   "wi-fi",
+   "wireless",
+   "5ghz",
+   "network",
+   "wlan",
+   "mac address"
+  ]
+ },
+ "bluetooth-settings": {
+  "desc": "Bluetooth on/off and pairing info.",
+  "kw": [
+   "bluetooth",
+   "bt",
+   "pairing"
+  ]
+ },
+ "camera-name": {
+  "desc": "Camera nickname shown on Wi-Fi and Bluetooth.",
+  "kw": [
+   "nickname",
+   "device name",
+   "camera name"
+  ]
+ },
+ "error-details": {
+  "desc": "Details of the last network/communication error.",
+  "kw": [
+   "error",
+   "connection error",
+   "network error",
+   "err"
+  ]
+ },
+ "gps-device-settings": {
+  "desc": "Geotagging from a GPS receiver (GP-E2) or your phone.",
+  "kw": [
+   "gps",
+   "geotag",
+   "location",
+   "gp-e2",
+   "coordinates"
+  ]
+ },
+ "choose-usb-connection-app": {
+  "desc": "What the camera does on a USB connection: photo import/remote control or webcam streaming.",
+  "kw": [
+   "usb mode",
+   "usb",
+   "import",
+   "webcam",
+   "tether usb",
+   "usb connection"
+  ]
+ },
+ "save-load-comm-settings-on-card": {
+  "desc": "Back up or restore network settings using the card.",
+  "kw": [
+   "backup wifi settings",
+   "network settings",
+   "save settings"
+  ]
+ },
+ "reset-communication-settings": {
+  "desc": "Clears all network and pairing settings.",
+  "kw": [
+   "reset wifi",
+   "reset network",
+   "unpair",
+   "clear bluetooth"
+  ]
+ },
+ "record-func-card-folder-sel": {
+  "desc": "Dual card behavior (standard, auto switch, record separately, record to both/backup, relay), card for playback, and folders.",
+  "kw": [
+   "dual card",
+   "backup",
+   "two cards",
+   "card slot",
+   "slot 1",
+   "slot 2",
+   "raw to one card",
+   "record to both",
+   "mirror",
+   "overflow",
+   "folder",
+   "create folder",
+   "record separately",
+   "relay recording",
+   "proxy card"
+  ]
+ },
+ "stills-file-numbering": {
+  "desc": "Still file numbering: continuous, auto reset or manual reset.",
+  "kw": [
+   "file number",
+   "numbering",
+   "reset numbering",
+   "image number",
+   "counter"
+  ]
+ },
+ "movie-clip-number": {
+  "desc": "Movie clip numbering: continuous or auto reset.",
+  "kw": [
+   "clip number",
+   "movie numbering",
+   "reset"
+  ]
+ },
+ "file-name": {
+  "desc": "Set the file name prefix for stills and naming for movies.",
+  "kw": [
+   "file name",
+   "prefix",
+   "img_",
+   "rename",
+   "naming",
+   "reel number"
+  ]
+ },
+ "format-card": {
+  "desc": "Format (erase everything on) a memory card, with optional low-level format.",
+  "kw": [
+   "format",
+   "format card",
+   "erase card",
+   "wipe card",
+   "initialize",
+   "low level format",
+   "sd card",
+   "cfexpress"
+  ]
+ },
+ "auto-rotate": {
+  "desc": "Rotates vertical images automatically for display on the camera and/or computer.",
+  "kw": [
+   "auto rotate",
+   "rotation",
+   "vertical images",
+   "portrait orientation"
+  ]
+ },
+ "add-movie-rotate-info": {
+  "desc": "Records orientation info in movies so vertical clips play upright.",
+  "kw": [
+   "vertical video",
+   "rotate video",
+   "orientation",
+   "portrait video",
+   "tiktok",
+   "reels"
+  ]
+ },
+ "date-time-zone": {
+  "desc": "Set date, time, time zone and daylight saving.",
+  "kw": [
+   "date",
+   "time",
+   "clock",
+   "time zone",
+   "timezone",
+   "daylight saving",
+   "dst",
+   "summer time",
+   "travel"
+  ]
+ },
+ "language": {
+  "desc": "Menu language.",
+  "kw": [
+   "language",
+   "english",
+   "change language",
+   "idioma",
+   "langue"
+  ]
+ },
+ "system-frequency": {
+  "desc": "NTSC (59.94 Hz) or PAL (50 Hz) movie frame rates.",
+  "kw": [
+   "ntsc",
+   "pal",
+   "50hz",
+   "60hz",
+   "frame rates",
+   "25p",
+   "30p",
+   "video system"
+  ]
+ },
+ "help-text-size": {
+  "desc": "Size of the help text shown with the INFO button.",
+  "kw": [
+   "help",
+   "text size",
+   "font size",
+   "help text"
+  ]
+ },
+ "feature-guide": {
+  "desc": "Short descriptions that pop up when selecting modes and functions.",
+  "kw": [
+   "feature guide",
+   "help popups",
+   "tips",
+   "descriptions"
+  ]
+ },
+ "beep": {
+  "desc": "Turns the focus-confirm and touch beeps on or off.",
+  "kw": [
+   "beep",
+   "sound",
+   "focus beep",
+   "mute",
+   "quiet",
+   "silent",
+   "touch sound"
+  ]
+ },
+ "volume": {
+  "desc": "Volume of camera sounds, including the electronic shutter sound.",
+  "kw": [
+   "volume",
+   "shutter sound",
+   "loud",
+   "sound level",
+   "fake shutter sound"
+  ]
+ },
+ "audio-monitor": {
+  "desc": "Headphone volume and monitoring channels (headphones and HDMI).",
+  "kw": [
+   "headphones",
+   "headphone volume",
+   "monitoring",
+   "audio output",
+   "hdmi audio"
+  ]
+ },
+ "screen-brightness": {
+  "desc": "Rear screen brightness.",
+  "kw": [
+   "lcd brightness",
+   "screen brightness",
+   "monitor brightness",
+   "brighter screen",
+   "dim screen"
+  ]
+ },
+ "viewfinder-brightness": {
+  "desc": "EVF brightness (auto or manual).",
+  "kw": [
+   "evf brightness",
+   "viewfinder brightness",
+   "dim viewfinder"
+  ]
+ },
+ "screen-viewfinder-color-tone": {
+  "desc": "Color tone of the screen and viewfinder (warmer or cooler).",
+  "kw": [
+   "screen color",
+   "lcd color",
+   "evf color",
+   "warm",
+   "cool",
+   "display tint"
+  ]
+ },
+ "fine-tune-vf-color-tone": {
+  "desc": "Fine adjustment of the viewfinder's color tone.",
+  "kw": [
+   "evf color",
+   "viewfinder color",
+   "calibrate evf"
+  ]
+ },
+ "screen-viewfinder-display": {
+  "desc": "Switch between screen and EVF automatically, or force only screen/only viewfinder.",
+  "kw": [
+   "eye sensor",
+   "evf only",
+   "lcd only",
+   "monitor only",
+   "viewfinder only",
+   "auto switch",
+   "eye detection sensor",
+   "screen off"
+  ]
+ },
+ "ui-magnification": {
+  "desc": "Pinch/double-tap to magnify menus for easier reading.",
+  "kw": [
+   "magnify menu",
+   "bigger text",
+   "large text",
+   "accessibility",
+   "zoom menu"
+  ]
+ },
+ "hdmi-resolution": {
+  "desc": "HDMI output resolution for playback on a TV.",
+  "kw": [
+   "hdmi",
+   "tv",
+   "resolution",
+   "1080p",
+   "1080i",
+   "playback on tv"
+  ]
+ },
+ "shutter-at-shutdown": {
+  "desc": "Close the shutter curtain when the camera powers off to protect the sensor from dust.",
+  "kw": [
+   "shutter closed",
+   "sensor protection",
+   "shutter curtain",
+   "dust protection",
+   "lens change"
+  ]
+ },
+ "sensor-cleaning": {
+  "desc": "Clean the sensor now, automatic cleaning at power on/off, or lock up for manual cleaning.",
+  "kw": [
+   "sensor clean",
+   "clean sensor",
+   "dust",
+   "sensor dust",
+   "manual clean",
+   "blower"
+  ]
+ },
+ "manage-password": {
+  "desc": "Password request at power-on/wake, change the password, or clear entered info.",
+  "kw": [
+   "password",
+   "lock settings",
+   "security",
+   "pin"
+  ]
+ },
+ "power-saving": {
+  "desc": "Timers for screen dimming, screen off, viewfinder off and auto power off.",
+  "kw": [
+   "auto power off",
+   "sleep",
+   "battery saving",
+   "screen timeout",
+   "dim",
+   "power off timer",
+   "eco"
+  ]
+ },
+ "reset-camera": {
+  "desc": "Reset individual settings or do a full factory reset.",
+  "kw": [
+   "reset",
+   "factory reset",
+   "default settings",
+   "restore defaults",
+   "clear settings"
+  ]
+ },
+ "custom-shooting-mode-c1-c3": {
+  "desc": "Save the current settings to the C1, C2 or C3 positions on the mode dial.",
+  "kw": [
+   "c1",
+   "c2",
+   "c3",
+   "custom mode",
+   "user mode",
+   "save settings",
+   "custom shooting mode",
+   "preset"
+  ]
+ },
+ "save-load-cam-settings-on-card": {
+  "desc": "Save all camera settings to a card, or load them back.",
+  "kw": [
+   "backup settings",
+   "export settings",
+   "import settings",
+   "copy settings",
+   "settings file"
+  ]
+ },
+ "battery-info": {
+  "desc": "Battery level, shots taken, and recharge/health status.",
+  "kw": [
+   "battery",
+   "battery health",
+   "recharge performance",
+   "battery life",
+   "battery level",
+   "lp-e6p",
+   "lp-e6nh"
+  ]
+ },
+ "copyright-information": {
+  "desc": "Embed author and copyright info in every image.",
+  "kw": [
+   "copyright",
+   "author",
+   "artist",
+   "name in exif",
+   "owner"
+  ]
+ },
+ "show-log": {
+  "desc": "Shows a log of changes to the password, network info and other settings.",
+  "kw": [
+   "log",
+   "history"
+  ]
+ },
+ "manual-software-url": {
+  "desc": "QR code linking to manuals and software.",
+  "kw": [
+   "manual",
+   "software",
+   "qr code",
+   "download"
+  ]
+ },
+ "certification-logo-display": {
+  "desc": "Shows regulatory certification logos.",
+  "kw": [
+   "certification",
+   "logos",
+   "regulatory"
+  ]
+ },
+ "firmware": {
+  "desc": "Shows the current firmware version and updates the firmware.",
+  "kw": [
+   "firmware",
+   "version",
+   "update",
+   "firmware update",
+   "software version"
+  ]
+ },
+ "customize-buttons-for-shooting": {
+  "desc": "Assign functions to buttons for shooting (e.g. back-button AF on AF-ON, AE lock, M-Fn).",
+  "kw": [
+   "back button focus",
+   "bbf",
+   "af-on",
+   "button assignment",
+   "custom buttons",
+   "reassign buttons",
+   "remap",
+   "custom function button",
+   "m-fn",
+   "ae lock button",
+   "star button",
+   "dof preview button",
+   "set button function"
+  ]
+ },
+ "shutter-btn-function-for-movies": {
+  "desc": "What half- and full-pressing the shutter button does in movie mode.",
+  "kw": [
+   "shutter button movie",
+   "start recording with shutter",
+   "half press movie",
+   "record button"
+  ]
+ },
+ "customize-dials-control-ring": {
+  "desc": "Assign functions to the dials and the lens control ring.",
+  "kw": [
+   "dials",
+   "control ring",
+   "lens ring",
+   "customize dials",
+   "dial functions",
+   "ring function",
+   "iso on ring"
+  ]
+ },
+ "main-qcd2-qcd1-direction-to-set-tv-av": {
+  "desc": "Reverse the direction of the dials when setting shutter speed/aperture.",
+  "kw": [
+   "dial direction",
+   "reverse dial",
+   "invert dial"
+  ]
+ },
+ "ring-direction-to-set-tv-av": {
+  "desc": "Reverse the lens control ring direction when setting shutter speed/aperture.",
+  "kw": [
+   "ring direction",
+   "reverse ring",
+   "control ring direction"
+  ]
+ },
+ "switch-main-qcd2-when-shooting": {
+  "desc": "Swap the functions of the Main dial and Quick control dial 2 when shooting.",
+  "kw": [
+   "swap dials",
+   "switch dials",
+   "dial swap"
+  ]
+ },
+ "touch-shutter": {
+  "desc": "Tap the screen to focus and shoot.",
+  "kw": [
+   "touch shutter",
+   "tap to shoot",
+   "touch to shoot"
+  ]
+ },
+ "multi-function-lock": {
+  "desc": "Choose which controls the LOCK switch locks.",
+  "kw": [
+   "lock",
+   "lock switch",
+   "dial lock",
+   "control lock",
+   "prevent changes"
+  ]
+ },
+ "lens-optical-zoom-speed": {
+  "desc": "Zoom speed for power-zoom lenses.",
+  "kw": [
+   "power zoom",
+   "zoom speed",
+   "pz",
+   "zoom lens"
+  ]
+ },
+ "touch-drag-af-settings": {
+  "desc": "Move the AF point by dragging on the screen while using the viewfinder.",
+  "kw": [
+   "touch and drag",
+   "touchpad af",
+   "touch af",
+   "drag af point",
+   "absolute",
+   "relative",
+   "active area",
+   "nose"
+  ]
+ },
+ "af-area-selection-control": {
+  "desc": "After pressing the AF point selection button, which control switches the AF area: the M-Fn button or the Main dial.",
+  "kw": [
+   "change af area",
+   "af area button",
+   "switch af mode"
+  ]
+ },
+ "mc-sensitivity-af-pt-select": {
+  "desc": "How fast the multi-controller moves the AF point.",
+  "kw": [
+   "joystick",
+   "multi controller",
+   "joystick speed",
+   "af point speed"
+  ]
+ },
+ "focus-control-ring": {
+  "desc": "Switch an RF lens's focus/control ring between focus and control-ring functions.",
+  "kw": [
+   "focus ring",
+   "control ring",
+   "focus control ring",
+   "ring mode"
+  ]
+ },
+ "focus-ring-rotation": {
+  "desc": "Reverse the focus ring direction.",
+  "kw": [
+   "focus ring direction",
+   "reverse focus",
+   "nikon direction",
+   "manual focus direction"
+  ]
+ },
+ "rf-lens-mf-focus-ring-sensitivity": {
+  "desc": "Focus ring response: varies with rotation speed, or linear (linked to rotation angle).",
+  "kw": [
+   "linear focus",
+   "focus by wire",
+   "focus ring sensitivity",
+   "linear response",
+   "focus throw"
+  ]
+ },
+ "customize-buttons-for-playback": {
+  "desc": "Assign functions to buttons during playback.",
+  "kw": [
+   "playback buttons",
+   "button assignment playback",
+   "remap playback"
+  ]
+ },
+ "image-jump-w-main": {
+  "desc": "How many images the Main dial jumps in playback (1, 10, 100, by date, rating...).",
+  "kw": [
+   "image jump",
+   "skip images",
+   "jump 10",
+   "browse faster"
+  ]
+ },
+ "img-jump-w-assign-qcd1": {
+  "desc": "Image jump method when holding an assigned button and turning Quick control dial 1.",
+  "kw": [
+   "image jump",
+   "skip images",
+   "jump"
+  ]
+ },
+ "switch-main-qcd2-during-playback": {
+  "desc": "Swap the Main dial and Quick control dial 2 functions in playback.",
+  "kw": [
+   "swap dials playback",
+   "playback dial",
+   "zoom dial"
+  ]
+ },
+ "touch-control": {
+  "desc": "Touchscreen sensitivity, or turn touch off.",
+  "kw": [
+   "touchscreen",
+   "touch screen",
+   "disable touch",
+   "touch sensitivity"
+  ]
+ },
+ "clear-all-customized-controls": {
+  "desc": "Resets all button/dial customizations.",
+  "kw": [
+   "reset buttons",
+   "clear custom controls",
+   "default buttons"
+  ]
+ },
+ "exposure-level-increments": {
+  "desc": "Shutter, aperture and exposure compensation steps: 1/3 or 1/2 stop.",
+  "kw": [
+   "exposure steps",
+   "1/3 stop",
+   "1/2 stop",
+   "increments",
+   "stops"
+  ]
+ },
+ "iso-speed-setting-increments": {
+  "desc": "ISO steps: 1/3 or full stop.",
+  "kw": [
+   "iso steps",
+   "iso increments",
+   "full stop iso"
+  ]
+ },
+ "speed-from-metering-iso-auto": {
+  "desc": "With Auto ISO, whether ISO returns to Auto after metering ends or keeps the value used.",
+  "kw": [
+   "auto iso behavior",
+   "iso after metering",
+   "retain iso"
+  ]
+ },
+ "bracketing-auto-cancel": {
+  "desc": "Whether bracketing turns off when you power off the camera.",
+  "kw": [
+   "bracketing cancel",
+   "aeb off",
+   "bracket reset"
+  ]
+ },
+ "bracketing-sequence": {
+  "desc": "Order of bracketed shots (0, -, + etc.).",
+  "kw": [
+   "bracket order",
+   "sequence",
+   "aeb order"
+  ]
+ },
+ "number-of-bracketed-shots": {
+  "desc": "How many shots per bracket: 2, 3, 5 or 7.",
+  "kw": [
+   "bracket shots",
+   "aeb count",
+   "5 shots",
+   "7 shots",
+   "hdr bracketing"
+  ]
+ },
+ "safety-shift": {
+  "desc": "Lets the camera shift shutter speed/aperture or ISO when your setting would give a bad exposure.",
+  "kw": [
+   "safety shift",
+   "auto adjust exposure",
+   "exposure safety"
+  ]
+ },
+ "same-expo-for-new-aperture": {
+  "desc": "Keeps exposure the same when the max aperture changes (zoom lenses, extenders) by adjusting ISO or shutter.",
+  "kw": [
+   "variable aperture",
+   "zoom exposure",
+   "extender",
+   "aperture change"
+  ]
+ },
+ "ae-lock-meter-mode-after-focus": {
+  "desc": "Choose which metering modes lock exposure when One-Shot AF locks focus.",
+  "kw": [
+   "ae lock",
+   "focus and lock exposure",
+   "half press ae lock"
+  ]
+ },
+ "set-shutter-speed-range": {
+  "desc": "Limit the shutter speeds the camera can use.",
+  "kw": [
+   "shutter speed limit",
+   "shutter range",
+   "minimum shutter",
+   "max shutter"
+  ]
+ },
+ "set-aperture-range": {
+  "desc": "Limit the apertures the camera can use.",
+  "kw": [
+   "aperture limit",
+   "f-stop range",
+   "aperture range"
+  ]
+ },
+ "add-cropping-information": {
+  "desc": "Adds crop/aspect lines (6:6, 4:5 etc.) to the display and records them for later cropping.",
+  "kw": [
+   "crop lines",
+   "4:5",
+   "instagram",
+   "aspect lines",
+   "5:7",
+   "frame guide"
+  ]
+ },
+ "default-erase-option": {
+  "desc": "Which option is pre-selected when you press Erase.",
+  "kw": [
+   "erase default",
+   "delete default",
+   "quick delete"
+  ]
+ },
+ "release-shutter-w-o-lens": {
+  "desc": "Allows shooting with no lens attached (pinholes, freelensing, some adapters).",
+  "kw": [
+   "no lens",
+   "without lens",
+   "pinhole",
+   "adapter",
+   "freelensing",
+   "telescope"
+  ]
+ },
+ "retract-lens-on-power-off": {
+  "desc": "Retracts STM/retractable lenses when the camera turns off.",
+  "kw": [
+   "retract lens",
+   "lens retract",
+   "power off lens"
+  ]
+ },
+ "add-iptc-information": {
+  "desc": "Embeds IPTC metadata (registered via EOS Utility) in images.",
+  "kw": [
+   "iptc",
+   "metadata",
+   "caption",
+   "photographer info",
+   "press"
+  ]
+ },
+ "clear-all-custom-func-c-fn": {
+  "desc": "Resets all Custom Functions.",
+  "kw": [
+   "reset custom functions",
+   "clear c.fn",
+   "reset cfn"
+  ]
+ },
+ "add-my-menu-tab": {
+  "desc": "Create your own My Menu tab and fill it with your most-used items.",
+  "kw": [
+   "my menu",
+   "favorites",
+   "custom menu",
+   "favorite settings",
+   "shortcut menu"
+  ]
+ },
+ "delete-all-my-menu-tabs": {
+  "desc": "Deletes all My Menu tabs.",
+  "kw": [
+   "delete my menu",
+   "clear my menu"
+  ]
+ },
+ "delete-all-items": {
+  "desc": "Deletes all items from My Menu tabs.",
+  "kw": [
+   "clear my menu items"
+  ]
+ },
+ "menu-display": {
+  "desc": "Open the menu on My Menu first, or show only My Menu.",
+  "kw": [
+   "menu start",
+   "open my menu first",
+   "only my menu"
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "brands": [
+  {
+   "id": "canon",
+   "name": "Canon",
+   "models": [
+    {
+     "id": "eos-r6-mark-iii",
+     "name": "EOS R6 Mark III",
+     "firmware": [
+      {
+       "version": "1.1.0",
+       "file": "data/canon/eos-r6-mark-iii/1.1.0.json",
+       "items": 266
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
