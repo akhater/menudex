@@ -227,6 +227,7 @@ function renderChrome() {
     b.setAttribute('aria-pressed', String(b.dataset.mode === state.mode));
   }
   $('#q').placeholder = `Search ${state.cam.model} settings…`;
+  $('#zoneNote').textContent = state.cam.zones.note;
   $('#source').innerHTML = `Menu data: <a href="${esc(state.cam.source.url)}" target="_blank" rel="noopener">${esc(state.cam.source.name)}</a>, retrieved ${esc(state.cam.source.retrieved)}. Not affiliated with ${esc(state.cam.brand)}.`;
 }
 
@@ -284,6 +285,12 @@ function renderResults(q) {
 
 /* ---------- item (the walk) ---------- */
 
+// A camera file may spell out how a control is used ("Press the INFO button…");
+// otherwise it's a dial to turn.
+function controlHint(ctrl) {
+  return ctrl.hint || `Turn the ${ctrl.label}${ctrl.alt ? `, ${ctrl.alt}` : ''}.`;
+}
+
 function walkSteps(stop, mode, sub) {
   const { tab, page, item } = stop;
   const cam = state.cam;
@@ -295,16 +302,16 @@ function walkSteps(stop, mode, sub) {
   steps.push({
     // The AF tab's icon is the text "AF"; don't print it twice.
     text: `Go to the <b class="tabname" style="--a:${tab.accent}">${tab.icon === 'af' ? '' : icon(tab.icon)}${esc(tab.name)}</b> tab, the ${esc(tab.colorName)} one (${ORDINAL[tab.index]} of ${cam.tabs.length}).`,
-    hint: `Turn the ${c.tab.label}${c.tab.alt ? `, ${c.tab.alt}` : ''}.`,
+    hint: controlHint(c.tab),
   });
   steps.push({
     text: `Go to page <b>${n} of ${total}</b>: “${esc(page.name)}”`,
-    hint: `Turn the ${c.page.label}. “${n}/${total}” shows at the top right.`,
+    hint: `${controlHint(c.page)} “${n}/${total}” shows at the top right.`,
   });
   const graphic = page.layout === 'graphic';
   steps.push({
     text: `${graphic ? 'Pick' : 'Select row'} <b>${item.row}</b>: “${labelHTML(item.label)}”, then press <kbd>${esc(c.confirm.label)}</kbd>.`,
-    hint: `Turn the ${c.row.label}${c.row.alt ? `, ${c.row.alt}` : ''}.`,
+    hint: controlHint(c.row),
   });
   if (sub) steps.push({ text: `Choose “<b>${esc(sub)}</b>”` });
   return steps;

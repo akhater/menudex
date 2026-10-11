@@ -40,8 +40,12 @@ NOT_SUBMENU = {
 }
 
 
+def cache_path(base, name):
+    return os.path.join(CACHE, base.strip('/').split('/')[-3], name)
+
+
 def fetch(base, name):
-    path = os.path.join(CACHE, base.strip('/').split('/')[-3], name)
+    path = cache_path(base, name)
     if not os.path.exists(path):
         os.makedirs(os.path.dirname(path), exist_ok=True)
         req = urllib.request.Request(base + name, headers={'User-Agent': 'Mozilla/5.0 Menudex'})
@@ -145,12 +149,19 @@ def build(cfg_path):
     with open(cfg_path, encoding='utf-8') as f:
         cfg = json.load(f)
     base = cfg['source']['url']
-    enrich = {}
-    if cfg.get('enrich'):
-        with open(os.path.join(os.path.dirname(cfg_path), cfg['enrich']), encoding='utf-8') as f:
-            enrich = json.load(f)
+    # Enrich files merge in order: shared Canon descriptions first, then this
+    # camera's own notes. Only the camera's own keys are expected to all match.
+    enrich, unused = {'_pages': {}}, set()
+    for name in cfg.get('enrich', []):
+        with open(os.path.join(os.path.dirname(cfg_path), name), encoding='utf-8') as f:
+            data = json.load(f)
+        for key, value in data.items():
+            target = enrich['_pages'] if key == '_pages' else enrich.setdefault(key, {})
+            target.update(value)
+        if '/' not in name:
+            unused |= set(data) - {'_pages'}
 
-    pages, unused = [], set(enrich) - {'_pages'}
+    pages = []
     for listing in cfg['listings']:
         for idx, p in enumerate(parse_listing(fetch(base, listing['page']))):
             modes = list(listing.get('modes', cfg['modes_all']))
@@ -160,7 +171,7 @@ def build(cfg_path):
                     name, modes = name[:-len(suffix)].strip(), [mode]
             page = {'id': '%s-%s-%d' % (listing['tab'], listing.get('key', 'all'), idx + 1),
                     'tab': listing['tab'], 'modes': modes, 'name': name, 'items': []}
-            extra = enrich.get('_pages', {}).get(page['id'], {})
+            extra = enrich['_pages'].get(page['id'], {})
             page.update(extra)
             if p['notes']:
                 page['notes'] = extra.get('notes', []) + p['notes']
@@ -198,7 +209,9 @@ def build(cfg_path):
 
     out = {k: cfg[k] for k in ('schema', 'brand', 'model', 'firmware', 'slug', 'source', 'controls',
                                 'modes', 'zones', 'tabs', 'tokens', 'popular', 'notes') if k in cfg}
-    out['source']['retrieved'] = time.strftime('%Y-%m-%d')
+    # When the manual was downloaded, not when this file was rebuilt from the cache.
+    oldest = min(os.path.getmtime(cache_path(base, l['page'])) for l in cfg['listings'])
+    out['source']['retrieved'] = time.strftime('%Y-%m-%d', time.localtime(oldest))
     out['pages'] = pages
     dest = os.path.join(ROOT, cfg['out'])
     os.makedirs(os.path.dirname(dest), exist_ok=True)

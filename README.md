@@ -4,7 +4,13 @@
 
 A PWA that tells you exactly where a camera setting lives: which tab, which page, which row. It shows a copy of the camera's menu screen with your row marked, plus numbered steps. Like a mall directory for your camera menu.
 
-First camera: **Canon EOS R6 Mark III, firmware 1.1.0** (8 tabs, 60 pages, 266 rows).
+Cameras so far:
+
+| Camera | Firmware | Menu pages | Rows |
+|---|---|---|---|
+| Canon EOS R5 Mark II | 1.3.2 | 56 | 274 |
+| Canon EOS R6 Mark III | 1.1.0 | 60 | 266 |
+| Canon EOS R8 Mark II | 1.0.0 (launch) | 59 | 261 |
 
 **Live:** https://akhater.github.io/menudex/ (open it on your phone and add it to your home screen).
 
@@ -32,7 +38,8 @@ When you change the app shell (`index.html`, `css/`, `js/`), bump `VERSION` in `
 | `data/<brand>/<model>/<firmware>.json` | One camera's menu: tabs → pages (with "2/10" positions per Photo/Movie switch) → rows (generated) |
 | `tools/canon/extract.py` | Builds a camera file from Canon's online manual (stdlib only) |
 | `tools/canon/cameras/*.json` | Per-camera config: manual URL, tab colors, controls, which manual pages list the menus |
-| `tools/canon/cameras/*.enrich.json` | Hand-written descriptions, search synonyms and firmware notes, keyed by item |
+| `tools/canon/enrich/common.json` | Hand-written descriptions and search synonyms shared by all Canon bodies, keyed by item |
+| `tools/canon/cameras/*.enrich.json` | Per-camera extras: firmware notes, label fixes, page notes |
 
 ### Where the data comes from
 
@@ -44,9 +51,9 @@ Positions assume a Creative Zone mode (P/Tv/Av/M/Fv/B/C1–C3). In A+ and SCN th
 
 For a Canon body with a cam.start.canon manual:
 
-1. Copy `tools/canon/cameras/eos-r6-mark-iii.json`, then set `model`, `firmware`, `slug`, `out`, `source.url`, and the `listings` (the manual's "Tab Menus: …" pages).
+1. Copy `tools/canon/cameras/eos-r6-mark-iii.json`, then set `model`, `firmware`, `slug`, `out`, `source.url`, `enrich`, and the `listings` (the manual's "Tab Menus: …" pages). Check the manual's "Menu Operations and Settings" page: if the camera moves through menus differently, set `controls` (see `eos-r8-mark-ii.json`, which uses the INFO button).
 2. Run `python tools/canon/extract.py tools/canon/cameras/<camera>.json`. It caches manual pages in `.cache/`, writes the camera file, regenerates `data/catalog.json`, and lists items that have no enrich entry yet.
-3. Write the enrich file (`desc`, `kw` synonyms, optional `fw` note) for those items.
+3. Add those items to `tools/canon/enrich/common.json` (`desc`, `kw` synonyms). Camera-only notes (`fw`, label fixes, `_pages`) go in the camera's own enrich file.
 4. Check a few pages against the manual's menu screenshots. Firmware updates can add, remove or reorder rows.
 
 Other brands need their own extractor that writes the same camera file format. The app itself is brand-agnostic.

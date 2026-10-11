@@ -5,7 +5,10 @@
  "firmware": "1.1.0",
  "slug": "canon/eos-r6-mark-iii/1.1.0",
  "out": "data/canon/eos-r6-mark-iii/1.1.0.json",
- "enrich": "eos-r6-mark-iii.enrich.json",
+ "enrich": [
+  "../enrich/common.json",
+  "eos-r6-mark-iii.enrich.json"
+ ],
  "source": {
   "name": "Canon EOS R6 Mark III Advanced User Guide (firmware 1.1.0 or later)",
   "url": "https://cam.start.canon/en/C022/manual/html/"

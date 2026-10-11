@@ -1,7 +1,7 @@
 // Offline support. Serves from cache first and refreshes the cache in the
 // background, so the app opens instantly in the field and picks up new menu
 // data on the next launch. Bump VERSION when the app shell changes.
-const VERSION = 'menudex-v1';
+const VERSION = 'menudex-v2';
 const SHELL = [
   './',
   'index.html',

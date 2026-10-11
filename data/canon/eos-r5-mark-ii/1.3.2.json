@@ -1,0 +1,8713 @@
+{
+ "schema": 1,
+ "brand": "Canon",
+ "model": "EOS R5 Mark II",
+ "firmware": "1.3.2",
+ "slug": "canon/eos-r5-mark-ii/1.3.2",
+ "source": {
+  "name": "Canon EOS R5 Mark II Advanced User Guide (firmware 1.3.0 or later; 1.3.2 only fixes bugs)",
+  "url": "https://cam.start.canon/en/C017/manual/html/",
+  "retrieved": "2026-10-11"
+ },
+ "controls": {
+  "open": {
+   "label": "MENU",
+   "how": "Press the MENU button."
+  },
+  "tab": {
+   "label": "Quick control dial 2",
+   "alt": "or press Q to jump tabs"
+  },
+  "page": {
+   "label": "Main dial"
+  },
+  "row": {
+   "label": "Quick control dial 1",
+   "alt": "or use the multi-controller"
+  },
+  "confirm": {
+   "label": "SET"
+  },
+  "touch": "Every step also works by tapping the screen."
+ },
+ "modes": [
+  {
+   "id": "photo",
+   "label": "Photo",
+   "how": "Flip the Photo/Movie switch to Photo."
+  },
+  {
+   "id": "movie",
+   "label": "Movie",
+   "how": "Flip the Photo/Movie switch to Movie."
+  }
+ ],
+ "zones": {
+  "creative": "Fv, P, Tv, Av, M, BULB or C1-C3",
+  "basic": "A+ (Scene Intelligent Auto)",
+  "note": "Positions are for Fv/P/Tv/Av/M/BULB/C1-C3 modes. In A+ the camera hides some tabs and every ★ item, so rows below a hidden item move up."
+ },
+ "tabs": [
+  {
+   "id": "shoot",
+   "name": "Shooting",
+   "short": "SHOOT",
+   "icon": "camera",
+   "color": "#9b000d",
+   "accent": "#e8414e",
+   "colorName": "red"
+  },
+  {
+   "id": "af",
+   "name": "AF",
+   "short": "AF",
+   "icon": "af",
+   "color": "#a5007d",
+   "accent": "#e04bb4",
+   "colorName": "magenta"
+  },
+  {
+   "id": "play",
+   "name": "Playback",
+   "short": "PLAY",
+   "icon": "play",
+   "color": "#075abb",
+   "accent": "#3d8ff0",
+   "colorName": "blue"
+  },
+  {
+   "id": "network",
+   "name": "Communication functions",
+   "short": "NETWORK",
+   "icon": "network",
+   "color": "#6618a2",
+   "accent": "#a463e6",
+   "colorName": "purple"
+  },
+  {
+   "id": "setup",
+   "name": "Set-up",
+   "short": "SET-UP",
+   "icon": "wrench",
+   "color": "#9f8100",
+   "accent": "#e2bd21",
+   "colorName": "yellow"
+  },
+  {
+   "id": "customize",
+   "name": "Control customization",
+   "short": "CONTROLS",
+   "icon": "dial",
+   "color": "#4b6900",
+   "accent": "#94c531",
+   "colorName": "olive green"
+  },
+  {
+   "id": "cfn",
+   "name": "Custom Functions",
+   "short": "C.Fn",
+   "icon": "cfn",
+   "color": "#a44600",
+   "accent": "#ef8434",
+   "colorName": "orange"
+  },
+  {
+   "id": "mymenu",
+   "name": "My Menu",
+   "short": "MY MENU",
+   "icon": "star",
+   "color": "#006e25",
+   "accent": "#2fbf5c",
+   "colorName": "green"
+  }
+ ],
+ "tokens": {
+  "stills": {
+   "glyph": "camera",
+   "text": "Stills"
+  },
+  "movie": {
+   "glyph": "movie",
+   "text": "Movie"
+  },
+  "play": {
+   "glyph": "play",
+   "text": "Playback"
+  },
+  "main": {
+   "short": "Main",
+   "text": "Main dial"
+  },
+  "qcd1": {
+   "short": "QCD1",
+   "text": "Quick control dial 1"
+  },
+  "qcd2": {
+   "short": "QCD2",
+   "text": "Quick control dial 2"
+  },
+  "ring": {
+   "short": "Ring",
+   "text": "Lens control ring"
+  },
+  "mc": {
+   "short": "M-Ctrl",
+   "text": "Multi-controller"
+  },
+  "half": {
+   "short": "Half-press",
+   "text": "Shutter button half-press"
+  },
+  "assign": {
+   "short": "Btn",
+   "text": "Assigned button"
+  },
+  "q1": {
+   "short": "Q1",
+   "text": "Quick Control screen 1"
+  }
+ },
+ "popular": [
+  "Silent shutter",
+  "Auto ISO min shutter speed",
+  "Back button focus",
+  "Eye detection",
+  "Focus peaking",
+  "Grid",
+  "Format card",
+  "Pre-capture",
+  "Zebra",
+  "Webcam",
+  "Date/time",
+  "Sensor cleaning"
+ ],
+ "pages": [
+  {
+   "id": "shoot-photo-1",
+   "tab": "shoot",
+   "modes": [
+    "photo"
+   ],
+   "name": "Image quality/size",
+   "items": [
+    {
+     "key": "quality",
+     "row": 1,
+     "label": "JPEG/HEIF quality",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0030.html#Shooting-1_0030_5",
+     "subs": [],
+     "opts": [],
+     "topics": [
+      "JPEG/HEIF Quality"
+     ],
+     "desc": "JPEG/HEIF compression quality (how much detail is kept vs. file size).",
+     "kw": [
+      "jpeg quality",
+      "heif quality",
+      "compression",
+      "fine",
+      "normal",
+      "file size"
+     ]
+    },
+    {
+     "key": "img-type-size",
+     "row": 2,
+     "label": "Img type/size",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0030.html#Shooting-1_0030_1",
+     "subs": [],
+     "opts": [
+      "HDR PQ",
+      "Rec options",
+      "Rec. separately"
+     ],
+     "topics": [
+      "Image Size Selection"
+     ],
+     "desc": "File type and size: JPEG or HEIF size, and whether RAW is full RAW or compressed C-RAW.",
+     "kw": [
+      "raw",
+      "craw",
+      "c-raw",
+      "jpeg",
+      "heif",
+      "image size",
+      "file type",
+      "resolution",
+      "megapixels",
+      "raw+jpeg",
+      "file format"
+     ]
+    },
+    {
+     "key": "dual-pixel-raw",
+     "row": 3,
+     "label": "Dual Pixel RAW",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0530.html",
+     "subs": [],
+     "opts": [
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Records extra Dual Pixel data in RAW files so you can fine-tune them in Canon software later. Files get much bigger.",
+     "kw": [
+      "dpraw",
+      "dual pixel",
+      "raw microadjust",
+      "bokeh shift"
+     ]
+    },
+    {
+     "key": "stills-cropping-aspect-ratio",
+     "row": 4,
+     "label": "{stills}Cropping/aspect ratio",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0040.html",
+     "subs": [],
+     "opts": [
+      "1.6x (crop)",
+      "1:1 (aspect ratio)",
+      "4:3 (aspect ratio)",
+      "16:9 (aspect ratio)",
+      "Shooting area",
+      "Full-frame"
+     ],
+     "topics": [],
+     "desc": "Shoot full-frame, 1.6x crop (APS-C), or with a 1:1, 4:3 or 16:9 aspect ratio.",
+     "kw": [
+      "crop",
+      "aps-c",
+      "1.6x",
+      "crop mode",
+      "aspect ratio",
+      "square",
+      "1:1",
+      "4:3",
+      "16:9",
+      "3:2",
+      "crop factor"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     1,
+     9
+    ]
+   }
+  },
+  {
+   "id": "shoot-photo-2",
+   "tab": "shoot",
+   "modes": [
+    "photo"
+   ],
+   "name": "Exposure",
+   "items": [
+    {
+     "key": "expo-comp-aeb",
+     "row": 1,
+     "label": "Expo.comp./AEB",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0050.html",
+     "subs": [],
+     "opts": [
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Exposure compensation plus auto exposure bracketing (AEB) for stills.",
+     "kw": [
+      "exposure compensation",
+      "ev",
+      "brighter",
+      "darker",
+      "aeb",
+      "bracketing",
+      "bracket",
+      "hdr bracket",
+      "plus minus"
+     ]
+    },
+    {
+     "key": "stills-iso-speed-settings",
+     "row": 2,
+     "label": "{stills}ISO speed settings",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0060.html",
+     "subs": [
+      "ISO speed range",
+      "Minimum",
+      "Maximum",
+      "Auto range",
+      "Min. shutter spd."
+     ],
+     "opts": [
+      "AUTO",
+      "Register",
+      "ISO speed",
+      "OK",
+      "Av",
+      "Slower",
+      "Faster",
+      "Manual",
+      "Standard"
+     ],
+     "topics": [
+      "ISO speed guide",
+      "ISO Speed Range When Set Manually",
+      "ISO Speed Range Used with ISO Auto",
+      "Minimum Shutter Speed for ISO Auto"
+     ],
+     "desc": "ISO for stills: the manual ISO range, the Auto ISO range, and the minimum shutter speed Auto ISO will allow.",
+     "kw": [
+      "iso",
+      "auto iso",
+      "iso range",
+      "iso limit",
+      "max iso",
+      "minimum shutter speed",
+      "min shutter speed",
+      "sensitivity",
+      "gain",
+      "extended iso",
+      "h iso",
+      "low iso"
+     ]
+    },
+    {
+     "key": "anti-flicker-shoot",
+     "row": 3,
+     "label": "Anti-flicker shoot.",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0070.html",
+     "subs": [
+      "Auto flicker detection"
+     ],
+     "opts": [
+      "Enable",
+      "Fv",
+      "Av",
+      "Tv",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Detects flickering lights (e.g. fluorescent) and times each shot to the brightest moment so exposure and color stay even.",
+     "kw": [
+      "flicker",
+      "fluorescent",
+      "led flicker",
+      "indoor sports",
+      "gym lights",
+      "banding"
+     ]
+    },
+    {
+     "key": "hf-anti-flicker-shooting",
+     "row": 4,
+     "label": "HF anti-flicker shooting",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0080.html",
+     "subs": [
+      "Recommend Tv sett.",
+      "Manual setting"
+     ],
+     "opts": [
+      "ISO speed",
+      "Tv",
+      "Enable",
+      "OK",
+      "Yes",
+      "Yes (move to Tv settings)",
+      "No flicker detected",
+      "Electronic",
+      "1.6x (crop)"
+     ],
+     "topics": [
+      "Recommended Tv Setting",
+      "Manual Setting"
+     ],
+     "desc": "High-frequency anti-flicker: finds a shutter speed that avoids banding from fast-flickering LED lights.",
+     "kw": [
+      "flicker",
+      "high frequency",
+      "led",
+      "banding",
+      "stripes",
+      "electronic shutter banding",
+      "led wall",
+      "screen"
+     ]
+    },
+    {
+     "key": "external-speedlite-control",
+     "row": 5,
+     "label": "External Speedlite control",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0100.html",
+     "subs": [
+      "Flash C.Fn settings",
+      "Clear settings"
+     ],
+     "opts": [
+      "Enable",
+      "Disable",
+      "Ambience priority",
+      "Av",
+      "Slow synchro",
+      "1/*-30sec. auto",
+      "Flash priority",
+      "Standard",
+      "Eval (FacePrty)",
+      "Evaluative",
+      "Average",
+      "E-TTL each shot",
+      "E-TTL 1st shot",
+      "Elec. 1st-curtain",
+      "Mechanical",
+      "Flash mode",
+      "E-TTL II flash metering",
+      "Manual flash",
+      "Sync speed priority",
+      "1/*-1/60sec. auto",
+      "1/* sec. (fixed)",
+      "Flash output level",
+      "First-curtain synchronization",
+      "Second-curtain synchronization",
+      "High-speed synchronization",
+      "Electronic",
+      "Flash metering mode",
+      "1:TTL",
+      "Clear flash settings",
+      "Clear all Speedlite C.Fn's",
+      "OK"
+     ],
+     "topics": [
+      "Flash Firing",
+      "E-TTL Balance",
+      "E-TTL II Flash Metering",
+      "Continuous Flash Control",
+      "Sync Speed Priority",
+      "Slow Synchro",
+      "Flash Function Settings",
+      "Flash mode",
+      "Wireless functions",
+      "Firing ratio control (RATIO)",
+      "Flash zoom (flash coverage)",
+      "Shutter synchronization"
+     ],
+     "desc": "Settings for a flash on the hot shoe: firing, E-TTL metering, flash exposure compensation, sync and the flash's own custom functions.",
+     "kw": [
+      "flash",
+      "speedlite",
+      "strobe",
+      "ettl",
+      "e-ttl",
+      "flash compensation",
+      "fec",
+      "high speed sync",
+      "hss",
+      "second curtain",
+      "rear curtain",
+      "flash sync",
+      "wireless flash",
+      "fe lock",
+      "fe memory"
+     ]
+    },
+    {
+     "key": "metering-mode",
+     "row": 6,
+     "label": "Metering mode",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0480.html",
+     "subs": [],
+     "opts": [
+      "Evaluative metering",
+      "Partial metering",
+      "Spot metering",
+      "Center-weighted average"
+     ],
+     "topics": [],
+     "desc": "How the camera measures light: evaluative, partial, spot or center-weighted average.",
+     "kw": [
+      "metering",
+      "spot metering",
+      "evaluative",
+      "matrix",
+      "center weighted",
+      "partial",
+      "light meter"
+     ]
+    },
+    {
+     "key": "detect-priority-ae-while-af",
+     "row": 7,
+     "label": "Detect priority AE while AF",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0490.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Disable",
+      "Evaluative metering",
+      "None"
+     ],
+     "topics": [],
+     "desc": "Weights exposure toward the subject the AF has detected (face, animal, vehicle).",
+     "kw": [
+      "face exposure",
+      "subject exposure",
+      "face priority metering",
+      "expose for face"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     2,
+     9
+    ]
+   }
+  },
+  {
+   "id": "shoot-photo-3",
+   "tab": "shoot",
+   "modes": [
+    "photo"
+   ],
+   "name": "Color/tone/Dynamic range",
+   "items": [
+    {
+     "key": "picture-style",
+     "row": 1,
+     "label": "Picture Style",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0110.html",
+     "subs": [],
+     "opts": [
+      "Auto",
+      "Standard",
+      "Portrait",
+      "Color tone",
+      "Landscape",
+      "Fine Detail",
+      "Neutral",
+      "Faithful",
+      "Monochrome",
+      "User Def. 1",
+      "User Def. 3",
+      "HDR PQ",
+      "Enable",
+      "Strength",
+      "Fineness",
+      "Threshold",
+      "Sharpness",
+      "Contrast",
+      "Saturation",
+      "Filter effect",
+      "Toning effect"
+     ],
+     "topics": [
+      "Picture Style Characteristics",
+      "Symbols"
+     ],
+     "links": [
+      {
+       "label": "Picture Style Selection",
+       "ref": "UG-03_Shooting-1_0110.html"
+      },
+      {
+       "label": "Picture Style Customization",
+       "ref": "UG-03_Shooting-1_0120.html"
+      },
+      {
+       "label": "Picture Style Registration",
+       "ref": "UG-03_Shooting-1_0130.html"
+      }
+     ],
+     "desc": "Picture Style for stills and movies (Standard, Portrait, Landscape, Monochrome...) and its sharpness, contrast, saturation and tone.",
+     "kw": [
+      "picture style",
+      "picture profile",
+      "color profile",
+      "monochrome",
+      "black and white",
+      "b&w",
+      "sharpness",
+      "contrast",
+      "saturation",
+      "film simulation",
+      "neutral",
+      "faithful",
+      "fine detail",
+      "look"
+     ]
+    },
+    {
+     "key": "color-space",
+     "row": 2,
+     "label": "Color space",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0150.html",
+     "subs": [],
+     "opts": [
+      "sRGB",
+      "Adobe RGB"
+     ],
+     "topics": [
+      "Adobe RGB"
+     ],
+     "desc": "Color space for stills: sRGB or Adobe RGB.",
+     "kw": [
+      "srgb",
+      "adobe rgb",
+      "adobergb",
+      "gamut"
+     ]
+    },
+    {
+     "key": "clarity",
+     "row": 3,
+     "label": "Clarity",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0160.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Adds or reduces mid-tone edge contrast (like a clarity slider in editing software).",
+     "kw": [
+      "clarity",
+      "local contrast",
+      "texture",
+      "dehaze",
+      "punch"
+     ]
+    },
+    {
+     "key": "hdr-shooting-pq",
+     "row": 4,
+     "label": "HDR shooting (PQ)",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0140.html",
+     "subs": [
+      "HDR PQ"
+     ],
+     "opts": [
+      "XF-AVC S YCC420 8bit",
+      "Smooth"
+     ],
+     "topics": [],
+     "desc": "Records HDR stills/movies with the PQ curve (HEIF for stills) for viewing on HDR screens.",
+     "kw": [
+      "hdr",
+      "pq",
+      "hdr pq",
+      "hdr10",
+      "heif",
+      "hlg",
+      "high dynamic range"
+     ]
+    },
+    {
+     "key": "auto-lighting-optimizer",
+     "row": 5,
+     "label": "Auto Lighting Optimizer",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0170.html",
+     "subs": [],
+     "opts": [
+      "Standard",
+      "Low",
+      "Disable",
+      "BULB",
+      "Disabled in M or B modes"
+     ],
+     "topics": [],
+     "desc": "Automatically lifts shadows and corrects contrast in JPEG/HEIF images. Off, Low, Standard or High.",
+     "kw": [
+      "alo",
+      "auto lighting",
+      "shadow recovery",
+      "d-lighting",
+      "dro",
+      "dynamic range optimizer",
+      "contrast correction"
+     ]
+    },
+    {
+     "key": "highlight-tone-priority",
+     "row": 6,
+     "label": "Highlight tone priority",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0180.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Enhanced",
+      "HDR PQ"
+     ],
+     "topics": [],
+     "desc": "Protects highlight detail (raises the minimum ISO). Enable or Enhanced.",
+     "kw": [
+      "htp",
+      "highlight",
+      "blown highlights",
+      "clipping",
+      "d+"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     3,
+     9
+    ]
+   }
+  },
+  {
+   "id": "shoot-photo-4",
+   "tab": "shoot",
+   "modes": [
+    "photo"
+   ],
+   "name": "White balance/Quality correction",
+   "items": [
+    {
+     "key": "white-balance",
+     "row": 1,
+     "label": "White balance",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0190.html",
+     "subs": [],
+     "opts": [],
+     "topics": [
+      "[ / ] Auto White Balance",
+      "[ ] Color Temperature"
+     ],
+     "desc": "White balance preset: Auto, daylight, shade, cloudy, tungsten, fluorescent, flash, custom or Kelvin.",
+     "kw": [
+      "wb",
+      "white balance",
+      "awb",
+      "kelvin",
+      "color temperature",
+      "tungsten",
+      "daylight",
+      "cloudy",
+      "shade",
+      "fluorescent",
+      "warm",
+      "cool",
+      "color cast"
+     ]
+    },
+    {
+     "key": "set-custom-wb",
+     "row": 2,
+     "label": "Set Custom WB",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0200.html",
+     "subs": [
+      "Custom",
+      "Record and register WB",
+      "Select image on card",
+      "Set as white balance",
+      "Edit WB name"
+     ],
+     "opts": [
+      "OK",
+      "Monochrome",
+      "Correct WB may not be obtained with the selected image"
+     ],
+     "topics": [
+      "Registering Custom White Balances",
+      "Registering by shooting on-site",
+      "Registering from an existing image on a card",
+      "Shooting to register custom white balances",
+      "Selecting and Shooting with Custom White Balances",
+      "Naming Custom White Balances"
+     ],
+     "desc": "Register a custom white balance from a shot of a white or grey target under the actual light.",
+     "kw": [
+      "custom white balance",
+      "custom wb",
+      "grey card",
+      "gray card",
+      "white card",
+      "measure wb",
+      "preset wb"
+     ]
+    },
+    {
+     "key": "wb-shift-bkt",
+     "row": 3,
+     "label": "WB Shift/Bkt.",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0210.html",
+     "subs": [],
+     "opts": [],
+     "topics": [
+      "White Balance Correction",
+      "White Balance Auto Bracketing"
+     ],
+     "desc": "White balance correction (shift toward amber/blue, green/magenta) and white balance bracketing.",
+     "kw": [
+      "wb shift",
+      "wb correction",
+      "wb bracketing",
+      "white balance bracket",
+      "color shift",
+      "amber",
+      "magenta",
+      "green tint"
+     ]
+    },
+    {
+     "key": "lens-aberration-correction",
+     "row": 4,
+     "label": "Lens aberration correction",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0220.html",
+     "subs": [],
+     "opts": [
+      "Correction data available",
+      "Correction data not available",
+      "Distortion correction",
+      "Enable",
+      "Focus breathing correction",
+      "Digital Lens Optimizer",
+      "High",
+      "Disable",
+      "Standard",
+      "Chromatic aberr corr",
+      "Diffraction correction"
+     ],
+     "topics": [
+      "Peripheral Illumination Correction",
+      "Distortion Correction",
+      "Focus Breathing Correction",
+      "Digital Lens Optimizer",
+      "Chromatic Aberration Correction",
+      "Diffraction Correction"
+     ],
+     "desc": "Lens corrections: vignetting, distortion, chromatic aberration, diffraction, Digital Lens Optimizer and focus-breathing correction.",
+     "kw": [
+      "vignetting",
+      "peripheral illumination",
+      "distortion",
+      "chromatic aberration",
+      "ca",
+      "purple fringing",
+      "diffraction",
+      "dlo",
+      "digital lens optimizer",
+      "focus breathing",
+      "lens profile",
+      "lens correction"
+     ]
+    },
+    {
+     "key": "long-exp-noise-reduction",
+     "row": 5,
+     "label": "Long exp. noise reduction",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0230.html",
+     "subs": [],
+     "opts": [
+      "Auto",
+      "Enable",
+      "Disable",
+      "BUSY"
+     ],
+     "topics": [],
+     "desc": "Dark-frame noise reduction for exposures of 1 second or longer. Doubles the wait after each long shot.",
+     "kw": [
+      "long exposure",
+      "lenr",
+      "dark frame",
+      "noise reduction",
+      "hot pixels",
+      "night",
+      "astro",
+      "stars"
+     ]
+    },
+    {
+     "key": "high-iso-speed-nr",
+     "row": 6,
+     "label": "High ISO speed NR",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0240.html",
+     "subs": [],
+     "opts": [
+      "Low",
+      "Standard",
+      "High"
+     ],
+     "topics": [],
+     "desc": "Noise reduction strength for high-ISO JPEG/HEIF images (and movies).",
+     "kw": [
+      "noise reduction",
+      "nr",
+      "high iso",
+      "grain",
+      "noise",
+      "denoise"
+     ]
+    },
+    {
+     "key": "dust-delete-data",
+     "row": 7,
+     "label": "Dust Delete Data",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0250.html",
+     "subs": [],
+     "opts": [
+      "OK",
+      "1.6x (crop)",
+      "Distortion correction",
+      "Enable"
+     ],
+     "topics": [
+      "Preparation",
+      "Dust Delete Data Appending"
+     ],
+     "desc": "Captures a reference of sensor dust so Canon software can erase the spots from images later.",
+     "kw": [
+      "dust",
+      "sensor dust",
+      "dust spots",
+      "dust removal"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     4,
+     9
+    ]
+   }
+  },
+  {
+   "id": "shoot-photo-5",
+   "tab": "shoot",
+   "modes": [
+    "photo"
+   ],
+   "name": "Various shooting",
+   "items": [
+    {
+     "key": "multiple-exposure",
+     "row": 1,
+     "label": "Multiple exposure",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0260.html",
+     "subs": [
+      "Multi-expos ctrl",
+      "No. of exposures",
+      "Continue Mult-exp",
+      "Select image for multi. expo."
+     ],
+     "opts": [
+      "Disable",
+      "On:Func/Ctrl",
+      "On:ContShtng",
+      "Additive",
+      "Average",
+      "Bright",
+      "Dark",
+      "All images",
+      "Result only",
+      "1 shot only",
+      "Continuously",
+      "C1",
+      "C2",
+      "C3",
+      "Smooth",
+      "OK",
+      "Full-frame",
+      "1.6x (crop)",
+      "Deselect img",
+      "Return to previous screen",
+      "Undo last image",
+      "Save and exit",
+      "Save source imgs",
+      "Exit without saving",
+      "Auto power off"
+     ],
+     "topics": [
+      "Merging Multiple Exposures with a JPEG Image Recorded on the Card",
+      "Checking and Deleting Multiple Exposures During Shooting"
+     ],
+     "desc": "Blends several shots into one image (additive, average, bright or dark).",
+     "kw": [
+      "multiple exposure",
+      "double exposure",
+      "multi exposure",
+      "overlay",
+      "blend"
+     ]
+    },
+    {
+     "key": "focus-bracketing",
+     "row": 2,
+     "label": "Focus bracketing",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0270.html",
+     "subs": [
+      "Number of shots",
+      "Focus increment",
+      "Exposure smoothing",
+      "Depth composite",
+      "Crop depth comp.",
+      "Flash interval"
+     ],
+     "opts": [
+      "Enable",
+      "999",
+      "Disable",
+      "OK",
+      "Full-frame",
+      "1.6x (crop)",
+      "Rec options",
+      "Rec. separately",
+      "Play"
+     ],
+     "topics": [],
+     "desc": "Shoots a burst while stepping focus, for focus stacking. Can also merge the frames in camera (depth composite).",
+     "kw": [
+      "focus stacking",
+      "focus stack",
+      "focus bracket",
+      "macro",
+      "depth of field",
+      "depth composite",
+      "stacking"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     5,
+     9
+    ]
+   }
+  },
+  {
+   "id": "shoot-photo-6",
+   "tab": "shoot",
+   "modes": [
+    "photo"
+   ],
+   "name": "Shutter control",
+   "items": [
+    {
+     "key": "drive-mode",
+     "row": 1,
+     "label": "Drive mode",
+     "creative": false,
+     "ref": "UG-04_AF-Drive_0120.html",
+     "subs": [],
+     "opts": [
+      "Mechanical",
+      "Elec. 1st-curtain",
+      "Electronic",
+      "Tv",
+      "Fv",
+      "Switch cont. shooting modes"
+     ],
+     "topics": [
+      "Switching Continuous Shooting Modes"
+     ],
+     "desc": "Single shot, high-speed/low-speed continuous (burst) or self-timer.",
+     "kw": [
+      "drive",
+      "burst",
+      "continuous",
+      "fps",
+      "frames per second",
+      "high speed",
+      "self timer",
+      "self-timer",
+      "10 sec",
+      "2 sec",
+      "timer",
+      "single shot",
+      "h+",
+      "spray"
+     ]
+    },
+    {
+     "key": "pre-cont-shooting",
+     "row": 2,
+     "label": "Pre-cont. shooting",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0280.html",
+     "subs": [
+      "Number of images"
+     ],
+     "opts": [
+      "0\"5"
+     ],
+     "topics": [],
+     "desc": "Pre-continuous (pre-capture): buffers frames while you half-press, so the burst starts slightly before you fully press.",
+     "kw": [
+      "pre capture",
+      "pre-capture",
+      "pre shot",
+      "pre-burst",
+      "raw burst",
+      "pro capture",
+      "buffer before",
+      "birds in flight"
+     ]
+    },
+    {
+     "key": "interval-timer",
+     "row": 3,
+     "label": "Interval timer",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0290.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Interval",
+      "00:00:01",
+      "99:59:59",
+      "No. of shots",
+      "01",
+      "99",
+      "00",
+      "OK",
+      "Auto power off",
+      "Disable",
+      "C1",
+      "C2",
+      "C3"
+     ],
+     "topics": [],
+     "desc": "Intervalometer: takes a set number of stills at a fixed interval.",
+     "kw": [
+      "intervalometer",
+      "interval",
+      "time lapse",
+      "timelapse",
+      "interval shooting"
+     ]
+    },
+    {
+     "key": "bulb-timer",
+     "row": 4,
+     "label": "Bulb timer",
+     "creative": true,
+     "ref": "UG-02_ShootingMode_0090.html#ShootingMode_0090_1",
+     "subs": [],
+     "opts": [
+      "BULB",
+      "Enable",
+      "OK",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Sets a fixed bulb exposure time (e.g. 2 minutes) so you don't need to hold the shutter button.",
+     "kw": [
+      "bulb",
+      "long exposure",
+      "b mode",
+      "astro",
+      "star trails",
+      "timer"
+     ]
+    },
+    {
+     "key": "silent-shutter-function",
+     "row": 5,
+     "label": "Silent shutter function",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0300.html",
+     "subs": [],
+     "opts": [
+      "Electronic",
+      "Disable",
+      "On"
+     ],
+     "topics": [],
+     "desc": "Silent shooting: uses the electronic shutter and turns off sounds.",
+     "kw": [
+      "silent",
+      "silent shutter",
+      "quiet",
+      "no sound",
+      "mute",
+      "wedding",
+      "electronic shutter",
+      "stealth"
+     ]
+    },
+    {
+     "key": "shutter-mode",
+     "row": 6,
+     "label": "Shutter mode",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0310.html",
+     "subs": [],
+     "opts": [
+      "Mechanical",
+      "Elec. 1st-curtain",
+      "Electronic",
+      "On",
+      "Tv",
+      "Fv"
+     ],
+     "topics": [],
+     "desc": "Mechanical, electronic first-curtain or fully electronic shutter.",
+     "kw": [
+      "electronic shutter",
+      "efcs",
+      "electronic first curtain",
+      "mechanical shutter",
+      "silent shutter",
+      "rolling shutter",
+      "shutter type",
+      "elec 1st curtain"
+     ]
+    },
+    {
+     "key": "release-shutter-without-card",
+     "row": 7,
+     "label": "Release shutter without card",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0320.html",
+     "subs": [],
+     "opts": [
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Whether the camera can take a picture with no card inserted. Disable it so you never shoot without a card.",
+     "kw": [
+      "no card",
+      "without card",
+      "card missing",
+      "shoot without card",
+      "demo mode"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     6,
+     9
+    ]
+   }
+  },
+  {
+   "id": "shoot-photo-7",
+   "tab": "shoot",
+   "modes": [
+    "photo"
+   ],
+   "name": "Assist shooting",
+   "items": [
+    {
+     "key": "is-image-stabilizer-mode",
+     "row": 1,
+     "label": "IS (Image Stabilizer) mode",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0330.html",
+     "subs": [
+      "IS mode",
+      "Still photo IS",
+      "Focal length"
+     ],
+     "opts": [
+      "On",
+      "Always",
+      "Only for shot",
+      "OK",
+      "Enable",
+      "Disable"
+     ],
+     "topics": [
+      "Focal Length"
+     ],
+     "desc": "In-body/lens image stabilization settings, including Digital IS and Movie IS, and the focal length for non-communicating lenses.",
+     "kw": [
+      "ibis",
+      "is",
+      "image stabilization",
+      "stabilizer",
+      "stabilisation",
+      "steady",
+      "shake",
+      "digital is",
+      "movie is",
+      "enhanced is",
+      "focal length",
+      "manual lens",
+      "vintage lens",
+      "adapted lens",
+      "tripod"
+     ]
+    },
+    {
+     "key": "customize-quick-controls",
+     "row": 2,
+     "label": "Customize Quick Controls",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0340.html",
+     "subs": [
+      "Edit layout",
+      "Save and exit"
+     ],
+     "opts": [
+      "Reset settings",
+      "Clear all items"
+     ],
+     "topics": [],
+     "desc": "Choose and arrange the items on the Q (Quick Control) screen.",
+     "kw": [
+      "q menu",
+      "quick menu",
+      "quick control",
+      "q button",
+      "customize q",
+      "function menu"
+     ]
+    },
+    {
+     "key": "metering-timer",
+     "row": 3,
+     "label": "Metering timer",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0380.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "How long exposure info stays active after you release the shutter button.",
+     "kw": [
+      "metering timer",
+      "meter",
+      "exposure lock time"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     7,
+     9
+    ]
+   }
+  },
+  {
+   "id": "shoot-photo-8",
+   "tab": "shoot",
+   "modes": [
+    "photo"
+   ],
+   "name": "Assist shooting",
+   "items": [
+    {
+     "key": "image-review",
+     "row": 1,
+     "label": "Image review",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0360.html",
+     "subs": [
+      "Review duration",
+      "Viewfinder display"
+     ],
+     "opts": [
+      "Hold",
+      "Off",
+      "Screen off",
+      "Enable"
+     ],
+     "topics": [
+      "Review Duration",
+      "Viewfinder Display"
+     ],
+     "desc": "Shows the picture right after you take it, and for how long (off, 2 s, 4 s, 8 s, hold).",
+     "kw": [
+      "review",
+      "preview after shot",
+      "image review",
+      "show picture after shot",
+      "instant review",
+      "chimping"
+     ]
+    },
+    {
+     "key": "high-speed-display",
+     "row": 2,
+     "label": "High speed display",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0370.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "On",
+      "Disable",
+      "Exposure only during DOF"
+     ],
+     "topics": [],
+     "desc": "Shows the live view between frames during high-speed continuous shooting.",
+     "kw": [
+      "blackout",
+      "continuous display",
+      "burst display",
+      "live view during burst"
+     ]
+    },
+    {
+     "key": "blackout-free-display",
+     "row": 3,
+     "label": "Blackout-free display",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0420.html",
+     "subs": [],
+     "opts": [
+      "On",
+      "Disable",
+      "BUSY",
+      "Exposure+DOF",
+      "Off",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Keeps the viewfinder image live with no blackout during continuous shooting.",
+     "kw": [
+      "blackout",
+      "blackout free",
+      "no blackout",
+      "burst display",
+      "continuous display",
+      "evf blackout"
+     ]
+    },
+    {
+     "key": "display-simulation",
+     "row": 4,
+     "label": "Display simulation",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0400.html",
+     "subs": [],
+     "opts": [
+      "Exposure+DOF",
+      "Exposure",
+      "Exposure only during DOF",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Whether the screen/EVF previews exposure and depth of field (WYSIWYG).",
+     "kw": [
+      "exposure simulation",
+      "exposure preview",
+      "expsim",
+      "wysiwyg",
+      "dark viewfinder",
+      "studio flash",
+      "dof preview",
+      "live view brightness"
+     ]
+    },
+    {
+     "key": "ovf-sim-view-assist",
+     "row": 5,
+     "label": "OVF sim. view assist",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0410.html",
+     "subs": [],
+     "opts": [
+      "On",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "OVF simulation: shows a wider-tone, optical-viewfinder-like view in high-contrast scenes.",
+     "kw": [
+      "ovf",
+      "optical viewfinder",
+      "view assist",
+      "natural view",
+      "high contrast"
+     ]
+    },
+    {
+     "key": "stills-movie-play-hdr-c-log-view-assist",
+     "row": 6,
+     "label": "{stills}{movie}{play}HDR/C.Log View Assist.",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0390.html",
+     "subs": [],
+     "opts": [
+      "HDR PQ",
+      "Gamma/Color Space",
+      "Look File",
+      "On",
+      "HDMI"
+     ],
+     "topics": [
+      "View Assist Display Conditions",
+      "View Assist Display Settings"
+     ],
+     "desc": "View assist: shows a normal-looking image on the screen while shooting HDR PQ or Canon Log.",
+     "kw": [
+      "view assist",
+      "log preview",
+      "lut",
+      "clog",
+      "canon log",
+      "hdr assist",
+      "bt709",
+      "monitoring lut"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     8,
+     9
+    ]
+   }
+  },
+  {
+   "id": "shoot-photo-9",
+   "tab": "shoot",
+   "modes": [
+    "photo"
+   ],
+   "name": "Assist shooting",
+   "items": [
+    {
+     "key": "shooting-info-disp",
+     "row": 1,
+     "label": "Shooting info. disp.",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0430.html",
+     "subs": [
+      "Screen info. settings",
+      "VF info/toggle settings",
+      "VF vertical display",
+      "Grid display",
+      "Histogram disp",
+      "Electronic level size",
+      "Card free space (%) display",
+      "Lens info display",
+      "Vertical exp level"
+     ],
+     "opts": [
+      "OK",
+      "On",
+      "Off",
+      "Brightness",
+      "RGB",
+      "Large",
+      "Small",
+      "Focus distance disp",
+      "Focal length disp",
+      "SA variable amount",
+      "BULB",
+      "Reset"
+     ],
+     "topics": [
+      "Customizing Information on the Screen",
+      "Customizing Information in the Viewfinder",
+      "Viewfinder Vertical Display",
+      "Grid",
+      "Histogram",
+      "Electronic Level Size",
+      "Card Free Space (%) Display",
+      "Lens Information Display",
+      "Vertical Exposure Level Indicator",
+      "Clearing Settings"
+     ],
+     "desc": "What the screen and EVF show: info screens, grid, histogram, waveform, electronic level size, card space, aspect markers.",
+     "kw": [
+      "grid display",
+      "shooting grid",
+      "grid",
+      "grid lines",
+      "rule of thirds",
+      "histogram",
+      "waveform",
+      "electronic level",
+      "level",
+      "horizon",
+      "info display",
+      "overlay",
+      "aspect marker",
+      "frame lines",
+      "card space",
+      "display info",
+      "info button",
+      "vertical display"
+     ]
+    },
+    {
+     "key": "display-frame-rate-set",
+     "row": 2,
+     "label": "Display frame rate set.",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0450.html",
+     "subs": [],
+     "opts": [
+      "Smooth",
+      "Suppress lower frame rate"
+     ],
+     "topics": [],
+     "desc": "Refresh rate of the screen/EVF: Smooth (higher frame rate) or the power-saving default.",
+     "kw": [
+      "evf refresh",
+      "frame rate",
+      "120fps",
+      "smooth",
+      "viewfinder refresh rate",
+      "lag",
+      "display performance"
+     ]
+    },
+    {
+     "key": "vf-display-format",
+     "row": 3,
+     "label": "VF display format",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0460.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Choose how shooting info is laid out in the viewfinder.",
+     "kw": [
+      "viewfinder layout",
+      "evf info",
+      "viewfinder display",
+      "info outside image"
+     ]
+    },
+    {
+     "key": "reverse-display",
+     "row": 4,
+     "label": "Reverse display",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0440.html",
+     "subs": [],
+     "opts": [
+      "Off"
+     ],
+     "topics": [],
+     "desc": "Mirrored (selfie) view when the screen faces forward.",
+     "kw": [
+      "mirror",
+      "selfie",
+      "flip screen",
+      "vlog",
+      "mirror image"
+     ]
+    },
+    {
+     "key": "auto-pwr-off-temp",
+     "row": 5,
+     "label": "Auto pwr off temp.",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0470.html",
+     "subs": [],
+     "opts": [
+      "High",
+      "OK"
+     ],
+     "topics": [],
+     "desc": "How hot the camera may get during recording before it shuts down: Standard or High.",
+     "kw": [
+      "overheating",
+      "heat",
+      "temperature",
+      "overheat",
+      "auto power off temperature",
+      "hot"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     9,
+     9
+    ]
+   }
+  },
+  {
+   "id": "shoot-movie-1",
+   "tab": "shoot",
+   "modes": [
+    "movie"
+   ],
+   "name": "Image quality/size",
+   "items": [
+    {
+     "key": "movie-rec-size",
+     "row": 1,
+     "label": "Movie rec. size",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0040.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "RAW",
+      "On",
+      "XF-AVC S YCC420 8bit",
+      "Disable",
+      "59.94Hz:NTSC",
+      "High (Intra-frame)",
+      "XF-AVC S YCC422 10bit",
+      "Standard (Intra-frame)",
+      "Light (Intra-frame)",
+      "Standard (Long GOP)",
+      "Light (Long GOP)",
+      "Low level format"
+     ],
+     "topics": [
+      "8K/4K Movie Recording",
+      "Image Area",
+      "Frame Rate (fps: frames per second)",
+      "Compression Method",
+      "Cards That Can Record Movies",
+      "Movie Files Exceeding 4 GB",
+      "Total Movie Recording Time and File Size Per Minute"
+     ],
+     "desc": "Movie resolution and frame rate (e.g. 4K, Full HD, 60p, 120p) and compression.",
+     "kw": [
+      "4k",
+      "uhd",
+      "1080p",
+      "full hd",
+      "fhd",
+      "resolution",
+      "frame rate",
+      "fps",
+      "24p",
+      "25p",
+      "30p",
+      "50p",
+      "60p",
+      "100p",
+      "120p",
+      "slow motion",
+      "high frame rate",
+      "hfr",
+      "ipb",
+      "all-i",
+      "intra",
+      "long gop",
+      "bitrate"
+     ]
+    },
+    {
+     "key": "high-frame-rate",
+     "row": 2,
+     "label": "High Frame Rate",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0050.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Count up",
+      "Free run",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "High frame rate movie recording (120p/240p class) played back as slow motion.",
+     "kw": [
+      "slow motion",
+      "slow mo",
+      "120p",
+      "240p",
+      "hfr",
+      "high frame rate",
+      "high speed video"
+     ]
+    },
+    {
+     "key": "main-rec-format",
+     "row": 3,
+     "label": "Main rec. format",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0060.html",
+     "subs": [],
+     "opts": [
+      "HDR PQ",
+      "C.Gamut",
+      "BT.2020",
+      "RAW",
+      "Digital IS",
+      "Off",
+      "Enable",
+      "On",
+      "Video calls/streaming",
+      "Rec options",
+      "Main Proxy",
+      "Play",
+      "function",
+      "Compression",
+      "Standard (Long GOP)",
+      "16 Mbps",
+      "Light (Long GOP)",
+      "9 Mbps"
+     ],
+     "topics": [
+      "XF-HEVC S and XF-AVC S Movies",
+      "RAW Movies",
+      "Recording Proxy Movies"
+     ],
+     "desc": "Movie file format and codec for the main recording: RAW, XF-HEVC S or XF-AVC S, bit depth and color sampling. Also proxy recording.",
+     "kw": [
+      "codec",
+      "h.265",
+      "h265",
+      "hevc",
+      "h.264",
+      "avc",
+      "xf-avc",
+      "xf-hevc",
+      "10 bit",
+      "10-bit",
+      "422",
+      "4:2:2",
+      "raw video",
+      "cinema raw light",
+      "proxy",
+      "bitrate",
+      "movie format"
+     ]
+    },
+    {
+     "key": "movie-cropping",
+     "row": 4,
+     "label": "Movie cropping",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0070.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Digital IS",
+      "On",
+      "Enhanced"
+     ],
+     "topics": [],
+     "desc": "Records movies with a cropped (APS-C sized) area of the sensor.",
+     "kw": [
+      "crop",
+      "apsc video",
+      "super35",
+      "s35",
+      "crop mode",
+      "movie crop",
+      "1.6x"
+     ]
+    },
+    {
+     "key": "dual-shooting-still-movie",
+     "row": 5,
+     "label": "Dual shooting (still&movie)",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0080.html",
+     "subs": [],
+     "opts": [
+      "On",
+      "High speed",
+      "59.94Hz:NTSC",
+      "50.00Hz:PAL",
+      "Low speed",
+      "Single shooting",
+      "JPEG quality",
+      "Enable",
+      "Tv"
+     ],
+     "topics": [],
+     "desc": "Take stills with the shutter button while a movie keeps recording.",
+     "kw": [
+      "photo while recording",
+      "stills during video",
+      "dual shooting",
+      "still and movie",
+      "hybrid",
+      "capture photo during video"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     1,
+     10
+    ]
+   }
+  },
+  {
+   "id": "shoot-movie-2",
+   "tab": "shoot",
+   "modes": [
+    "movie"
+   ],
+   "name": "Sound-rec. settings",
+   "items": [
+    {
+     "key": "sound-recording",
+     "row": 1,
+     "label": "Sound recording",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0090.html",
+     "subs": [],
+     "opts": [
+      "On",
+      "Disable",
+      "LPCM/24bit/4CH",
+      "AAC/16bit/2CH"
+     ],
+     "topics": [],
+     "desc": "Turns movie audio recording on or off.",
+     "kw": [
+      "audio",
+      "sound",
+      "mic",
+      "microphone",
+      "no sound",
+      "mute audio"
+     ]
+    },
+    {
+     "key": "audio-format",
+     "row": 2,
+     "label": "Audio format",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0100.html",
+     "subs": [],
+     "opts": [
+      "Main Proxy",
+      "Rec options",
+      "On",
+      "LPCM/16bit/2CH",
+      "AAC/16bit/2CH",
+      "LPCM/24bit/4CH"
+     ],
+     "topics": [],
+     "desc": "Movie audio format: AAC or LPCM, 16/24-bit, 2 or 4 channels.",
+     "kw": [
+      "aac",
+      "lpcm",
+      "pcm",
+      "24 bit",
+      "4 channel",
+      "audio codec",
+      "audio quality"
+     ]
+    },
+    {
+     "key": "audio-settings",
+     "row": 3,
+     "label": "Audio settings",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0110.html",
+     "subs": [],
+     "opts": [
+      "Built-in microphone",
+      "External microphone",
+      "Hot shoe input",
+      "Auto",
+      "Manual",
+      "Rec. level",
+      "Recording mode",
+      "Enable"
+     ],
+     "topics": [
+      "Recording Mode",
+      "Recording Level",
+      "Wind Filter",
+      "Attenuator",
+      "Microphone Directionality"
+     ],
+     "desc": "Input (built-in, external mic, hot shoe), recording level, wind filter and attenuator.",
+     "kw": [
+      "audio level",
+      "mic level",
+      "gain",
+      "wind filter",
+      "wind",
+      "attenuator",
+      "external mic",
+      "microphone",
+      "hot shoe mic",
+      "manual audio",
+      "recording level",
+      "xlr"
+     ]
+    },
+    {
+     "key": "audio-status",
+     "row": 4,
+     "label": "Audio Status",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0120.html",
+     "subs": [],
+     "opts": [
+      "Monitor CH",
+      "Shoot. monitor CH",
+      "Headphones"
+     ],
+     "topics": [],
+     "desc": "Audio meters and which channels you hear while monitoring.",
+     "kw": [
+      "audio meter",
+      "levels",
+      "monitor channel",
+      "headphones",
+      "audio status"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     2,
+     10
+    ]
+   }
+  },
+  {
+   "id": "shoot-movie-3",
+   "tab": "shoot",
+   "modes": [
+    "movie"
+   ],
+   "name": "Exposure",
+   "items": [
+    {
+     "key": "exposure-comp",
+     "row": 1,
+     "label": "Exposure comp.",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0500.html",
+     "subs": [],
+     "opts": [
+      "Fv",
+      "Tv",
+      "Av",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Exposure compensation for movies.",
+     "kw": [
+      "exposure compensation",
+      "ev",
+      "brighter",
+      "darker",
+      "movie exposure"
+     ]
+    },
+    {
+     "key": "movie-iso-speed-settings",
+     "row": 2,
+     "label": "{movie}ISO speed settings",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0290.html#Shooting-2_0290_1-1",
+     "subs": [],
+     "opts": [
+      "ISO speed",
+      "ISO speed range",
+      "Max for Auto"
+     ],
+     "topics": [],
+     "desc": "ISO for movies, including the maximum ISO Auto may use.",
+     "kw": [
+      "iso",
+      "movie iso",
+      "video iso",
+      "auto iso",
+      "max iso",
+      "iso limit",
+      "gain"
+     ]
+    },
+    {
+     "key": "hf-anti-flicker-shooting",
+     "row": 3,
+     "label": "HF anti-flicker shooting",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0080.html",
+     "subs": [
+      "Recommend Tv sett.",
+      "Manual setting"
+     ],
+     "opts": [
+      "ISO speed",
+      "Tv",
+      "Enable",
+      "OK",
+      "Yes",
+      "Yes (move to Tv settings)",
+      "No flicker detected",
+      "Electronic",
+      "1.6x (crop)"
+     ],
+     "topics": [
+      "Recommended Tv Setting",
+      "Manual Setting"
+     ],
+     "desc": "High-frequency anti-flicker: finds a shutter speed that avoids banding from fast-flickering LED lights.",
+     "kw": [
+      "flicker",
+      "high frequency",
+      "led",
+      "banding",
+      "stripes",
+      "electronic shutter banding",
+      "led wall",
+      "screen"
+     ]
+    },
+    {
+     "key": "movie-av-1-8-stop-incr",
+     "row": 4,
+     "label": "{movie}Av 1/8-stop incr.",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0290.html#Shooting-2_0290_1-2",
+     "subs": [],
+     "opts": [
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Changes aperture in finer 1/8-stop steps for smoother changes while recording.",
+     "kw": [
+      "aperture steps",
+      "smooth aperture",
+      "1/8 stop",
+      "iris"
+     ]
+    },
+    {
+     "key": "movie-auto-slow-shutter",
+     "row": 5,
+     "label": "{movie}Auto slow shutter",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0290.html#Shooting-2_0290_1-3",
+     "subs": [],
+     "opts": [
+      "Disable",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Lets the camera drop to a slower shutter speed in low light during movie recording.",
+     "kw": [
+      "slow shutter",
+      "low light video",
+      "auto slow shutter"
+     ]
+    },
+    {
+     "key": "detect-priority-ae-while-af",
+     "row": 6,
+     "label": "Detect priority AE while AF",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0490.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Disable",
+      "Evaluative metering",
+      "None"
+     ],
+     "topics": [],
+     "desc": "Weights exposure toward the subject the AF has detected (face, animal, vehicle).",
+     "kw": [
+      "face exposure",
+      "subject exposure",
+      "face priority metering",
+      "expose for face"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     3,
+     10
+    ]
+   }
+  },
+  {
+   "id": "shoot-movie-4",
+   "tab": "shoot",
+   "modes": [
+    "movie"
+   ],
+   "name": "Color/tone/Dynamic range",
+   "items": [
+    {
+     "key": "custom-picture",
+     "row": 1,
+     "label": "Custom Picture",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0130.html",
+     "subs": [
+      "function",
+      "Select File",
+      "Edit File",
+      "Look File Setup",
+      "Delete"
+     ],
+     "opts": [
+      "On",
+      "Canon 709",
+      "BT.709",
+      "Off",
+      "Neutral",
+      "Canon Log 2",
+      "C.Gamut",
+      "Canon Log 3",
+      "PQ",
+      "BT.2020",
+      "HLG",
+      "BT.709 Standard",
+      "Video",
+      "Unprotect",
+      "Protect",
+      "Rename",
+      "Reset",
+      "Gamma/Color Space",
+      "Color Matrix",
+      "Production Camera",
+      "Look File",
+      "Register",
+      "HLG Color",
+      "BT.2100",
+      "Vivid",
+      "Black",
+      "Master Pedestal",
+      "Master Black Red",
+      "Master Black Green",
+      "Master Black Blue",
+      "Black Gamma",
+      "Level",
+      "Range",
+      "Point",
+      "Low Key Saturation",
+      "Activate",
+      "Knee",
+      "Slope",
+      "Saturation",
+      "Sharpness",
+      "Detail Frequency",
+      "Coring Level",
+      "Limit",
+      "Noise Reduction",
+      "Automatic",
+      "Spatial Filter",
+      "Frame Correlation",
+      "Skin Detail",
+      "Effect Level",
+      "High",
+      "Hue",
+      "Chroma",
+      "Area",
+      "Y Level",
+      "Color Matrix Tuning",
+      "Gain",
+      "Phase",
+      "R-G",
+      "R-B",
+      "G-R"
+     ],
+     "topics": [
+      "Selecting Custom Picture Files",
+      "Editing Custom Pictures",
+      "Custom Picture Setting Items",
+      "Checking Custom Picture Settings",
+      "Saving and Loading Custom Picture Files",
+      "Using Look Files",
+      "Registering look files",
+      "Using look files for color adjustment",
+      "Removing look files",
+      "Canon Log Image Quality"
+     ],
+     "desc": "Custom Picture for movies: Canon Log 2/3, PQ, HLG, BT.709 and look files (LUTs) for grading.",
+     "kw": [
+      "canon log",
+      "clog",
+      "c-log",
+      "log",
+      "clog2",
+      "clog3",
+      "hlg",
+      "pq",
+      "look file",
+      "lut",
+      "gamma",
+      "color space",
+      "cinema gamut",
+      "custom picture"
+     ]
+    },
+    {
+     "key": "picture-style",
+     "row": 2,
+     "label": "Picture Style",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0110.html",
+     "subs": [],
+     "opts": [
+      "Auto",
+      "Standard",
+      "Portrait",
+      "Color tone",
+      "Landscape",
+      "Fine Detail",
+      "Neutral",
+      "Faithful",
+      "Monochrome",
+      "User Def. 1",
+      "User Def. 3",
+      "HDR PQ",
+      "Enable",
+      "Strength",
+      "Fineness",
+      "Threshold",
+      "Sharpness",
+      "Contrast",
+      "Saturation",
+      "Filter effect",
+      "Toning effect"
+     ],
+     "topics": [
+      "Picture Style Characteristics",
+      "Symbols"
+     ],
+     "links": [
+      {
+       "label": "Picture Style Selection",
+       "ref": "UG-03_Shooting-1_0110.html"
+      },
+      {
+       "label": "Picture Style Customization",
+       "ref": "UG-03_Shooting-1_0120.html"
+      },
+      {
+       "label": "Picture Style Registration",
+       "ref": "UG-03_Shooting-1_0130.html"
+      }
+     ],
+     "desc": "Picture Style for stills and movies (Standard, Portrait, Landscape, Monochrome...) and its sharpness, contrast, saturation and tone.",
+     "kw": [
+      "picture style",
+      "picture profile",
+      "color profile",
+      "monochrome",
+      "black and white",
+      "b&w",
+      "sharpness",
+      "contrast",
+      "saturation",
+      "film simulation",
+      "neutral",
+      "faithful",
+      "fine detail",
+      "look"
+     ]
+    },
+    {
+     "key": "clarity",
+     "row": 3,
+     "label": "Clarity",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0160.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Adds or reduces mid-tone edge contrast (like a clarity slider in editing software).",
+     "kw": [
+      "clarity",
+      "local contrast",
+      "texture",
+      "dehaze",
+      "punch"
+     ]
+    },
+    {
+     "key": "hdr-shooting-pq",
+     "row": 4,
+     "label": "HDR shooting (PQ)",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0140.html",
+     "subs": [
+      "HDR PQ"
+     ],
+     "opts": [
+      "XF-AVC S YCC420 8bit",
+      "Smooth"
+     ],
+     "topics": [],
+     "desc": "Records HDR stills/movies with the PQ curve (HEIF for stills) for viewing on HDR screens.",
+     "kw": [
+      "hdr",
+      "pq",
+      "hdr pq",
+      "hdr10",
+      "heif",
+      "hlg",
+      "high dynamic range"
+     ]
+    },
+    {
+     "key": "hdr-movie-mode",
+     "row": 5,
+     "label": "HDR Movie Mode",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0140.html",
+     "subs": [
+      "HDR Movie Record."
+     ],
+     "opts": [
+      "Enable",
+      "Shadow comp.",
+      "Saturation",
+      "HDR PQ",
+      "Disable",
+      "1000 nits"
+     ],
+     "topics": [
+      "Shadow Compensation",
+      "Saturation",
+      "Limiting Maximum Brightness"
+     ],
+     "desc": "In-camera HDR movie recording for high-contrast scenes.",
+     "kw": [
+      "hdr movie",
+      "hdr video",
+      "dynamic range",
+      "backlit"
+     ]
+    },
+    {
+     "key": "auto-lighting-optimizer",
+     "row": 6,
+     "label": "Auto Lighting Optimizer",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0170.html",
+     "subs": [],
+     "opts": [
+      "Standard",
+      "Low",
+      "Disable",
+      "BULB",
+      "Disabled in M or B modes"
+     ],
+     "topics": [],
+     "desc": "Automatically lifts shadows and corrects contrast in JPEG/HEIF images. Off, Low, Standard or High.",
+     "kw": [
+      "alo",
+      "auto lighting",
+      "shadow recovery",
+      "d-lighting",
+      "dro",
+      "dynamic range optimizer",
+      "contrast correction"
+     ]
+    },
+    {
+     "key": "highlight-tone-priority",
+     "row": 7,
+     "label": "Highlight tone priority",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0180.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Enhanced",
+      "HDR PQ"
+     ],
+     "topics": [],
+     "desc": "Protects highlight detail (raises the minimum ISO). Enable or Enhanced.",
+     "kw": [
+      "htp",
+      "highlight",
+      "blown highlights",
+      "clipping",
+      "d+"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     4,
+     10
+    ]
+   }
+  },
+  {
+   "id": "shoot-movie-5",
+   "tab": "shoot",
+   "modes": [
+    "movie"
+   ],
+   "name": "White balance/Quality correction",
+   "items": [
+    {
+     "key": "white-balance",
+     "row": 1,
+     "label": "White balance",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0190.html",
+     "subs": [],
+     "opts": [],
+     "topics": [
+      "[ / ] Auto White Balance",
+      "[ ] Color Temperature"
+     ],
+     "desc": "White balance preset: Auto, daylight, shade, cloudy, tungsten, fluorescent, flash, custom or Kelvin.",
+     "kw": [
+      "wb",
+      "white balance",
+      "awb",
+      "kelvin",
+      "color temperature",
+      "tungsten",
+      "daylight",
+      "cloudy",
+      "shade",
+      "fluorescent",
+      "warm",
+      "cool",
+      "color cast"
+     ]
+    },
+    {
+     "key": "set-custom-wb",
+     "row": 2,
+     "label": "Set Custom WB",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0200.html",
+     "subs": [
+      "Custom",
+      "Record and register WB",
+      "Select image on card",
+      "Set as white balance",
+      "Edit WB name"
+     ],
+     "opts": [
+      "OK",
+      "Monochrome",
+      "Correct WB may not be obtained with the selected image"
+     ],
+     "topics": [
+      "Registering Custom White Balances",
+      "Registering by shooting on-site",
+      "Registering from an existing image on a card",
+      "Shooting to register custom white balances",
+      "Selecting and Shooting with Custom White Balances",
+      "Naming Custom White Balances"
+     ],
+     "desc": "Register a custom white balance from a shot of a white or grey target under the actual light.",
+     "kw": [
+      "custom white balance",
+      "custom wb",
+      "grey card",
+      "gray card",
+      "white card",
+      "measure wb",
+      "preset wb"
+     ]
+    },
+    {
+     "key": "wb-correction",
+     "row": 3,
+     "label": "WB correction",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0210.html",
+     "subs": [],
+     "opts": [],
+     "topics": [
+      "White Balance Correction",
+      "White Balance Auto Bracketing"
+     ],
+     "desc": "White balance correction for movies: shift toward amber/blue and green/magenta.",
+     "kw": [
+      "wb shift",
+      "wb correction",
+      "color shift",
+      "green tint",
+      "magenta",
+      "amber"
+     ]
+    },
+    {
+     "key": "lens-aberration-correction",
+     "row": 4,
+     "label": "Lens aberration correction",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0220.html",
+     "subs": [],
+     "opts": [
+      "Correction data available",
+      "Correction data not available",
+      "Distortion correction",
+      "Enable",
+      "Focus breathing correction",
+      "Digital Lens Optimizer",
+      "High",
+      "Disable",
+      "Standard",
+      "Chromatic aberr corr",
+      "Diffraction correction"
+     ],
+     "topics": [
+      "Peripheral Illumination Correction",
+      "Distortion Correction",
+      "Focus Breathing Correction",
+      "Digital Lens Optimizer",
+      "Chromatic Aberration Correction",
+      "Diffraction Correction"
+     ],
+     "desc": "Lens corrections: vignetting, distortion, chromatic aberration, diffraction, Digital Lens Optimizer and focus-breathing correction.",
+     "kw": [
+      "vignetting",
+      "peripheral illumination",
+      "distortion",
+      "chromatic aberration",
+      "ca",
+      "purple fringing",
+      "diffraction",
+      "dlo",
+      "digital lens optimizer",
+      "focus breathing",
+      "lens profile",
+      "lens correction"
+     ]
+    },
+    {
+     "key": "high-iso-speed-nr",
+     "row": 5,
+     "label": "High ISO speed NR",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0240.html",
+     "subs": [],
+     "opts": [
+      "Low",
+      "Standard",
+      "High"
+     ],
+     "topics": [],
+     "desc": "Noise reduction strength for high-ISO JPEG/HEIF images (and movies).",
+     "kw": [
+      "noise reduction",
+      "nr",
+      "high iso",
+      "grain",
+      "noise",
+      "denoise"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     5,
+     10
+    ]
+   }
+  },
+  {
+   "id": "shoot-movie-6",
+   "tab": "shoot",
+   "modes": [
+    "movie"
+   ],
+   "name": "Various shooting",
+   "items": [
+    {
+     "key": "pre-recording-set",
+     "row": 1,
+     "label": "Pre-recording set.",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0180.html",
+     "subs": [
+      "Pre-recording",
+      "Recording time"
+     ],
+     "opts": [
+      "On",
+      "Off"
+     ],
+     "topics": [],
+     "desc": "Pre-recording: continuously buffers a few seconds so the movie starts before you press record.",
+     "kw": [
+      "pre record",
+      "pre-record",
+      "buffer",
+      "pre roll",
+      "pre-roll",
+      "miss the moment"
+     ]
+    },
+    {
+     "key": "time-lapse-movie",
+     "row": 2,
+     "label": "Time-lapse movie",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0150.html",
+     "subs": [
+      "Time-lapse",
+      "Interval",
+      "No. of shots",
+      "Auto exposure",
+      "Screen auto off",
+      "Beep per taken"
+     ],
+     "opts": [
+      "Enable",
+      "00:00:02",
+      "99:59:59",
+      "OK",
+      "0002",
+      "3600",
+      "XF-HEVC S YCC422 10bit",
+      "XF-AVC S YCC422 10bit",
+      "XF-AVC S YCC420 8bit",
+      "Fixed 1st frame",
+      "Each frame",
+      "Auto",
+      "Disable",
+      "Max for Auto",
+      "Half-press",
+      "Meter.+ Servo AF",
+      "Meter.+One-Shot AF",
+      "00'00\"",
+      "Clean now",
+      "Basic settings"
+     ],
+     "topics": [],
+     "desc": "Shoots stills at intervals and makes them into a time-lapse movie in camera.",
+     "kw": [
+      "timelapse",
+      "time lapse",
+      "hyperlapse",
+      "interval movie"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     6,
+     10
+    ]
+   }
+  },
+  {
+   "id": "shoot-movie-7",
+   "tab": "shoot",
+   "modes": [
+    "movie"
+   ],
+   "name": "Shutter control/Assist shooting",
+   "items": [
+    {
+     "key": "movie-self-timer",
+     "row": 1,
+     "label": "Movie self-timer",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0160.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Self-timer delay before movie recording starts.",
+     "kw": [
+      "self timer",
+      "timer",
+      "delay",
+      "countdown",
+      "vlog"
+     ]
+    },
+    {
+     "key": "tally-lamp",
+     "row": 2,
+     "label": "Tally lamp",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0170.html",
+     "subs": [],
+     "opts": [
+      "On"
+     ],
+     "topics": [],
+     "desc": "Front tally lamp that lights while recording.",
+     "kw": [
+      "tally",
+      "red light",
+      "recording light",
+      "lamp",
+      "rec light"
+     ]
+    },
+    {
+     "key": "is-image-stabilizer-mode",
+     "row": 3,
+     "label": "IS (Image Stabilizer) mode",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0190.html",
+     "subs": [
+      "IS mode",
+      "Digital IS"
+     ],
+     "opts": [
+      "On",
+      "Off",
+      "Enhanced"
+     ],
+     "topics": [
+      "Movie Digital IS"
+     ],
+     "desc": "In-body/lens image stabilization settings, including Digital IS and Movie IS, and the focal length for non-communicating lenses.",
+     "kw": [
+      "ibis",
+      "is",
+      "image stabilization",
+      "stabilizer",
+      "stabilisation",
+      "steady",
+      "shake",
+      "digital is",
+      "movie is",
+      "enhanced is",
+      "focal length",
+      "manual lens",
+      "vintage lens",
+      "adapted lens",
+      "tripod"
+     ]
+    },
+    {
+     "key": "movie-auto-level",
+     "row": 4,
+     "label": "{movie}Auto level",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0200.html",
+     "subs": [],
+     "opts": [
+      "Digital IS",
+      "Off"
+     ],
+     "topics": [],
+     "desc": "Keeps movies level (corrects camera tilt) during recording.",
+     "kw": [
+      "auto level",
+      "horizon",
+      "horizon leveling",
+      "tilt",
+      "straighten",
+      "level video"
+     ]
+    },
+    {
+     "key": "customize-quick-controls",
+     "row": 5,
+     "label": "Customize Quick Controls",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0340.html",
+     "subs": [
+      "Edit layout",
+      "Save and exit"
+     ],
+     "opts": [
+      "Reset settings",
+      "Clear all items"
+     ],
+     "topics": [],
+     "desc": "Choose and arrange the items on the Q (Quick Control) screen.",
+     "kw": [
+      "q menu",
+      "quick menu",
+      "quick control",
+      "q button",
+      "customize q",
+      "function menu"
+     ]
+    },
+    {
+     "key": "metering-timer",
+     "row": 6,
+     "label": "Metering timer",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0380.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "How long exposure info stays active after you release the shutter button.",
+     "kw": [
+      "metering timer",
+      "meter",
+      "exposure lock time"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     7,
+     10
+    ]
+   }
+  },
+  {
+   "id": "shoot-movie-8",
+   "tab": "shoot",
+   "modes": [
+    "movie"
+   ],
+   "name": "Assist shooting",
+   "items": [
+    {
+     "key": "metadata",
+     "row": 1,
+     "label": "Metadata",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0270.html",
+     "subs": [
+      "Add News Metadata",
+      "News Metadata",
+      "Clear Metadata settings",
+      "News Metadata status"
+     ],
+     "opts": [
+      "On",
+      "OK",
+      "Add File",
+      "function"
+     ],
+     "topics": [
+      "Preparing to Embed XML Files",
+      "Embedding XML Files",
+      "Clearing Metadata Settings",
+      "Checking Metadata Status",
+      "Embedding Custom Picture Files"
+     ],
+     "desc": "Adds news/XML metadata to movie files.",
+     "kw": [
+      "metadata",
+      "xml",
+      "news metadata",
+      "broadcast"
+     ]
+    },
+    {
+     "key": "time-code",
+     "row": 2,
+     "label": "Time code",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0280.html",
+     "subs": [],
+     "opts": [
+      "Rec run",
+      "Free run",
+      "Manual input setting",
+      "Reset",
+      "Set to camera time",
+      "Rec time",
+      "Movie rec count",
+      "Off",
+      "On",
+      "Rec Command",
+      "Count up",
+      "Enable",
+      "Disable",
+      "Drop frame",
+      "50.00Hz:PAL"
+     ],
+     "topics": [
+      "Count Up",
+      "Start Time Setting",
+      "Movie Recording Count",
+      "Movie Play Count",
+      "HDMI",
+      "Drop Frame"
+     ],
+     "desc": "Time code for movies: count up, start time, drop frame, HDMI output and user bit.",
+     "kw": [
+      "timecode",
+      "time code",
+      "tc",
+      "free run",
+      "rec run",
+      "drop frame",
+      "sync",
+      "user bit"
+     ]
+    },
+    {
+     "key": "stills-movie-play-hdr-c-log-view-assist",
+     "row": 3,
+     "label": "{stills}{movie}{play}HDR/C.Log View Assist.",
+     "creative": true,
+     "ref": "UG-03_Shooting-1_0390.html",
+     "subs": [],
+     "opts": [
+      "HDR PQ",
+      "Gamma/Color Space",
+      "Look File",
+      "On",
+      "HDMI"
+     ],
+     "topics": [
+      "View Assist Display Conditions",
+      "View Assist Display Settings"
+     ],
+     "desc": "View assist: shows a normal-looking image on the screen while shooting HDR PQ or Canon Log.",
+     "kw": [
+      "view assist",
+      "log preview",
+      "lut",
+      "clog",
+      "canon log",
+      "hdr assist",
+      "bt709",
+      "monitoring lut"
+     ]
+    },
+    {
+     "key": "false-color-set",
+     "row": 4,
+     "label": "False color set.",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0210.html",
+     "subs": [
+      "False color"
+     ],
+     "opts": [
+      "On",
+      "False color index"
+     ],
+     "topics": [
+      "False Color Display"
+     ],
+     "desc": "False color exposure display for movies.",
+     "kw": [
+      "false color",
+      "exposure tool",
+      "ire"
+     ]
+    },
+    {
+     "key": "zebra-settings",
+     "row": 5,
+     "label": "Zebra settings",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0220.html",
+     "subs": [
+      "Zebra",
+      "Zebra pattern"
+     ],
+     "opts": [
+      "On",
+      "Zebra 1",
+      "Zebra 2",
+      "Zebra 1+2",
+      "Zebra 1 level",
+      "Zebra 2 level",
+      "Canon Log 2",
+      "Canon Log 3"
+     ],
+     "topics": [],
+     "desc": "Zebra stripes that show over- or correctly-exposed areas, with adjustable levels.",
+     "kw": [
+      "zebra",
+      "zebras",
+      "overexposure",
+      "stripes",
+      "exposure warning",
+      "ire",
+      "highlight warning"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     8,
+     10
+    ]
+   }
+  },
+  {
+   "id": "shoot-movie-9",
+   "tab": "shoot",
+   "modes": [
+    "movie"
+   ],
+   "name": "Assist shooting",
+   "items": [
+    {
+     "key": "shooting-info-disp",
+     "row": 1,
+     "label": "Shooting info. disp.",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0230.html",
+     "subs": [
+      "Waveform setting",
+      "Wave. monitor disp.",
+      "Recording emphasis",
+      "Aspect marker"
+     ],
+     "opts": [
+      "On",
+      "Type",
+      "Line",
+      "RGB",
+      "Off"
+     ],
+     "topics": [
+      "Waveform Setting",
+      "Recording Emphasis",
+      "Aspect Marker"
+     ],
+     "desc": "What the screen and EVF show: info screens, grid, histogram, waveform, electronic level size, card space, aspect markers.",
+     "kw": [
+      "grid display",
+      "shooting grid",
+      "grid",
+      "grid lines",
+      "rule of thirds",
+      "histogram",
+      "waveform",
+      "electronic level",
+      "level",
+      "horizon",
+      "info display",
+      "overlay",
+      "aspect marker",
+      "frame lines",
+      "card space",
+      "display info",
+      "info button",
+      "vertical display"
+     ]
+    },
+    {
+     "key": "quick-ctrl-screen",
+     "row": 2,
+     "label": "Quick Ctrl screen",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0240.html",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Which Quick Control screen style appears in movie mode.",
+     "kw": [
+      "q screen",
+      "quick control",
+      "q menu",
+      "movie quick control"
+     ]
+    },
+    {
+     "key": "vf-display-format",
+     "row": 3,
+     "label": "VF display format",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0460.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Choose how shooting info is laid out in the viewfinder.",
+     "kw": [
+      "viewfinder layout",
+      "evf info",
+      "viewfinder display",
+      "info outside image"
+     ]
+    },
+    {
+     "key": "reverse-display",
+     "row": 4,
+     "label": "Reverse display",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0440.html",
+     "subs": [],
+     "opts": [
+      "Off"
+     ],
+     "topics": [],
+     "desc": "Mirrored (selfie) view when the screen faces forward.",
+     "kw": [
+      "mirror",
+      "selfie",
+      "flip screen",
+      "vlog",
+      "mirror image"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     9,
+     10
+    ]
+   }
+  },
+  {
+   "id": "shoot-movie-10",
+   "tab": "shoot",
+   "modes": [
+    "movie"
+   ],
+   "name": "Assist shooting/HDMI",
+   "items": [
+    {
+     "key": "auto-pwr-off-temp",
+     "row": 1,
+     "label": "Auto pwr off temp.",
+     "creative": false,
+     "ref": "UG-03_Shooting-1_0470.html",
+     "subs": [],
+     "opts": [
+      "High",
+      "OK"
+     ],
+     "topics": [],
+     "desc": "How hot the camera may get during recording before it shuts down: Standard or High.",
+     "kw": [
+      "overheating",
+      "heat",
+      "temperature",
+      "overheat",
+      "auto power off temperature",
+      "hot"
+     ]
+    },
+    {
+     "key": "standby-low-res",
+     "row": 2,
+     "label": "Standby: Low res.",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0250.html",
+     "subs": [],
+     "opts": [
+      "On"
+     ],
+     "topics": [],
+     "desc": "Lowers live view resolution while not recording to save power and heat.",
+     "kw": [
+      "standby",
+      "low resolution",
+      "overheating",
+      "heat",
+      "battery"
+     ]
+    },
+    {
+     "key": "shutdown-warning-guidance",
+     "row": 3,
+     "label": "Shutdown warning guidance",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0290.html#Shooting-2_0290_2-1",
+     "subs": [],
+     "opts": [
+      "Off"
+     ],
+     "topics": [],
+     "desc": "Shows a warning when the camera is about to shut down from heat.",
+     "kw": [
+      "overheat warning",
+      "shutdown",
+      "temperature warning"
+     ]
+    },
+    {
+     "key": "hdmi-display",
+     "row": 4,
+     "label": "HDMI display",
+     "creative": false,
+     "ref": "UG-03_Shooting-2_0290.html#Shooting-2_0290_2-2",
+     "subs": [],
+     "opts": [
+      "On",
+      "Auto power off",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "What the HDMI output shows: clean output or with info, and whether the camera screen stays on.",
+     "kw": [
+      "hdmi",
+      "clean hdmi",
+      "external monitor",
+      "recorder",
+      "atomos",
+      "ninja",
+      "hdmi info",
+      "clean output"
+     ]
+    },
+    {
+     "key": "hdmi-raw-output",
+     "row": 5,
+     "label": "HDMI RAW output",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0290.html#Shooting-2_0290_2-3",
+     "subs": [],
+     "opts": [
+      "On",
+      "Rec Command",
+      "function",
+      "HDMI"
+     ],
+     "topics": [],
+     "desc": "Sends RAW video over HDMI to an external recorder (e.g. ProRes RAW).",
+     "kw": [
+      "prores raw",
+      "raw over hdmi",
+      "atomos",
+      "ninja",
+      "external recorder",
+      "hdmi raw"
+     ]
+    },
+    {
+     "key": "hdmi-output-range-for-c-log",
+     "row": 6,
+     "label": "HDMI output range for C. Log",
+     "creative": true,
+     "ref": "UG-03_Shooting-2_0260.html",
+     "subs": [],
+     "opts": [
+      "Prioritize Full Range",
+      "Narrow Range",
+      "On"
+     ],
+     "topics": [],
+     "desc": "HDMI signal range (full or narrow) when outputting Canon Log.",
+     "kw": [
+      "hdmi range",
+      "full range",
+      "legal range",
+      "narrow range",
+      "data levels"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     10,
+     10
+    ]
+   }
+  },
+  {
+   "id": "af-photo-1",
+   "tab": "af",
+   "modes": [
+    "photo"
+   ],
+   "name": "AF operation/area",
+   "items": [
+    {
+     "key": "af-operation",
+     "row": 1,
+     "label": "AF operation",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0040.html",
+     "subs": [],
+     "opts": [
+      "AF",
+      "Disable",
+      "One-Shot AF",
+      "Servo AF"
+     ],
+     "topics": [
+      "One-Shot AF for Still Subjects",
+      "Servo AF for Moving Subjects",
+      "AI Focus AF for Automatic AF Mode Switching"
+     ],
+     "desc": "One-Shot AF (locks focus) or Servo AF (tracks moving subjects).",
+     "kw": [
+      "one shot",
+      "one-shot",
+      "servo",
+      "ai servo",
+      "af-s",
+      "af-c",
+      "single af",
+      "continuous af",
+      "focus mode",
+      "tracking"
+     ]
+    },
+    {
+     "key": "af-area",
+     "row": 2,
+     "label": "AF area",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0060.html",
+     "subs": [
+      "Sport events"
+     ],
+     "opts": [
+      "Off",
+      "On",
+      "None",
+      "Spot AF",
+      "1-point AF",
+      "Expand AF area:",
+      "Expand AF area: Around",
+      "Flexible Zone AF 1",
+      "Flexible Zone AF 2",
+      "Flexible Zone AF 3",
+      "Whole area AF",
+      "Separate AF pts: Area+pt",
+      "Servo AF",
+      "One-Shot AF",
+      "Disable",
+      "Auto",
+      "People",
+      "Animals",
+      "Vehicles",
+      "AF on detected subject",
+      "Right eye",
+      "Left eye",
+      "Electronic",
+      "Enable",
+      "Start/stop whole area AF tracking",
+      "Direct AF point selection",
+      "Metering and AF start",
+      "Switch to registered AF point",
+      "Register/recall shooting func",
+      "Separate AF pts: Pt only"
+     ],
+     "topics": [
+      "Selecting the AF Area",
+      "Whole Area Tracking Servo AF",
+      "Subject to Detect",
+      "Manually selecting a subject for focus",
+      "Eye Detection",
+      "Action Priority",
+      "Tracking with a Button",
+      "Manually Setting AF Points or Zone AF Frames",
+      "Adjusting the Zone AF Frame Size",
+      "Registering AF Points (Home Position)",
+      "Magnified View",
+      "AF Shooting Tips"
+     ],
+     "desc": "AF area: Spot, 1-point, Expand AF area, Flexible Zone 1-3 or Whole area AF.",
+     "kw": [
+      "af area",
+      "af point",
+      "focus point",
+      "zone af",
+      "spot af",
+      "1 point",
+      "single point",
+      "expand",
+      "flexible zone",
+      "whole area",
+      "focus area",
+      "af frame"
+     ]
+    },
+    {
+     "key": "whole-area-tracking-servo-af",
+     "row": 3,
+     "label": "Whole area tracking Servo AF",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0060.html#AF-Drive_0060_3",
+     "subs": [],
+     "opts": [
+      "Servo AF",
+      "On",
+      "Off"
+     ],
+     "topics": [],
+     "desc": "In Servo AF, lets tracking follow the subject anywhere in the frame, starting from your chosen AF area.",
+     "kw": [
+      "tracking",
+      "subject tracking",
+      "whole area tracking",
+      "track anywhere",
+      "servo tracking"
+     ]
+    },
+    {
+     "key": "focus-mode",
+     "row": 4,
+     "label": "Focus mode",
+     "creative": false,
+     "ref": "UG-04_AF-Drive_0070.html",
+     "subs": [
+      "Peaking",
+      "Level",
+      "Color"
+     ],
+     "opts": [
+      "MF",
+      "On",
+      "Off",
+      "HDR PQ",
+      "None",
+      "Disable"
+     ],
+     "topics": [
+      "Setting MF Peaking (Outline Emphasis)",
+      "Focus Guide"
+     ],
+     "desc": "AF or MF, shown when the lens has no AF/MF switch.",
+     "kw": [
+      "manual focus",
+      "mf",
+      "af mf switch",
+      "autofocus off"
+     ]
+    }
+   ],
+   "notes": [
+    "When lenses without a focus mode switch are used, [Focus mode] is displayed on the [ 1] tab."
+   ],
+   "pos": {
+    "photo": [
+     1,
+     7
+    ]
+   }
+  },
+  {
+   "id": "af-photo-2",
+   "tab": "af",
+   "modes": [
+    "photo"
+   ],
+   "name": "Subject detection",
+   "items": [
+    {
+     "key": "subject-to-detect",
+     "row": 1,
+     "label": "Subject to detect",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0060.html#AF-Drive_0060_4",
+     "subs": [],
+     "opts": [
+      "None",
+      "Disable",
+      "Auto",
+      "People",
+      "Animals",
+      "Vehicles",
+      "Off",
+      "Whole area AF",
+      "AF on detected subject",
+      "One-Shot AF"
+     ],
+     "topics": [
+      "Manually selecting a subject for focus"
+     ],
+     "desc": "What AF looks for: People, Animals, Vehicles, Auto or None.",
+     "kw": [
+      "subject detection",
+      "animal af",
+      "bird af",
+      "dog",
+      "cat",
+      "bird",
+      "vehicle",
+      "car",
+      "motorsport",
+      "train",
+      "plane",
+      "face detection",
+      "people",
+      "auto detect",
+      "eye af"
+     ]
+    },
+    {
+     "key": "eye-detection",
+     "row": 2,
+     "label": "Eye detection",
+     "creative": false,
+     "ref": "UG-04_AF-Drive_0060.html#AF-Drive_0060_5",
+     "subs": [],
+     "opts": [
+      "Disable",
+      "Auto",
+      "Right eye",
+      "Left eye",
+      "Whole area AF",
+      "None"
+     ],
+     "topics": [],
+     "desc": "Eye AF: Auto, right eye, left eye or off.",
+     "kw": [
+      "eye af",
+      "eye detection",
+      "eye tracking",
+      "eye focus",
+      "left eye",
+      "right eye",
+      "face"
+     ]
+    },
+    {
+     "key": "register-people-priority",
+     "row": 3,
+     "label": "Register people priority",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0080.html",
+     "subs": [
+      "Photograph people and register",
+      "Reg. people from image on card",
+      "Change/del. priority of reg. people",
+      "Delete all registered people",
+      "Save/load registered data on card",
+      "Save registration data on card"
+     ],
+     "opts": [
+      "OK",
+      "People",
+      "Enable",
+      "Factory reset",
+      "Load from card (overwrite)",
+      "Load from card (add)"
+     ],
+     "topics": [
+      "Registering Faces",
+      "Registering people by taking their picture",
+      "Registering people from images on the card",
+      "Changing or Removing the Priority of Registered People",
+      "Changing detection priority",
+      "Removing registered people",
+      "Enabling Detection of Registered People's Faces",
+      "Clearing All Registered People",
+      "Saving and Loading Registered Data"
+     ],
+     "desc": "Register faces so AF prioritizes those people.",
+     "kw": [
+      "face registration",
+      "face priority",
+      "register face",
+      "favorite people",
+      "family",
+      "kids",
+      "registered people"
+     ]
+    },
+    {
+     "key": "action-priority",
+     "row": 4,
+     "label": "Action Priority",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0060.html#AF-Drive_0060_6",
+     "subs": [
+      "Sport events"
+     ],
+     "opts": [
+      "People",
+      "Electronic",
+      "Enable",
+      "Off"
+     ],
+     "topics": [],
+     "desc": "Sports-aware AF: recognizes typical actions in supported sports and prioritizes the players doing them.",
+     "kw": [
+      "sports af",
+      "action priority",
+      "soccer",
+      "basketball",
+      "volleyball",
+      "football",
+      "american football",
+      "player tracking"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     2,
+     7
+    ]
+   }
+  },
+  {
+   "id": "af-photo-3",
+   "tab": "af",
+   "modes": [
+    "photo"
+   ],
+   "name": "Servo AF character.",
+   "items": [
+    {
+     "key": "case-auto",
+     "row": 1,
+     "label": "Case Auto",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0090.html#AF-Drive_0090_1",
+     "subs": [],
+     "opts": [
+      "AUTO",
+      "Locked on",
+      "Responsive"
+     ],
+     "topics": [],
+     "desc": "Case Auto: the camera adjusts Servo AF tracking behavior automatically.",
+     "kw": [
+      "af case",
+      "servo case",
+      "case auto",
+      "tracking characteristics"
+     ]
+    },
+    {
+     "key": "case-auto-character",
+     "row": 2,
+     "label": "Case Auto character.",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0090.html#AF-Drive_0090_1-1",
+     "subs": [],
+     "opts": [
+      "Locked on",
+      "Responsive"
+     ],
+     "topics": [],
+     "desc": "Bias for Case Auto: Locked on vs. Responsive.",
+     "kw": [
+      "tracking sensitivity",
+      "locked on",
+      "responsive",
+      "af case"
+     ]
+    },
+    {
+     "key": "case-manual",
+     "row": 3,
+     "label": "Case Manual",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0090.html#AF-Drive_0090_2",
+     "subs": [],
+     "opts": [
+      "Locked on",
+      "Responsive"
+     ],
+     "topics": [],
+     "desc": "Case Manual: set Servo AF tracking parameters yourself.",
+     "kw": [
+      "af case",
+      "manual case",
+      "tracking characteristics",
+      "servo settings"
+     ]
+    },
+    {
+     "key": "tracking-sensitivity",
+     "row": 4,
+     "label": "Tracking sensitivity",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0090.html#AF-Drive_0090_2-1",
+     "subs": [],
+     "opts": [
+      "Locked on",
+      "Responsive"
+     ],
+     "topics": [],
+     "desc": "How readily Servo AF switches to obstacles vs. stays on the subject.",
+     "kw": [
+      "tracking sensitivity",
+      "locked on",
+      "responsive",
+      "obstacles",
+      "sticky af"
+     ]
+    },
+    {
+     "key": "accel-decel-tracking",
+     "row": 5,
+     "label": "Accel./decel. tracking",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0090.html#AF-Drive_0090_2-2",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "How Servo AF handles subjects that suddenly speed up, stop or change direction.",
+     "kw": [
+      "acceleration",
+      "deceleration",
+      "speed changes",
+      "erratic subject",
+      "sports af"
+     ]
+    },
+    {
+     "key": "case-special",
+     "row": 6,
+     "label": "Case Special",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0090.html#AF-Drive_0090_3",
+     "subs": [],
+     "opts": [
+      "SP"
+     ],
+     "topics": [],
+     "desc": "Case Special: Servo AF tuned for subjects behind nets or obstacles (badminton, volleyball).",
+     "kw": [
+      "af case",
+      "case sp",
+      "through net",
+      "obstacle",
+      "volleyball",
+      "badminton",
+      "servo case"
+     ]
+    }
+   ],
+   "layout": "graphic",
+   "notes": [
+    "This page is a picture, not a list: pick AUTO (Case Auto), M (Case Manual) or SP (Case Special) on the left, then adjust the settings shown for it. Row numbers here follow the manual's callouts."
+   ],
+   "pos": {
+    "photo": [
+     3,
+     7
+    ]
+   }
+  },
+  {
+   "id": "af-photo-4",
+   "tab": "af",
+   "modes": [
+    "photo"
+   ],
+   "name": "Customize AF operation",
+   "items": [
+    {
+     "key": "servo-1st-image-priority",
+     "row": 1,
+     "label": "Servo 1st image priority",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_1-1",
+     "subs": [],
+     "opts": [
+      "Equal priority",
+      "Release",
+      "Focus"
+     ],
+     "topics": [],
+     "desc": "First shot in Servo AF: release priority (shoot now) or focus priority.",
+     "kw": [
+      "release priority",
+      "focus priority",
+      "first shot",
+      "servo priority"
+     ]
+    },
+    {
+     "key": "one-shot-af-release-prior",
+     "row": 2,
+     "label": "One-Shot AF release prior.",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_1-2",
+     "subs": [],
+     "opts": [
+      "Focus",
+      "Release"
+     ],
+     "topics": [
+      "One-Shot AF release priority"
+     ],
+     "desc": "In One-Shot AF, whether the shutter can fire before focus is confirmed.",
+     "kw": [
+      "release priority",
+      "focus priority",
+      "shoot without focus",
+      "one shot priority"
+     ]
+    },
+    {
+     "key": "preview-af",
+     "row": 3,
+     "label": "Preview AF",
+     "creative": false,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_1-3",
+     "subs": [],
+     "opts": [
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Keeps focusing continuously even before you half-press (faster AF, more battery use).",
+     "kw": [
+      "continuous af",
+      "pre af",
+      "always focus",
+      "preview af"
+     ]
+    },
+    {
+     "key": "lens-drive-when-af-impossible",
+     "row": 4,
+     "label": "Lens drive when AF impossible",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_1-4",
+     "subs": [],
+     "opts": [
+      "ON",
+      "Continue focus search",
+      "OFF",
+      "Stop focus search"
+     ],
+     "topics": [
+      "Lens operation when AF is not available"
+     ],
+     "desc": "Whether the lens keeps hunting (focus search) when it can't find focus.",
+     "kw": [
+      "focus hunting",
+      "hunting",
+      "focus search",
+      "lens hunt"
+     ]
+    },
+    {
+     "key": "af-assist-beam-firing",
+     "row": 5,
+     "label": "AF-assist beam firing",
+     "creative": false,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_1-5",
+     "subs": [],
+     "opts": [
+      "ON",
+      "Enable",
+      "OFF",
+      "Disable",
+      "LED",
+      "LED AF assist beam only"
+     ],
+     "topics": [],
+     "desc": "Turns the AF-assist light on or off.",
+     "kw": [
+      "af assist",
+      "af light",
+      "focus light",
+      "red light",
+      "assist beam",
+      "af illuminator",
+      "orange light"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     4,
+     7
+    ]
+   }
+  },
+  {
+   "id": "af-photo-5",
+   "tab": "af",
+   "modes": [
+    "photo"
+   ],
+   "name": "Customized controls",
+   "items": [
+    {
+     "key": "limit-af-areas",
+     "row": 1,
+     "label": "Limit AF areas",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_2-1",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Hide AF area modes you don't use so switching is quicker.",
+     "kw": [
+      "limit af area",
+      "af modes",
+      "hide af area",
+      "restrict af"
+     ]
+    },
+    {
+     "key": "orientation-linked-af-point",
+     "row": 2,
+     "label": "Orientation linked AF point",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_2-2",
+     "subs": [],
+     "opts": [
+      "Same for both vert/horiz",
+      "Separate AF pts: Area+pt",
+      "Separate AF pts: Pt only",
+      "Basic settings"
+     ],
+     "topics": [
+      "Orientation-linked AF points"
+     ],
+     "desc": "Separate AF points/areas for horizontal and vertical holds.",
+     "kw": [
+      "vertical af point",
+      "portrait orientation",
+      "orientation",
+      "remember af point",
+      "vertical"
+     ]
+    },
+    {
+     "key": "limit-subject-to-detect",
+     "row": 3,
+     "label": "Limit subject to detect",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_2-3",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Hide subject types you don't use so switching is quicker.",
+     "kw": [
+      "limit subject",
+      "subject types",
+      "hide subjects"
+     ]
+    },
+    {
+     "key": "l-r-eye-detection",
+     "row": 4,
+     "label": "L/R eye detection",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_2-4",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [
+      "Left/right eye detection"
+     ],
+     "desc": "Hide Eye detection options (Auto / Right eye / Left eye) you don't use, so switching between them is quicker.",
+     "kw": [
+      "left eye",
+      "right eye",
+      "eye selection",
+      "switch eye"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     5,
+     7
+    ]
+   }
+  },
+  {
+   "id": "af-photo-6",
+   "tab": "af",
+   "modes": [
+    "photo"
+   ],
+   "name": "MF related",
+   "items": [
+    {
+     "key": "mf-peaking-settings",
+     "row": 1,
+     "label": "MF peaking settings",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0070.html#AF-Drive_0070_1",
+     "subs": [
+      "Peaking",
+      "Level",
+      "Color"
+     ],
+     "opts": [
+      "On",
+      "Off",
+      "HDR PQ"
+     ],
+     "topics": [
+      "Setting MF Peaking (Outline Emphasis)"
+     ],
+     "desc": "Focus peaking: on/off, level and color.",
+     "kw": [
+      "focus peaking",
+      "peaking",
+      "manual focus aid",
+      "mf assist",
+      "outline",
+      "focus highlight"
+     ]
+    },
+    {
+     "key": "focus-guide",
+     "row": 2,
+     "label": "Focus guide",
+     "creative": false,
+     "ref": "UG-04_AF-Drive_0070.html#AF-Drive_0070_2",
+     "subs": [],
+     "opts": [
+      "On",
+      "None",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "On-screen guide showing which way to turn the focus ring and when focus is reached.",
+     "kw": [
+      "focus guide",
+      "manual focus aid",
+      "focus assist",
+      "mf guide"
+     ]
+    },
+    {
+     "key": "lens-electronic-mf",
+     "row": 3,
+     "label": "Lens electronic MF",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_3-1",
+     "subs": [],
+     "opts": [
+      "OFF",
+      "Disable",
+      "Disable after One-Shot",
+      "One-Shot→enabled",
+      "One-Shot→enabled (magnify)",
+      "ON",
+      "Enable (actual size)",
+      "Enable (One-Shot→magnify)"
+     ],
+     "topics": [],
+     "desc": "Full-time manual focus with the focus ring after or during AF.",
+     "kw": [
+      "full time manual",
+      "ftm",
+      "manual override",
+      "focus ring override",
+      "af+mf",
+      "dmf"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     6,
+     7
+    ]
+   }
+  },
+  {
+   "id": "af-photo-7",
+   "tab": "af",
+   "modes": [
+    "photo"
+   ],
+   "name": "Various settings/Various settings",
+   "items": [
+    {
+     "key": "register-recall-af-related-settings",
+     "row": 1,
+     "label": "Register/recall AF-related settings",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_4-1",
+     "subs": [
+      "Register settings",
+      "Recall",
+      "Save to card",
+      "Load from card"
+     ],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Save a set of AF settings and recall them quickly.",
+     "kw": [
+      "save af settings",
+      "af preset",
+      "recall af",
+      "af memory"
+     ]
+    },
+    {
+     "key": "af-setting-guide-url",
+     "row": 2,
+     "label": "AF Setting Guide URL",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_4-2",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "QR code linking to Canon's online AF setting guide.",
+     "kw": [
+      "af guide",
+      "qr code",
+      "af help"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     7,
+     7
+    ]
+   }
+  },
+  {
+   "id": "af-movie-1",
+   "tab": "af",
+   "modes": [
+    "movie"
+   ],
+   "name": "AF operation/area",
+   "items": [
+    {
+     "key": "movie-servo-af",
+     "row": 1,
+     "label": "Movie Servo AF",
+     "creative": false,
+     "ref": "UG-04_AF-Drive_0050.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Movie Servo AF paused",
+      "Disable",
+      "Detect. priority",
+      "Detect. only"
+     ],
+     "topics": [
+      "Subject Detection AF"
+     ],
+     "desc": "Continuous AF while recording movies.",
+     "kw": [
+      "video af",
+      "continuous af video",
+      "movie af",
+      "af during recording",
+      "dual pixel af"
+     ]
+    },
+    {
+     "key": "af-area",
+     "row": 2,
+     "label": "AF area",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0060.html#AF-Drive_0060_1",
+     "subs": [],
+     "opts": [
+      "Off",
+      "On",
+      "None",
+      "Spot AF",
+      "1-point AF",
+      "Expand AF area:",
+      "Expand AF area: Around",
+      "Flexible Zone AF 1",
+      "Flexible Zone AF 2",
+      "Flexible Zone AF 3",
+      "Whole area AF"
+     ],
+     "topics": [],
+     "desc": "AF area: Spot, 1-point, Expand AF area, Flexible Zone 1-3 or Whole area AF.",
+     "kw": [
+      "af area",
+      "af point",
+      "focus point",
+      "zone af",
+      "spot af",
+      "1 point",
+      "single point",
+      "expand",
+      "flexible zone",
+      "whole area",
+      "focus area",
+      "af frame"
+     ]
+    },
+    {
+     "key": "focus-mode",
+     "row": 3,
+     "label": "Focus mode",
+     "creative": false,
+     "ref": "UG-04_AF-Drive_0070.html",
+     "subs": [
+      "Peaking",
+      "Level",
+      "Color"
+     ],
+     "opts": [
+      "MF",
+      "On",
+      "Off",
+      "HDR PQ",
+      "None",
+      "Disable"
+     ],
+     "topics": [
+      "Setting MF Peaking (Outline Emphasis)",
+      "Focus Guide"
+     ],
+     "desc": "AF or MF, shown when the lens has no AF/MF switch.",
+     "kw": [
+      "manual focus",
+      "mf",
+      "af mf switch",
+      "autofocus off"
+     ]
+    }
+   ],
+   "notes": [
+    "When lenses without a focus mode switch are used, [Focus mode] is displayed on the [ 1] tab."
+   ],
+   "pos": {
+    "movie": [
+     1,
+     5
+    ]
+   }
+  },
+  {
+   "id": "af-movie-2",
+   "tab": "af",
+   "modes": [
+    "movie"
+   ],
+   "name": "Subject detection",
+   "items": [
+    {
+     "key": "subject-to-detect",
+     "row": 1,
+     "label": "Subject to detect",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0060.html#AF-Drive_0060_4",
+     "subs": [],
+     "opts": [
+      "None",
+      "Disable",
+      "Auto",
+      "People",
+      "Animals",
+      "Vehicles",
+      "Off",
+      "Whole area AF",
+      "AF on detected subject",
+      "One-Shot AF"
+     ],
+     "topics": [
+      "Manually selecting a subject for focus"
+     ],
+     "desc": "What AF looks for: People, Animals, Vehicles, Auto or None.",
+     "kw": [
+      "subject detection",
+      "animal af",
+      "bird af",
+      "dog",
+      "cat",
+      "bird",
+      "vehicle",
+      "car",
+      "motorsport",
+      "train",
+      "plane",
+      "face detection",
+      "people",
+      "auto detect",
+      "eye af"
+     ]
+    },
+    {
+     "key": "eye-detection",
+     "row": 2,
+     "label": "Eye detection",
+     "creative": false,
+     "ref": "UG-04_AF-Drive_0060.html#AF-Drive_0060_5",
+     "subs": [],
+     "opts": [
+      "Disable",
+      "Auto",
+      "Right eye",
+      "Left eye",
+      "Whole area AF",
+      "None"
+     ],
+     "topics": [],
+     "desc": "Eye AF: Auto, right eye, left eye or off.",
+     "kw": [
+      "eye af",
+      "eye detection",
+      "eye tracking",
+      "eye focus",
+      "left eye",
+      "right eye",
+      "face"
+     ]
+    },
+    {
+     "key": "register-people-priority",
+     "row": 3,
+     "label": "Register people priority",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0080.html",
+     "subs": [
+      "Photograph people and register",
+      "Reg. people from image on card",
+      "Change/del. priority of reg. people",
+      "Delete all registered people",
+      "Save/load registered data on card",
+      "Save registration data on card"
+     ],
+     "opts": [
+      "OK",
+      "People",
+      "Enable",
+      "Factory reset",
+      "Load from card (overwrite)",
+      "Load from card (add)"
+     ],
+     "topics": [
+      "Registering Faces",
+      "Registering people by taking their picture",
+      "Registering people from images on the card",
+      "Changing or Removing the Priority of Registered People",
+      "Changing detection priority",
+      "Removing registered people",
+      "Enabling Detection of Registered People's Faces",
+      "Clearing All Registered People",
+      "Saving and Loading Registered Data"
+     ],
+     "desc": "Register faces so AF prioritizes those people.",
+     "kw": [
+      "face registration",
+      "face priority",
+      "register face",
+      "favorite people",
+      "family",
+      "kids",
+      "registered people"
+     ]
+    },
+    {
+     "key": "switching-tracked-subjects",
+     "row": 4,
+     "label": "Switching tracked subjects",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_5-1",
+     "subs": [],
+     "opts": [
+      "Standard",
+      "Locked on",
+      "Responsive"
+     ],
+     "topics": [],
+     "desc": "How readily movie AF switches to a different subject.",
+     "kw": [
+      "subject switching",
+      "af sensitivity",
+      "tracking switch",
+      "video af switching"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     2,
+     5
+    ]
+   }
+  },
+  {
+   "id": "af-movie-3",
+   "tab": "af",
+   "modes": [
+    "movie"
+   ],
+   "name": "Servo AF character.",
+   "items": [
+    {
+     "key": "af-for-close-up-demos",
+     "row": 1,
+     "label": "AF for close-up demos",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_6-3",
+     "subs": [],
+     "opts": [
+      "On"
+     ],
+     "topics": [],
+     "desc": "Movie AF that prioritizes objects held up to the camera (product reviews, demos).",
+     "kw": [
+      "product review",
+      "product demo",
+      "close up demo",
+      "vlog",
+      "product showcase",
+      "macro video"
+     ]
+    },
+    {
+     "key": "movie-servo-af-speed",
+     "row": 2,
+     "label": "Movie Servo AF speed",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_6-1",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "AF speed",
+      "Standard"
+     ],
+     "topics": [],
+     "desc": "How fast focus moves in movie AF, and when the speed setting applies.",
+     "kw": [
+      "af speed",
+      "focus speed",
+      "rack focus",
+      "smooth focus",
+      "focus transition"
+     ]
+    },
+    {
+     "key": "movie-servo-af-track-sens",
+     "row": 3,
+     "label": "Movie Servo AF track sens.",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_6-2",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Locked on",
+      "Responsive"
+     ],
+     "topics": [
+      "Movie Servo AF tracking sensitivity"
+     ],
+     "desc": "How sticky movie AF is when something crosses the subject or you pan (Locked on vs. Responsive).",
+     "kw": [
+      "tracking sensitivity",
+      "video af sensitivity",
+      "locked on",
+      "responsive",
+      "af stickiness"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     3,
+     5
+    ]
+   }
+  },
+  {
+   "id": "af-movie-4",
+   "tab": "af",
+   "modes": [
+    "movie"
+   ],
+   "name": "Customize AF operation/Customized controls",
+   "items": [
+    {
+     "key": "lens-drive-when-af-impossible",
+     "row": 1,
+     "label": "Lens drive when AF impossible",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_1-4",
+     "subs": [],
+     "opts": [
+      "ON",
+      "Continue focus search",
+      "OFF",
+      "Stop focus search"
+     ],
+     "topics": [
+      "Lens operation when AF is not available"
+     ],
+     "desc": "Whether the lens keeps hunting (focus search) when it can't find focus.",
+     "kw": [
+      "focus hunting",
+      "hunting",
+      "focus search",
+      "lens hunt"
+     ]
+    },
+    {
+     "key": "limit-af-areas",
+     "row": 2,
+     "label": "Limit AF areas",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_2-1",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Hide AF area modes you don't use so switching is quicker.",
+     "kw": [
+      "limit af area",
+      "af modes",
+      "hide af area",
+      "restrict af"
+     ]
+    },
+    {
+     "key": "limit-subject-to-detect",
+     "row": 3,
+     "label": "Limit subject to detect",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_2-3",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Hide subject types you don't use so switching is quicker.",
+     "kw": [
+      "limit subject",
+      "subject types",
+      "hide subjects"
+     ]
+    },
+    {
+     "key": "l-r-eye-detection",
+     "row": 4,
+     "label": "L/R eye detection",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_2-4",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [
+      "Left/right eye detection"
+     ],
+     "desc": "Hide Eye detection options (Auto / Right eye / Left eye) you don't use, so switching between them is quicker.",
+     "kw": [
+      "left eye",
+      "right eye",
+      "eye selection",
+      "switch eye"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     4,
+     5
+    ]
+   }
+  },
+  {
+   "id": "af-movie-5",
+   "tab": "af",
+   "modes": [
+    "movie"
+   ],
+   "name": "MF related",
+   "items": [
+    {
+     "key": "mf-peaking-settings",
+     "row": 1,
+     "label": "MF peaking settings",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0070.html#AF-Drive_0070_1",
+     "subs": [
+      "Peaking",
+      "Level",
+      "Color"
+     ],
+     "opts": [
+      "On",
+      "Off",
+      "HDR PQ"
+     ],
+     "topics": [
+      "Setting MF Peaking (Outline Emphasis)"
+     ],
+     "desc": "Focus peaking: on/off, level and color.",
+     "kw": [
+      "focus peaking",
+      "peaking",
+      "manual focus aid",
+      "mf assist",
+      "outline",
+      "focus highlight"
+     ]
+    },
+    {
+     "key": "focus-guide",
+     "row": 2,
+     "label": "Focus guide",
+     "creative": false,
+     "ref": "UG-04_AF-Drive_0070.html#AF-Drive_0070_2",
+     "subs": [],
+     "opts": [
+      "On",
+      "None",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "On-screen guide showing which way to turn the focus ring and when focus is reached.",
+     "kw": [
+      "focus guide",
+      "manual focus aid",
+      "focus assist",
+      "mf guide"
+     ]
+    },
+    {
+     "key": "lens-electronic-mf",
+     "row": 3,
+     "label": "Lens electronic MF",
+     "creative": true,
+     "ref": "UG-04_AF-Drive_0100.html#AF-Drive_0100_3-1",
+     "subs": [],
+     "opts": [
+      "OFF",
+      "Disable",
+      "Disable after One-Shot",
+      "One-Shot→enabled",
+      "One-Shot→enabled (magnify)",
+      "ON",
+      "Enable (actual size)",
+      "Enable (One-Shot→magnify)"
+     ],
+     "topics": [],
+     "desc": "Full-time manual focus with the focus ring after or during AF.",
+     "kw": [
+      "full time manual",
+      "ftm",
+      "manual override",
+      "focus ring override",
+      "af+mf",
+      "dmf"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     5,
+     5
+    ]
+   }
+  },
+  {
+   "id": "play-all-1",
+   "tab": "play",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "File operation",
+   "items": [
+    {
+     "key": "protect-images",
+     "row": 1,
+     "label": "Protect images",
+     "creative": false,
+     "ref": "UG-05_Playback_0100.html",
+     "subs": [
+      "Select images",
+      "Select range"
+     ],
+     "opts": [
+      "All images in folder",
+      "All images on card",
+      "Unprotect all images in folder",
+      "Unprotect all images on card",
+      "All found images",
+      "Unprotect all found",
+      "Record/play",
+      "Play"
+     ],
+     "topics": [
+      "Protecting Individual Images via the Menu",
+      "Specifying the Range of Images to Protect",
+      "Protecting All Images in a Folder or on a Card"
+     ],
+     "desc": "Protect images from accidental erasing.",
+     "kw": [
+      "protect",
+      "lock image",
+      "keep",
+      "prevent delete"
+     ]
+    },
+    {
+     "key": "erase-images",
+     "row": 2,
+     "label": "Erase images",
+     "creative": false,
+     "ref": "UG-05_Playback_0110.html",
+     "subs": [
+      "Select and erase images",
+      "Select range"
+     ],
+     "opts": [
+      "Erase",
+      "Erase voice memo",
+      "Erase scene including image",
+      "OK",
+      "All images in folder",
+      "All images on card",
+      "All found images",
+      "Record/play",
+      "Play"
+     ],
+     "topics": [
+      "Erasing Images Individually",
+      "Selecting ([ ]) Multiple Images to Erase Together",
+      "Specifying the Range of Images to Erase",
+      "Erasing All Images in a Folder or on a Card"
+     ],
+     "desc": "Delete selected images, a range, or all images in a folder/card.",
+     "kw": [
+      "delete",
+      "erase",
+      "remove photos",
+      "delete all",
+      "trash"
+     ]
+    },
+    {
+     "key": "rotate-stills",
+     "row": 3,
+     "label": "Rotate stills",
+     "creative": false,
+     "ref": "UG-05_Playback_0120.html",
+     "subs": [],
+     "opts": [
+      "On"
+     ],
+     "topics": [],
+     "desc": "Rotate a still image during playback.",
+     "kw": [
+      "rotate",
+      "turn image",
+      "orientation"
+     ]
+    },
+    {
+     "key": "change-mov-rotate-info",
+     "row": 4,
+     "label": "Change mov rotate info",
+     "creative": false,
+     "ref": "UG-05_Playback_0130.html",
+     "subs": [],
+     "opts": [
+      "Add rotate info"
+     ],
+     "topics": [],
+     "desc": "Change the rotation info stored in a movie file.",
+     "kw": [
+      "rotate video",
+      "vertical video",
+      "movie orientation"
+     ]
+    },
+    {
+     "key": "rating",
+     "row": 5,
+     "label": "Rating",
+     "creative": false,
+     "ref": "UG-05_Playback_0140.html",
+     "subs": [
+      "Select images",
+      "Select range"
+     ],
+     "opts": [
+      "OK",
+      "All images in folder",
+      "All images on card",
+      "All found images"
+     ],
+     "topics": [
+      "Rating Individual Images with the Button",
+      "Rating Individual Images via the Menu",
+      "Rating by Specifying the Range",
+      "Rating All Images in a Folder or on a Card"
+     ],
+     "desc": "Rate images 1-5 stars.",
+     "kw": [
+      "rating",
+      "stars",
+      "rate",
+      "favorite",
+      "cull"
+     ]
+    },
+    {
+     "key": "protect-when-setting-the-rating",
+     "row": 6,
+     "label": "Protect when setting the rating",
+     "creative": false,
+     "ref": "UG-05_Playback_0320.html",
+     "subs": [],
+     "opts": [
+      "On",
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Automatically protects an image when you rate it.",
+     "kw": [
+      "protect rating",
+      "auto protect",
+      "lock rated"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     1,
+     5
+    ],
+    "movie": [
+     1,
+     5
+    ]
+   }
+  },
+  {
+   "id": "play-all-2",
+   "tab": "play",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "File operation",
+   "items": [
+    {
+     "key": "stills-image-copy",
+     "row": 1,
+     "label": "{stills}Image copy",
+     "creative": false,
+     "ref": "UG-05_Playback_0150.html",
+     "subs": [
+      "Sel.Image",
+      "Range"
+     ],
+     "opts": [
+      "Skip image and continue",
+      "Replace existing image",
+      "Cancel copy",
+      "Cancel",
+      "Record/play",
+      "Play",
+      "OK",
+      "Create folder",
+      "Sel.",
+      "All images"
+     ],
+     "topics": [
+      "Copying Individual Images",
+      "Copying a Range of Images",
+      "Copying All Images in a Folder or on a Card"
+     ],
+     "desc": "Copy images from one card to the other.",
+     "kw": [
+      "copy",
+      "duplicate",
+      "copy to card",
+      "backup images",
+      "card to card"
+     ]
+    },
+    {
+     "key": "print-order",
+     "row": 2,
+     "label": "Print order",
+     "creative": false,
+     "ref": "UG-05_Playback_0160.html",
+     "subs": [
+      "Set up"
+     ],
+     "opts": [
+      "Print type",
+      "Date",
+      "File No.",
+      "Standard",
+      "Index",
+      "Both",
+      "On",
+      "Off",
+      "Sel.Image",
+      "Multiple",
+      "Select range",
+      "Mark all in folder",
+      "Clear all in folder",
+      "Mark all on card",
+      "Clear all on card",
+      "Mark all found images",
+      "Clear all found images"
+     ],
+     "topics": [
+      "Setting Print Options",
+      "Selecting Images for Printing",
+      "Selecting images",
+      "Selecting multiple images"
+     ],
+     "desc": "Mark images for printing (DPOF).",
+     "kw": [
+      "print",
+      "dpof",
+      "print order"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     2,
+     5
+    ],
+    "movie": [
+     2,
+     5
+    ]
+   }
+  },
+  {
+   "id": "play-all-3",
+   "tab": "play",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Image processing",
+   "items": [
+    {
+     "key": "raw-image-processing",
+     "row": 1,
+     "label": "RAW image processing",
+     "creative": false,
+     "ref": "UG-05_Playback_0170.html",
+     "subs": [],
+     "opts": [
+      "Use shot settings",
+      "HDR PQ",
+      "Disable",
+      "Set up processing→JPEG",
+      "Set up processing→HEIF",
+      "After change",
+      "Shot settings",
+      "OK",
+      "Yes",
+      "Original image",
+      "Processed img.",
+      "Image quality",
+      "Digital Lens Optimizer",
+      "High",
+      "Neural network Noise Reduction",
+      "Enable",
+      "1:1 (aspect ratio)",
+      "4:3 (aspect ratio)",
+      "16:9 (aspect ratio)",
+      "Brightness adjustment",
+      "Auto: Ambience priority",
+      "Auto: White priority",
+      "Adj face lighting",
+      "Lens aberr correction",
+      "Peripheral illum corr",
+      "Distortion correction",
+      "Standard",
+      "Chromatic aberr corr",
+      "Diffraction correction"
+     ],
+     "topics": [
+      "Magnified View",
+      "Processing Images with Specified Aspect Ratios",
+      "RAW Image Processing Options"
+     ],
+     "desc": "Convert RAW images to JPEG/HEIF in camera with adjustable settings.",
+     "kw": [
+      "raw conversion",
+      "raw processing",
+      "convert raw",
+      "develop raw",
+      "raw to jpeg",
+      "in camera edit"
+     ]
+    },
+    {
+     "key": "in-camera-upscaling",
+     "row": 2,
+     "label": "In-Camera Upscaling",
+     "creative": false,
+     "ref": "UG-05_Playback_0180.html",
+     "subs": [
+      "Select images",
+      "Select range"
+     ],
+     "opts": [
+      "Full-frame",
+      "OK",
+      "Yes",
+      "Original image",
+      "Processed img."
+     ],
+     "topics": [
+      "Converting Individual Images",
+      "Specifying the Range of Images to Convert"
+     ],
+     "desc": "AI upscaling of JPEG/HEIF images in playback (4x the pixel count), saved as a new image.",
+     "kw": [
+      "upscale",
+      "upscaling",
+      "ai upscale",
+      "enlarge",
+      "super resolution",
+      "more megapixels"
+     ]
+    },
+    {
+     "key": "resize",
+     "row": 3,
+     "label": "Resize",
+     "creative": false,
+     "ref": "UG-05_Playback_0190.html",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Save a smaller copy of a JPEG/HEIF image.",
+     "kw": [
+      "resize",
+      "smaller",
+      "downsize",
+      "reduce size"
+     ]
+    },
+    {
+     "key": "cropping",
+     "row": 4,
+     "label": "Cropping",
+     "creative": false,
+     "ref": "UG-05_Playback_0200.html",
+     "subs": [],
+     "opts": [
+      "OK",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Crop a JPEG/HEIF image in camera and save a copy.",
+     "kw": [
+      "crop",
+      "trim",
+      "reframe"
+     ]
+    },
+    {
+     "key": "heif-jpeg-conversion",
+     "row": 5,
+     "label": "HEIF→JPEG conversion",
+     "creative": false,
+     "ref": "UG-05_Playback_0210.html",
+     "subs": [
+      "Select images",
+      "Select range"
+     ],
+     "opts": [
+      "OK",
+      "Yes",
+      "Original image",
+      "Processed img."
+     ],
+     "topics": [
+      "Converting Individual Images",
+      "Specifying the Range of Images to Convert"
+     ],
+     "desc": "Convert HEIF (HDR) images to JPEG.",
+     "kw": [
+      "heif",
+      "hif",
+      "jpeg",
+      "convert",
+      "hdr to jpeg"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     3,
+     5
+    ],
+    "movie": [
+     3,
+     5
+    ]
+   }
+  },
+  {
+   "id": "play-all-4",
+   "tab": "play",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Playback method",
+   "items": [
+    {
+     "key": "slide-show",
+     "row": 1,
+     "label": "Slide show",
+     "creative": false,
+     "ref": "UG-05_Playback_0220.html",
+     "subs": [],
+     "opts": [
+      "Set up",
+      "Display time",
+      "Repeat",
+      "Start",
+      "Loading image..."
+     ],
+     "topics": [],
+     "desc": "Play images as a slide show.",
+     "kw": [
+      "slideshow",
+      "slide show",
+      "auto play"
+     ]
+    },
+    {
+     "key": "vr-preview",
+     "row": 2,
+     "label": "VR preview",
+     "creative": false,
+     "ref": "UG-05_Playback_0230.html",
+     "subs": [],
+     "opts": [
+      "Skip backward",
+      "Previous frame",
+      "Play",
+      "Next frame",
+      "Skip forward"
+     ],
+     "topics": [],
+     "desc": "Preview how EOS VR lens footage will look on a VR headset.",
+     "kw": [
+      "vr",
+      "180 vr",
+      "dual fisheye",
+      "vr lens",
+      "virtual reality"
+     ]
+    },
+    {
+     "key": "set-image-search-conditions",
+     "row": 3,
+     "label": "Set image search conditions",
+     "creative": false,
+     "ref": "UG-05_Playback_0240.html",
+     "subs": [],
+     "opts": [
+      "Date",
+      "Folder",
+      "Protect",
+      "Type of file (1)",
+      "Type of file (2)",
+      "OK"
+     ],
+     "topics": [
+      "Clearing the Search Conditions"
+     ],
+     "desc": "Filter playback by rating, date, folder, protection or file type.",
+     "kw": [
+      "filter",
+      "search images",
+      "find photos",
+      "show only",
+      "rated only"
+     ]
+    },
+    {
+     "key": "view-from-last-seen",
+     "row": 4,
+     "label": "View from last seen",
+     "creative": false,
+     "ref": "UG-05_Playback_0250.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Playback starts at the last image you viewed instead of the newest.",
+     "kw": [
+      "resume playback",
+      "last viewed",
+      "playback start"
+     ]
+    },
+    {
+     "key": "magnification",
+     "row": 5,
+     "label": "Magnification",
+     "creative": false,
+     "ref": "UG-05_Playback_0040.html",
+     "subs": [
+      "Magnificatn (apx)",
+      "Magnified position",
+      "Maintain position"
+     ],
+     "opts": [
+      "2x",
+      "4x",
+      "8x",
+      "10x",
+      "Actual size",
+      "Same as last",
+      "From center",
+      "From focus pt",
+      "Enable",
+      "Disable"
+     ],
+     "topics": [
+      "Setting the Initial Magnification Ratio",
+      "Setting the Initial Magnification Position",
+      "Magnification for Subsequent Images"
+     ],
+     "desc": "Initial zoom level and position when magnifying in playback.",
+     "kw": [
+      "playback zoom",
+      "zoom in",
+      "magnify",
+      "100%",
+      "check focus",
+      "actual size",
+      "zoom level"
+     ]
+    },
+    {
+     "key": "blur-out-of-focus-image-detection",
+     "row": 6,
+     "label": "Blur/Out-of-Focus image detection",
+     "creative": false,
+     "ref": "UG-05_Playback_0260.html",
+     "subs": [],
+     "opts": [
+      "None",
+      "Rec options",
+      "Rec. separately",
+      "Play",
+      "Icon display",
+      "Show detect. frame",
+      "Detection level",
+      "Standard",
+      "High",
+      "Low",
+      "Display image with less blur/Out-of-Focus",
+      "Display img with less blur"
+     ],
+     "topics": [
+      "Configuring Blur/Out-of-Focus Image Detection",
+      "Playback Applying Blur/Out-of-Focus Image Detection"
+     ],
+     "desc": "Finds blurry or out-of-focus shots (mainly faces) so you can sort, rate or protect them.",
+     "kw": [
+      "blur detection",
+      "out of focus",
+      "cull",
+      "sharp images",
+      "find blurry",
+      "focus check"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     4,
+     5
+    ],
+    "movie": [
+     4,
+     5
+    ]
+   }
+  },
+  {
+   "id": "play-all-5",
+   "tab": "play",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Various settings",
+   "items": [
+    {
+     "key": "playback-information-display",
+     "row": 1,
+     "label": "Playback information display",
+     "creative": false,
+     "ref": "UG-05_Playback_0270.html",
+     "subs": [],
+     "opts": [
+      "OK",
+      "Brightness",
+      "RGB"
+     ],
+     "topics": [
+      "Histogram"
+     ],
+     "desc": "Choose which info screens (histogram, shooting data...) appear in playback.",
+     "kw": [
+      "playback info",
+      "histogram",
+      "exif",
+      "shooting info",
+      "info screens"
+     ]
+    },
+    {
+     "key": "highlight-alert",
+     "row": 2,
+     "label": "Highlight alert",
+     "creative": false,
+     "ref": "UG-05_Playback_0280.html",
+     "subs": [],
+     "opts": [
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Blinking overexposed areas in playback.",
+     "kw": [
+      "blinkies",
+      "highlight warning",
+      "overexposure",
+      "clipping",
+      "blown highlights",
+      "blink"
+     ]
+    },
+    {
+     "key": "af-point-disp",
+     "row": 3,
+     "label": "AF point disp.",
+     "creative": false,
+     "ref": "UG-05_Playback_0290.html",
+     "subs": [],
+     "opts": [
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Shows the AF point(s) used on images in playback.",
+     "kw": [
+      "af point display",
+      "show focus point",
+      "focus point playback"
+     ]
+    },
+    {
+     "key": "playback-grid",
+     "row": 4,
+     "label": "Playback grid",
+     "creative": false,
+     "ref": "UG-05_Playback_0300.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Grid overlay in playback.",
+     "kw": [
+      "playback grid",
+      "lines",
+      "tilt check",
+      "composition check"
+     ]
+    },
+    {
+     "key": "movie-play-count",
+     "row": 5,
+     "label": "Movie play count",
+     "creative": false,
+     "ref": "UG-05_Playback_0310.html",
+     "subs": [],
+     "opts": [
+      "Rec time",
+      "Free run",
+      "Movie rec count"
+     ],
+     "topics": [],
+     "desc": "Shows recording time or time code during movie playback.",
+     "kw": [
+      "time code playback",
+      "movie counter",
+      "rec time"
+     ]
+    },
+    {
+     "key": "memo-audio-quality",
+     "row": 6,
+     "label": "Memo audio quality",
+     "creative": false,
+     "ref": "UG-05_Playback_0060.html#Playback_0060_2",
+     "subs": [],
+     "opts": [
+      "High quality (48 kHz)",
+      "Low quality (8 kHz)"
+     ],
+     "topics": [],
+     "desc": "Audio quality for voice memos attached to images.",
+     "kw": [
+      "voice memo",
+      "audio note",
+      "voice note",
+      "memo"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     5,
+     5
+    ],
+    "movie": [
+     5,
+     5
+    ]
+   }
+  },
+  {
+   "id": "network-all-1",
+   "tab": "network",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Network settings",
+   "items": [
+    {
+     "key": "network-settings",
+     "row": 1,
+     "label": "Network settings",
+     "creative": false,
+     "ref": "UG-06_Network_0170.html",
+     "subs": [
+      "Connection settings",
+      "Disconnect",
+      "SET*",
+      "Change with wizard",
+      "Change from list",
+      "Save/load settings on card",
+      "Save settings to card",
+      "Load settings from card",
+      "Manual setting",
+      "Comm settings",
+      "NW*",
+      "Function settings",
+      "MODE*",
+      "Connection option settings"
+     ],
+     "opts": [
+      "OK",
+      "Connect",
+      "Delete settings",
+      "Confirm settings",
+      "Settings name",
+      "Select from list",
+      "Clear selected",
+      "Unspecified",
+      "Change",
+      "Wireless LAN",
+      "TCP/IPv4",
+      "TCP/IPv6",
+      "Change mode name",
+      "FTP server",
+      "Directory structure",
+      "Default",
+      "Target folder",
+      "Camera",
+      "Overwrite same file",
+      "Disable",
+      "Passive mode",
+      "Enable",
+      "Trust target server",
+      "FTP transfer settings",
+      "Automatic transfer",
+      "Images to transfer",
+      "Transfer with SET",
+      "Set root certif",
+      "EOS Utility settings",
+      "Set up direct transfer",
+      "Send to smartphone after shot",
+      "Smartphone settings",
+      "Auto send",
+      "Size to send",
+      "5 GHz",
+      "Channel setting",
+      "802.1X authentication",
+      "Setup wizard"
+     ],
+     "topics": [
+      "Ending Connections from the [Connection settings] Screen",
+      "Reconnecting from the [Connection settings] Screen",
+      "Checking and Editing Connection Settings",
+      "Changing connection settings",
+      "Saving and loading settings",
+      "Manually Editing Connection Settings",
+      "Editing communication settings",
+      "Editing function settings",
+      "Specifying Connection Options",
+      "FTP transfer settings",
+      "EOS Utility settings",
+      "Smartphone settings"
+     ],
+     "desc": "Network on/off and saved connection settings (Wi-Fi, wired LAN, FTP and others).",
+     "kw": [
+      "network",
+      "wifi",
+      "wi-fi",
+      "lan",
+      "ethernet",
+      "connection settings",
+      "access point",
+      "wireless"
+     ]
+    },
+    {
+     "key": "airplane-mode",
+     "row": 2,
+     "label": "Airplane mode",
+     "creative": false,
+     "ref": "UG-06_Network_0180.html",
+     "subs": [],
+     "opts": [
+      "On"
+     ],
+     "topics": [],
+     "desc": "Turns off all wireless (Wi-Fi and Bluetooth).",
+     "kw": [
+      "airplane",
+      "flight mode",
+      "wireless off",
+      "radio off",
+      "save battery"
+     ]
+    },
+    {
+     "key": "bluetooth-settings",
+     "row": 3,
+     "label": "Bluetooth settings",
+     "creative": false,
+     "ref": "UG-06_Network_0190.html",
+     "subs": [],
+     "opts": [
+      "Bluetooth",
+      "Disable",
+      "Bluetooth address",
+      "Connect to"
+     ],
+     "topics": [],
+     "desc": "Bluetooth on/off and pairing info.",
+     "kw": [
+      "bluetooth",
+      "bt",
+      "pairing"
+     ]
+    },
+    {
+     "key": "camera-name",
+     "row": 4,
+     "label": "Camera name",
+     "creative": false,
+     "ref": "UG-06_Network_0200.html",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Camera nickname shown on Wi-Fi and Bluetooth.",
+     "kw": [
+      "nickname",
+      "device name",
+      "camera name"
+     ]
+    },
+    {
+     "key": "error-details",
+     "row": 5,
+     "label": "Error details",
+     "creative": false,
+     "ref": "UG-06_Network_0220.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Details of the last network/communication error.",
+     "kw": [
+      "error",
+      "connection error",
+      "network error",
+      "err"
+     ]
+    },
+    {
+     "key": "mac-address",
+     "row": 6,
+     "label": "MAC address",
+     "creative": false,
+     "ref": "UG-06_Network_0290.html",
+     "subs": [],
+     "opts": [
+      "Wi-Fi",
+      "Wired"
+     ],
+     "topics": [],
+     "desc": "Shows the camera's Wi-Fi and wired MAC addresses.",
+     "kw": [
+      "mac address",
+      "network address",
+      "hardware address"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     1,
+     4
+    ],
+    "movie": [
+     1,
+     4
+    ]
+   }
+  },
+  {
+   "id": "network-all-2",
+   "tab": "network",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Network function",
+   "items": [
+    {
+     "key": "transfer-images-to-ftp-server",
+     "row": 1,
+     "label": "Transfer images to FTP server",
+     "creative": false,
+     "ref": "UG-06_Network_0060.html",
+     "subs": [
+      "Add a device to connect to",
+      "New settings",
+      "FTP transfer settings",
+      "Set root certif",
+      "Load root certif from card",
+      "Edit/delete device",
+      "Automatic transfer",
+      "Images to transfer",
+      "Transfer with SET",
+      "Image sel./transfer",
+      "Sel.Image",
+      "Transfer",
+      "Range",
+      "Sel.",
+      "All images",
+      "Transfer with caption"
+     ],
+     "opts": [
+      "OK",
+      "Enable",
+      "Configure offline",
+      "Select from list",
+      "FTPS",
+      "SFTP",
+      "Address setting",
+      "Port number setting",
+      "User name",
+      "Password",
+      "FTP",
+      "Passive mode",
+      "Login password",
+      "Root folder",
+      "Select folder",
+      "Communicating",
+      "Confirm settings",
+      "Disconnect",
+      "Record/play",
+      "Play",
+      "Delete root certificate",
+      "View root certificate details",
+      "Default",
+      "Target folder",
+      "Camera",
+      "Disable",
+      "Separate JPEGs",
+      "SmallerJPEG",
+      "Larger JPEG",
+      "Separate HEIFs",
+      "SmallerHEIF",
+      "Larger HEIF",
+      "Shooting RAW+JPEG",
+      "JPEG only",
+      "RAW only",
+      "RAW+JPEG",
+      "Shooting RAW+HEIF",
+      "HEIF only",
+      "RAW+HEIF",
+      "Rec options",
+      "Off",
+      "Select transfer failed images",
+      "Select images not transferred",
+      "Sel transfer fail img ( only)",
+      "Sel img not transfer. ( only)",
+      "Clear transfer history",
+      "Caption",
+      "Image transfer",
+      "C drive",
+      "Inetpub",
+      "ftproot"
+     ],
+     "topics": [
+      "Configuring FTP Server Connection Settings",
+      "[ Communicating] screen",
+      "Importing a root certificate for FTPS",
+      "Editing/Deleting Devices for Connections",
+      "Changing device nicknames",
+      "FTP server",
+      "Communication settings",
+      "Deleting connection information",
+      "Reconnecting Using Connection Information",
+      "Transferring Images Individually",
+      "Automatic transfer after each shot",
+      "Specifying sizes or types of images to transfer"
+     ],
+     "desc": "Send images to an FTP/SFTP/FTPS server.",
+     "kw": [
+      "ftp",
+      "sftp",
+      "ftps",
+      "server",
+      "transfer",
+      "news",
+      "agency",
+      "upload"
+     ]
+    },
+    {
+     "key": "connect-to-eos-utility",
+     "row": 2,
+     "label": "Connect to EOS Utility",
+     "creative": false,
+     "ref": "UG-06_Network_0070.html",
+     "subs": [
+      "Add a device to connect to",
+      "New settings",
+      "Edit/delete device",
+      "Image sel./transfer",
+      "Set up direct transfer",
+      "WFT Captions"
+     ],
+     "opts": [
+      "OK",
+      "Enable",
+      "Select from list",
+      "Pairing over Wi-Fi/LAN",
+      "Yes",
+      "Connect",
+      "Communicating",
+      "Confirm settings",
+      "Disconnect",
+      "RAW+JPEG transfer",
+      "JPEG only",
+      "RAW only",
+      "RAW+JPEG",
+      "RAW+HEIF transfer",
+      "HEIF only",
+      "RAW+HEIF",
+      "Camera settings",
+      "Load settings",
+      "Apply to camera"
+     ],
+     "topics": [
+      "Operating the Camera Using EOS Utility",
+      "[ Communicating] screen",
+      "Editing/Deleting Devices for Connections",
+      "Changing device nicknames",
+      "Communication settings",
+      "Deleting connection information",
+      "Reconnecting Using Connection Information",
+      "Transferring Multiple Images at Once (Direct Transfer)",
+      "Access the [ Image sel./transfer] screen.",
+      "Transferring RAW+JPEG or RAW+HEIF Images",
+      "Creating and Registering Captions"
+     ],
+     "desc": "Wireless connection to EOS Utility on a computer (tethering, transfer).",
+     "kw": [
+      "eos utility",
+      "tether",
+      "tethering",
+      "computer",
+      "pc",
+      "mac",
+      "wireless tether"
+     ]
+    },
+    {
+     "key": "upload-to-image-canon",
+     "row": 3,
+     "label": "Upload to image.canon",
+     "creative": false,
+     "ref": "UG-06_Network_0080.html",
+     "subs": [
+      "New settings",
+      "Auto send"
+     ],
+     "opts": [
+      "OK",
+      "Enable",
+      "Connect",
+      "Install",
+      "Select from list",
+      "Movie(s) to send",
+      "Still image(s) to send",
+      "Switch network",
+      "Clear camera web link settings",
+      "All",
+      "None",
+      "Only main",
+      "Only proxy"
+     ],
+     "topics": [
+      "Connecting the Camera to image.canon",
+      "[Upload to image.canon] screen",
+      "Uploading Images to image.canon"
+     ],
+     "desc": "Auto-upload to Canon's image.canon cloud service (also used for firmware updates over Wi-Fi).",
+     "kw": [
+      "cloud",
+      "image.canon",
+      "upload",
+      "auto upload",
+      "lightroom",
+      "google photos",
+      "backup"
+     ]
+    },
+    {
+     "key": "sync-time-between-cameras",
+     "row": 4,
+     "label": "Sync time between cameras",
+     "creative": false,
+     "ref": "UG-06_Network_0090.html",
+     "subs": [
+      "Sender",
+      "Receiver"
+     ],
+     "opts": [
+      "OK",
+      "Enable"
+     ],
+     "topics": [
+      "Preparing for Time Syncing",
+      "Syncing the Time"
+     ],
+     "desc": "Sets the clock of up to 10 other cameras to match this one (multi-camera shoots).",
+     "kw": [
+      "time sync",
+      "sync clocks",
+      "multi camera",
+      "synchronize time",
+      "second shooter"
+     ]
+    },
+    {
+     "key": "connect-to-smartphone-tablet",
+     "row": 5,
+     "label": "Connect to smartphone(tablet)",
+     "creative": false,
+     "ref": "UG-06_Network_0100.html",
+     "subs": [
+      "Camera Connect",
+      "Add a device to connect to",
+      "New settings",
+      "Edit/delete device",
+      "Send to smartphone after shot",
+      "Auto send",
+      "Size to send",
+      "Send images to smartphone",
+      "Send img shown",
+      "Send selected",
+      "Send",
+      "Send range",
+      "Send all card",
+      "Send all found"
+     ],
+     "opts": [
+      "OK",
+      "Enable",
+      "Join",
+      "Communicating",
+      "Disconnect",
+      "Confirm settings",
+      "Images on camera",
+      "Remote live view shooting",
+      "Auto transfer",
+      "Bluetooth remote controller",
+      "Camera settings",
+      "On",
+      "Disable",
+      "Use different connection method",
+      "Content Transfer Professional",
+      "Select from list",
+      "Wireless LAN",
+      "TCP/IPv4",
+      "TCP/IPv6",
+      "Cancel"
+     ],
+     "topics": [
+      "Turning on Bluetooth and Wi-Fi on a Smartphone",
+      "Installing the App on a Smartphone",
+      "Bluetooth Pairing and Wi-Fi Connection to Smartphones",
+      "[ Communicating] screen",
+      "Main Functions of Camera Connect",
+      "Maintaining a Wi-Fi Connection When the Camera Is Off",
+      "Connecting to Smartphones without Bluetooth Pairing",
+      "Connecting to a Smartphone or Tablet",
+      "Editing/Deleting Devices for Connections",
+      "Changing device nicknames",
+      "Communication settings",
+      "Deleting connection information"
+     ],
+     "desc": "Pair with a phone (Camera Connect app) via Bluetooth/Wi-Fi: remote shooting, image transfer, auto send.",
+     "kw": [
+      "phone",
+      "smartphone",
+      "camera connect",
+      "app",
+      "bluetooth",
+      "wifi",
+      "transfer to phone",
+      "remote shooting",
+      "pair",
+      "iphone",
+      "android",
+      "send to phone",
+      "auto transfer"
+     ]
+    },
+    {
+     "key": "live-streaming",
+     "row": 6,
+     "label": "Live streaming",
+     "creative": false,
+     "ref": "UG-06_Network_0110.html",
+     "subs": [
+      "Camera Connect",
+      "Add a device to connect to",
+      "New settings"
+     ],
+     "opts": [
+      "OK",
+      "Enable",
+      "Select from list"
+     ],
+     "topics": [
+      "Pairing with a Smartphone via Bluetooth",
+      "Setting Up Streaming"
+     ],
+     "desc": "Live-stream directly from the camera (via Camera Connect or a streaming service).",
+     "kw": [
+      "live stream",
+      "streaming",
+      "youtube",
+      "rtmp",
+      "broadcast"
+     ]
+    },
+    {
+     "key": "connect-to-wireless-remote",
+     "row": 7,
+     "label": "Connect to Wireless Remote",
+     "creative": false,
+     "ref": "UG-06_Network_0120.html",
+     "subs": [
+      "Add a device to connect to",
+      "Delete connection information"
+     ],
+     "opts": [
+      "OK",
+      "Enable",
+      "Paired with: ****************",
+      "Disable"
+     ],
+     "topics": [
+      "Deleting Connection Information",
+      "Reconnecting Using Connection Information"
+     ],
+     "desc": "Pair a Bluetooth remote (BR-E1, BR-E2).",
+     "kw": [
+      "remote",
+      "bluetooth remote",
+      "br-e1",
+      "br-e2",
+      "remote control",
+      "wireless shutter"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     2,
+     4
+    ],
+    "movie": [
+     2,
+     4
+    ]
+   }
+  },
+  {
+   "id": "network-all-3",
+   "tab": "network",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Network function",
+   "items": [
+    {
+     "key": "camera-control-api",
+     "row": 1,
+     "label": "Camera Control API",
+     "creative": false,
+     "ref": "UG-06_Network_0130.html",
+     "subs": [
+      "User authentic.",
+      "Edit account",
+      "Add with wizard",
+      "Check/edit connections"
+     ],
+     "opts": [
+      "Register a nickname to identify the camera. This nickname will be used for Wi-Fi and Bluetooth connections.",
+      "Port no. (HTTP)",
+      "Port no. (HTTPS)",
+      "HTTPS",
+      "Disable",
+      "Enable",
+      "User name",
+      "Password",
+      "OK",
+      "Connect",
+      "Add manually",
+      "Wired",
+      "Disconnect",
+      "Communicating",
+      "Confirm settings",
+      "Wireless LAN",
+      "TCP/IPv4",
+      "TCP/IPv6",
+      "Check connection",
+      "Delete connection"
+     ],
+     "topics": [
+      "Setting a Port Number",
+      "Configuring User Authentication",
+      "Configuring the Connection",
+      "[ Communicating] screen",
+      "Changing Settings",
+      "Check/edit connections",
+      "Auto connect"
+     ],
+     "desc": "Camera Control API (CCAPI): control the camera from apps or scripts over the network.",
+     "kw": [
+      "ccapi",
+      "camera control api",
+      "api",
+      "remote control",
+      "automation",
+      "sdk"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     3,
+     4
+    ],
+    "movie": [
+     3,
+     4
+    ]
+   }
+  },
+  {
+   "id": "network-all-4",
+   "tab": "network",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Various settings",
+   "items": [
+    {
+     "key": "gps-device-settings",
+     "row": 1,
+     "label": "GPS device settings",
+     "creative": false,
+     "ref": "UG-06_Network_0140.html",
+     "subs": [
+      "Select GPS device",
+      "GPS receiver",
+      "Smartphone"
+     ],
+     "opts": [
+      "Set up"
+     ],
+     "topics": [
+      "GPS Receiver GP-E2",
+      "Smartphone",
+      "GPS Connection Display"
+     ],
+     "desc": "Geotagging from a GPS receiver (GP-E2) or your phone.",
+     "kw": [
+      "gps",
+      "geotag",
+      "location",
+      "gp-e2",
+      "coordinates"
+     ]
+    },
+    {
+     "key": "choose-usb-connection-app",
+     "row": 2,
+     "label": "Choose USB connection app",
+     "creative": false,
+     "ref": "UG-06_Network_0300.html",
+     "subs": [],
+     "opts": [
+      "Photo Import/Remote Control",
+      "Video calls/streaming",
+      "LPCM/24bit/4CH",
+      "Canon app(s) for iPhone"
+     ],
+     "topics": [],
+     "desc": "What the camera does on a USB connection: photo import/remote control or webcam streaming.",
+     "kw": [
+      "usb mode",
+      "usb",
+      "import",
+      "webcam",
+      "tether usb",
+      "usb connection"
+     ]
+    },
+    {
+     "key": "save-load-comm-settings-on-card",
+     "row": 3,
+     "label": "Save/load comm. settings on card",
+     "creative": false,
+     "ref": "UG-06_Network_0310.html",
+     "subs": [
+      "Save to card",
+      "Load from card"
+     ],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Back up or restore network settings using the card.",
+     "kw": [
+      "backup wifi settings",
+      "network settings",
+      "save settings"
+     ]
+    },
+    {
+     "key": "reset-communication-settings",
+     "row": 4,
+     "label": "Reset communication settings",
+     "creative": false,
+     "ref": "UG-06_Network_0320.html",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Clears all network and pairing settings.",
+     "kw": [
+      "reset wifi",
+      "reset network",
+      "unpair",
+      "clear bluetooth"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     4,
+     4
+    ],
+    "movie": [
+     4,
+     4
+    ]
+   }
+  },
+  {
+   "id": "setup-all-1",
+   "tab": "setup",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "File/card setting",
+   "items": [
+    {
+     "key": "record-func-card-folder-sel",
+     "row": 1,
+     "label": "Record func+card/folder sel.",
+     "creative": false,
+     "ref": "UG-07_Set-up_0030.html",
+     "subs": [],
+     "opts": [
+      "/ separate",
+      "Enable",
+      "Rec options",
+      "Record/play",
+      "Standard",
+      "Auto switch card",
+      "Rec. separately",
+      "Rec. to multiple",
+      "Card* full",
+      "Folder",
+      "Main Proxy",
+      "Movies",
+      "Play",
+      "Priority:"
+     ],
+     "topics": [
+      "Recording Method with Two Cards Inserted",
+      "Recording/Playback Selection with Two Cards Inserted",
+      "Setting via the menu"
+     ],
+     "links": [
+      {
+       "label": "Selecting Cards for Recording/Playback",
+       "ref": "UG-07_Set-up_0030.html"
+      },
+      {
+       "label": "Folder Settings",
+       "ref": "UG-07_Set-up_0040.html"
+      }
+     ],
+     "desc": "Dual card behavior (standard, auto switch, record separately, record to both/backup, relay), card for playback, and folders.",
+     "kw": [
+      "dual card",
+      "backup",
+      "two cards",
+      "card slot",
+      "slot 1",
+      "slot 2",
+      "raw to one card",
+      "record to both",
+      "mirror",
+      "overflow",
+      "folder",
+      "create folder",
+      "record separately",
+      "relay recording",
+      "proxy card"
+     ]
+    },
+    {
+     "key": "stills-file-numbering",
+     "row": 2,
+     "label": "{stills}File numbering",
+     "creative": false,
+     "ref": "UG-07_Set-up_0050.html",
+     "subs": [],
+     "opts": [
+      "Numbering",
+      "Continuous",
+      "Auto reset",
+      "Manual reset",
+      "OK"
+     ],
+     "topics": [
+      "Continuous",
+      "For continuous file numbering regardless of switching cards or creating folders",
+      "Auto Reset",
+      "For restarting file numbering from 0001 after switching cards or creating folders",
+      "Manual Reset",
+      "For resetting file numbering to 0001 or starting from 0001 in new folders"
+     ],
+     "desc": "Still file numbering: continuous, auto reset or manual reset.",
+     "kw": [
+      "file number",
+      "numbering",
+      "reset numbering",
+      "image number",
+      "counter"
+     ]
+    },
+    {
+     "key": "movie-clip-number",
+     "row": 3,
+     "label": "{movie}Clip Number",
+     "creative": false,
+     "ref": "UG-07_Set-up_0060.html",
+     "subs": [],
+     "opts": [
+      "Continuous",
+      "Auto reset"
+     ],
+     "topics": [
+      "Continuous",
+      "For continuous file numbering regardless of switching cards",
+      "Auto Reset",
+      "For restarting clip numbering from 001 after switching cards"
+     ],
+     "desc": "Movie clip numbering: continuous or auto reset.",
+     "kw": [
+      "clip number",
+      "movie numbering",
+      "reset"
+     ]
+    },
+    {
+     "key": "file-name",
+     "row": 4,
+     "label": "File name",
+     "creative": false,
+     "ref": "UG-07_Set-up_0070.html",
+     "subs": [
+      "Stills",
+      "Change User setting*",
+      "Movies"
+     ],
+     "opts": [
+      "OK",
+      "User setting2",
+      "Rec. to multiple",
+      "Reel Number"
+     ],
+     "topics": [
+      "Registering/Changing Still Photo File Names",
+      "Movie File Name Settings",
+      "Movie file name structure",
+      "Configuring movie file names"
+     ],
+     "desc": "Set the file name prefix for stills and naming for movies.",
+     "kw": [
+      "file name",
+      "prefix",
+      "img_",
+      "rename",
+      "naming",
+      "reel number"
+     ]
+    },
+    {
+     "key": "format-card",
+     "row": 5,
+     "label": "Format card",
+     "creative": false,
+     "ref": "UG-07_Set-up_0080.html",
+     "subs": [],
+     "opts": [
+      "OK",
+      "Low level format",
+      "Cancel"
+     ],
+     "topics": [],
+     "desc": "Format (erase everything on) a memory card, with optional low-level format.",
+     "kw": [
+      "format",
+      "format card",
+      "erase card",
+      "wipe card",
+      "initialize",
+      "low level format",
+      "sd card",
+      "cfexpress"
+     ]
+    },
+    {
+     "key": "auto-rotate",
+     "row": 6,
+     "label": "Auto rotate",
+     "creative": false,
+     "ref": "UG-07_Set-up_0090.html",
+     "subs": [],
+     "opts": [
+      "On",
+      "Off"
+     ],
+     "topics": [],
+     "desc": "Rotates vertical images automatically for display on the camera and/or computer.",
+     "kw": [
+      "auto rotate",
+      "rotation",
+      "vertical images",
+      "portrait orientation"
+     ]
+    },
+    {
+     "key": "add-movie-rotate-info",
+     "row": 7,
+     "label": "Add{movie}rotate info",
+     "creative": false,
+     "ref": "UG-07_Set-up_0100.html",
+     "subs": [
+      "Add rotate info"
+     ],
+     "opts": [
+      "Enable",
+      "Disable",
+      "RAW"
+     ],
+     "topics": [],
+     "desc": "Records orientation info in movies so vertical clips play upright.",
+     "kw": [
+      "vertical video",
+      "rotate video",
+      "orientation",
+      "portrait video",
+      "tiktok",
+      "reels"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     1,
+     6
+    ],
+    "movie": [
+     1,
+     6
+    ]
+   }
+  },
+  {
+   "id": "setup-all-2",
+   "tab": "setup",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Country/Area/Guidance/Audio settings",
+   "items": [
+    {
+     "key": "date-time-zone",
+     "row": 1,
+     "label": "Date/Time/Zone",
+     "creative": false,
+     "ref": "UG-07_Set-up_0110.html",
+     "subs": [],
+     "opts": [
+      "Time zone",
+      "Time difference",
+      "OK",
+      "Zone/Time difference"
+     ],
+     "topics": [],
+     "desc": "Set date, time, time zone and daylight saving.",
+     "kw": [
+      "date",
+      "time",
+      "clock",
+      "time zone",
+      "timezone",
+      "daylight saving",
+      "dst",
+      "summer time",
+      "travel"
+     ]
+    },
+    {
+     "key": "language",
+     "row": 2,
+     "label": "Language",
+     "creative": false,
+     "ref": "UG-07_Set-up_0120.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Menu language.",
+     "kw": [
+      "language",
+      "english",
+      "change language",
+      "idioma",
+      "langue"
+     ]
+    },
+    {
+     "key": "system-frequency",
+     "row": 3,
+     "label": "System frequency",
+     "creative": false,
+     "ref": "UG-07_Set-up_0130.html",
+     "subs": [],
+     "opts": [
+      "59.94Hz:NTSC",
+      "50.00Hz:PAL"
+     ],
+     "topics": [],
+     "desc": "NTSC (59.94 Hz) or PAL (50 Hz) movie frame rates.",
+     "kw": [
+      "ntsc",
+      "pal",
+      "50hz",
+      "60hz",
+      "frame rates",
+      "25p",
+      "30p",
+      "video system"
+     ]
+    },
+    {
+     "key": "help-text-size",
+     "row": 4,
+     "label": "Help text size",
+     "creative": false,
+     "ref": "UG-07_Set-up_0140.html#Set-up_0140_1",
+     "subs": [],
+     "opts": [],
+     "topics": [
+      "Changing the Help Text Size"
+     ],
+     "desc": "Size of the help text shown with the INFO button.",
+     "kw": [
+      "help",
+      "text size",
+      "font size",
+      "help text"
+     ]
+    },
+    {
+     "key": "beep",
+     "row": 5,
+     "label": "Beep",
+     "creative": false,
+     "ref": "UG-07_Set-up_0150.html",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Turns the focus-confirm and touch beeps on or off.",
+     "kw": [
+      "beep",
+      "sound",
+      "focus beep",
+      "mute",
+      "quiet",
+      "silent",
+      "touch sound"
+     ]
+    },
+    {
+     "key": "volume",
+     "row": 6,
+     "label": "Volume",
+     "creative": false,
+     "ref": "UG-07_Set-up_0160.html",
+     "subs": [],
+     "opts": [
+      "Always play at release",
+      "Shutter volume"
+     ],
+     "topics": [],
+     "desc": "Volume of camera sounds, including the electronic shutter sound.",
+     "kw": [
+      "volume",
+      "shutter sound",
+      "loud",
+      "sound level",
+      "fake shutter sound"
+     ]
+    },
+    {
+     "key": "audio-monitor",
+     "row": 7,
+     "label": "Audio monitor",
+     "creative": false,
+     "ref": "UG-07_Set-up_0170.html",
+     "subs": [
+      "Headphones",
+      "Shoot. monitor CH",
+      "Playback monitor CH",
+      "HDMI",
+      "CH1/CH2",
+      "CH3/CH4"
+     ],
+     "opts": [
+      "On",
+      "Disable",
+      "AAC/16bit/2CH"
+     ],
+     "topics": [
+      "Headphones",
+      "Adjusting the volume",
+      "Selecting output channels for the headphone terminal",
+      "HDMI",
+      "Selecting output channels for the HDMI output terminal"
+     ],
+     "desc": "Headphone volume and monitoring channels (headphones and HDMI).",
+     "kw": [
+      "headphones",
+      "headphone volume",
+      "monitoring",
+      "audio output",
+      "hdmi audio"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     2,
+     6
+    ],
+    "movie": [
+     2,
+     6
+    ]
+   }
+  },
+  {
+   "id": "setup-all-3",
+   "tab": "setup",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Customize display",
+   "items": [
+    {
+     "key": "screen-brightness",
+     "row": 1,
+     "label": "Screen brightness",
+     "creative": false,
+     "ref": "UG-07_Set-up_0180.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Rear screen brightness.",
+     "kw": [
+      "lcd brightness",
+      "screen brightness",
+      "monitor brightness",
+      "brighter screen",
+      "dim screen"
+     ]
+    },
+    {
+     "key": "viewfinder-brightness",
+     "row": 2,
+     "label": "Viewfinder brightness",
+     "creative": false,
+     "ref": "UG-07_Set-up_0190.html",
+     "subs": [],
+     "opts": [
+      "Auto",
+      "Manual"
+     ],
+     "topics": [],
+     "desc": "EVF brightness (auto or manual).",
+     "kw": [
+      "evf brightness",
+      "viewfinder brightness",
+      "dim viewfinder"
+     ]
+    },
+    {
+     "key": "screen-viewfinder-color-tone",
+     "row": 3,
+     "label": "Screen/viewfinder color tone",
+     "creative": false,
+     "ref": "UG-07_Set-up_0200.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Color tone of the screen and viewfinder (warmer or cooler).",
+     "kw": [
+      "screen color",
+      "lcd color",
+      "evf color",
+      "warm",
+      "cool",
+      "display tint"
+     ]
+    },
+    {
+     "key": "fine-tune-vf-color-tone",
+     "row": 4,
+     "label": "Fine-tune VF color tone",
+     "creative": false,
+     "ref": "UG-07_Set-up_0210.html",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Fine adjustment of the viewfinder's color tone.",
+     "kw": [
+      "evf color",
+      "viewfinder color",
+      "calibrate evf"
+     ]
+    },
+    {
+     "key": "screen-viewfinder-display",
+     "row": 5,
+     "label": "Screen/viewfinder display",
+     "creative": false,
+     "ref": "UG-07_Set-up_0220.html",
+     "subs": [],
+     "opts": [
+      "Viewfinder",
+      "Screen",
+      "AUTO1",
+      "AUTO2"
+     ],
+     "topics": [],
+     "desc": "Switch between screen and EVF automatically, or force only screen/only viewfinder.",
+     "kw": [
+      "eye sensor",
+      "evf only",
+      "lcd only",
+      "monitor only",
+      "viewfinder only",
+      "auto switch",
+      "eye detection sensor",
+      "screen off"
+     ]
+    },
+    {
+     "key": "ui-magnification",
+     "row": 6,
+     "label": "UI magnification",
+     "creative": false,
+     "ref": "UG-07_Set-up_0230.html",
+     "subs": [],
+     "opts": [
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Pinch/double-tap to magnify menus for easier reading.",
+     "kw": [
+      "magnify menu",
+      "bigger text",
+      "large text",
+      "accessibility",
+      "zoom menu"
+     ]
+    },
+    {
+     "key": "hdmi-resolution",
+     "row": 7,
+     "label": "HDMI resolution",
+     "creative": false,
+     "ref": "UG-07_Set-up_0240.html",
+     "subs": [],
+     "opts": [
+      "Auto",
+      "1080p",
+      "1080i"
+     ],
+     "topics": [],
+     "desc": "HDMI output resolution for playback on a TV.",
+     "kw": [
+      "hdmi",
+      "tv",
+      "resolution",
+      "1080p",
+      "1080i",
+      "playback on tv"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     3,
+     6
+    ],
+    "movie": [
+     3,
+     6
+    ]
+   }
+  },
+  {
+   "id": "setup-all-4",
+   "tab": "setup",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Various settings",
+   "items": [
+    {
+     "key": "cooling-fan-settings",
+     "row": 1,
+     "label": "Cooling fan settings",
+     "creative": false,
+     "ref": "UG-07_Set-up_0250.html",
+     "subs": [
+      "Fan",
+      "Fan rotation speed"
+     ],
+     "opts": [
+      "Off",
+      "On (always at set speed)",
+      "On (high speed in standby)",
+      "Stop",
+      "Low"
+     ],
+     "topics": [
+      "Fan",
+      "Fan Rotation Speed"
+     ],
+     "desc": "Settings for the optional external cooling fan used during long video recording.",
+     "kw": [
+      "fan",
+      "cooling fan",
+      "overheating",
+      "heat",
+      "cooling"
+     ]
+    },
+    {
+     "key": "shutter-at-shutdown",
+     "row": 2,
+     "label": "Shutter at shutdown",
+     "creative": false,
+     "ref": "UG-07_Set-up_0260.html",
+     "subs": [],
+     "opts": [
+      "Closed",
+      "Open"
+     ],
+     "topics": [],
+     "desc": "Close the shutter curtain when the camera powers off to protect the sensor from dust.",
+     "kw": [
+      "shutter closed",
+      "sensor protection",
+      "shutter curtain",
+      "dust protection",
+      "lens change"
+     ]
+    },
+    {
+     "key": "sensor-cleaning",
+     "row": 3,
+     "label": "Sensor cleaning",
+     "creative": false,
+     "ref": "UG-07_Set-up_0270.html",
+     "subs": [
+      "Clean now",
+      "Auto cleaning",
+      "Clean manually"
+     ],
+     "opts": [
+      "OK",
+      "At pwr off",
+      "Enable"
+     ],
+     "topics": [
+      "Cleaning Now",
+      "Cleaning Automatically",
+      "Cleaning Manually"
+     ],
+     "desc": "Clean the sensor now, automatic cleaning at power on/off, or lock up for manual cleaning.",
+     "kw": [
+      "sensor clean",
+      "clean sensor",
+      "dust",
+      "sensor dust",
+      "manual clean",
+      "blower"
+     ]
+    },
+    {
+     "key": "manage-password",
+     "row": 4,
+     "label": "Manage password",
+     "creative": false,
+     "ref": "UG-07_Set-up_0350.html",
+     "subs": [
+      "Pword. request",
+      "Change password",
+      "Clear entered information"
+     ],
+     "opts": [
+      "OK"
+     ],
+     "topics": [
+      "Password Request",
+      "Changing the Password",
+      "Clearing Entered Information"
+     ],
+     "desc": "Password request at power-on/wake, change the password, or clear entered info.",
+     "kw": [
+      "password",
+      "lock settings",
+      "security",
+      "pin"
+     ]
+    },
+    {
+     "key": "power-saving",
+     "row": 5,
+     "label": "Power saving",
+     "creative": false,
+     "ref": "UG-07_Set-up_0280.html",
+     "subs": [],
+     "opts": [
+      "Screen dimmer",
+      "Screen off",
+      "Auto power off",
+      "Disable",
+      "Viewfinder off"
+     ],
+     "topics": [],
+     "desc": "Timers for screen dimming, screen off, viewfinder off and auto power off.",
+     "kw": [
+      "auto power off",
+      "sleep",
+      "battery saving",
+      "screen timeout",
+      "dim",
+      "power off timer",
+      "eco"
+     ]
+    }
+   ],
+   "notes": [
+    "[Cooling fan settings] is displayed when Cooling Fan CF-R20EP (sold separately) is attached."
+   ],
+   "pos": {
+    "photo": [
+     4,
+     6
+    ],
+    "movie": [
+     4,
+     6
+    ]
+   }
+  },
+  {
+   "id": "setup-all-5",
+   "tab": "setup",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Reset/All settings",
+   "items": [
+    {
+     "key": "reset-camera",
+     "row": 1,
+     "label": "Reset camera",
+     "creative": true,
+     "ref": "UG-07_Set-up_0290.html",
+     "subs": [],
+     "opts": [
+      "Reset individual settings",
+      "Factory reset",
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Reset individual settings or do a full factory reset.",
+     "kw": [
+      "reset",
+      "factory reset",
+      "default settings",
+      "restore defaults",
+      "clear settings"
+     ]
+    },
+    {
+     "key": "custom-shooting-mode-c1-c3",
+     "row": 2,
+     "label": "Custom shooting mode (C1-C3)",
+     "creative": true,
+     "ref": "UG-07_Set-up_0300.html",
+     "subs": [
+      "Register settings"
+     ],
+     "opts": [
+      "C1",
+      "C3",
+      "OK",
+      "Auto update set.",
+      "Enable",
+      "Clear settings"
+     ],
+     "topics": [
+      "Automatic Update of Registered Settings",
+      "Canceling Registered Custom Shooting Modes"
+     ],
+     "desc": "Save the current settings to the C1, C2 or C3 positions on the mode dial.",
+     "kw": [
+      "c1",
+      "c2",
+      "c3",
+      "custom mode",
+      "user mode",
+      "save settings",
+      "custom shooting mode",
+      "preset"
+     ]
+    },
+    {
+     "key": "save-load-cam-settings-on-card",
+     "row": 3,
+     "label": "Save/load cam settings on card",
+     "creative": true,
+     "ref": "UG-07_Set-up_0310.html",
+     "subs": [
+      "Save to card"
+     ],
+     "opts": [
+      "OK",
+      "Load from card"
+     ],
+     "topics": [
+      "Saving Camera Settings",
+      "Loading Camera Settings"
+     ],
+     "desc": "Save all camera settings to a card, or load them back.",
+     "kw": [
+      "backup settings",
+      "export settings",
+      "import settings",
+      "copy settings",
+      "settings file"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     5,
+     6
+    ],
+    "movie": [
+     5,
+     6
+    ]
+   }
+  },
+  {
+   "id": "setup-all-6",
+   "tab": "setup",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Various settings",
+   "items": [
+    {
+     "key": "battery-info",
+     "row": 1,
+     "label": "Battery info.",
+     "creative": false,
+     "ref": "UG-07_Set-up_0320.html",
+     "subs": [
+      "Delete info."
+     ],
+     "opts": [
+      "Register",
+      "OK"
+     ],
+     "topics": [
+      "Registering Batteries to the Camera",
+      "Labeling Batteries with Serial Numbers",
+      "Checking the Remaining Capacity of a Registered Battery Not in Use",
+      "Deleting the Registered Battery Information"
+     ],
+     "desc": "Battery level, shots taken, and recharge/health status.",
+     "kw": [
+      "battery",
+      "battery health",
+      "recharge performance",
+      "battery life",
+      "battery level",
+      "lp-e6p",
+      "lp-e6nh"
+     ]
+    },
+    {
+     "key": "copyright-information",
+     "row": 2,
+     "label": "Copyright information",
+     "creative": true,
+     "ref": "UG-07_Set-up_0330.html",
+     "subs": [],
+     "opts": [
+      "Display copyright info.",
+      "OK",
+      "Author",
+      "Copyright",
+      "Delete copyright information"
+     ],
+     "topics": [
+      "Checking the Copyright Information",
+      "Deleting the Copyright Information"
+     ],
+     "desc": "Embed author and copyright info in every image.",
+     "kw": [
+      "copyright",
+      "author",
+      "artist",
+      "name in exif",
+      "owner"
+     ]
+    },
+    {
+     "key": "show-log",
+     "row": 3,
+     "label": "Show log",
+     "creative": false,
+     "ref": "UG-07_Set-up_0340.html#Set-up_0340_4",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Shows a log of changes to the password, network info and other settings.",
+     "kw": [
+      "log",
+      "history"
+     ]
+    },
+    {
+     "key": "manual-software-url",
+     "row": 4,
+     "label": "Manual/software URL",
+     "creative": false,
+     "ref": "UG-07_Set-up_0340.html#Set-up_0340_1",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "QR code linking to manuals and software.",
+     "kw": [
+      "manual",
+      "software",
+      "qr code",
+      "download"
+     ]
+    },
+    {
+     "key": "certification-logo-display",
+     "row": 5,
+     "label": "Certification Logo Display",
+     "creative": true,
+     "ref": "UG-07_Set-up_0340.html#Set-up_0340_2",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Shows regulatory certification logos.",
+     "kw": [
+      "certification",
+      "logos",
+      "regulatory"
+     ]
+    },
+    {
+     "key": "firmware",
+     "row": 6,
+     "label": "Firmware",
+     "creative": false,
+     "ref": "UG-07_Set-up_0340.html#Set-up_0340_3",
+     "subs": [],
+     "opts": [
+      "Network",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Shows the current firmware version and updates the firmware.",
+     "kw": [
+      "firmware",
+      "version",
+      "update",
+      "firmware update",
+      "software version"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     6,
+     6
+    ],
+    "movie": [
+     6,
+     6
+    ]
+   }
+  },
+  {
+   "id": "customize-all-1",
+   "tab": "customize",
+   "modes": [
+    "photo"
+   ],
+   "name": "Customized controls when shooting",
+   "items": [
+    {
+     "key": "customize-buttons-for-shooting",
+     "row": 1,
+     "label": "Customize buttons for shooting",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-1",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Assign functions to buttons for shooting (e.g. back-button AF on AF-ON, AE lock, M-Fn).",
+     "kw": [
+      "back button focus",
+      "bbf",
+      "af-on",
+      "button assignment",
+      "custom buttons",
+      "reassign buttons",
+      "remap",
+      "custom function button",
+      "m-fn",
+      "ae lock button",
+      "star button",
+      "dof preview button",
+      "set button function"
+     ]
+    },
+    {
+     "key": "customize-dials-control-ring",
+     "row": 2,
+     "label": "Customize dials/control ring",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-3",
+     "subs": [],
+     "opts": [
+      "Fv"
+     ],
+     "topics": [],
+     "desc": "Assign functions to the dials and the lens control ring.",
+     "kw": [
+      "dials",
+      "control ring",
+      "lens ring",
+      "customize dials",
+      "dial functions",
+      "ring function",
+      "iso on ring"
+     ]
+    },
+    {
+     "key": "main-qcd2-qcd1-direction-to-set-tv-av",
+     "row": 3,
+     "label": "{main}{qcd2}{qcd1}direction to set Tv/Av",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-4",
+     "subs": [],
+     "opts": [
+      "Tv",
+      "Av",
+      "Normal",
+      "Reverse direction"
+     ],
+     "topics": [],
+     "desc": "Reverse the direction of the dials when setting shutter speed/aperture.",
+     "kw": [
+      "dial direction",
+      "reverse dial",
+      "invert dial"
+     ]
+    },
+    {
+     "key": "ring-direction-to-set-tv-av",
+     "row": 4,
+     "label": "{ring}direction to set Tv/Av",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-5",
+     "subs": [],
+     "opts": [
+      "Normal",
+      "Reverse direction"
+     ],
+     "topics": [],
+     "desc": "Reverse the lens control ring direction when setting shutter speed/aperture.",
+     "kw": [
+      "ring direction",
+      "reverse ring",
+      "control ring direction"
+     ]
+    },
+    {
+     "key": "switch-main-qcd2-when-shooting",
+     "row": 5,
+     "label": "Switch{main}/{qcd2}when shooting",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-6",
+     "subs": [],
+     "opts": [
+      "OFF",
+      "Disable",
+      "ON",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Swap the functions of the Main dial and Quick control dial 2 when shooting.",
+     "kw": [
+      "swap dials",
+      "switch dials",
+      "dial swap"
+     ]
+    },
+    {
+     "key": "touch-shutter",
+     "row": 6,
+     "label": "Touch Shutter",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-7",
+     "subs": [],
+     "opts": [
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Tap the screen to focus and shoot.",
+     "kw": [
+      "touch shutter",
+      "tap to shoot",
+      "touch to shoot"
+     ]
+    },
+    {
+     "key": "multi-function-lock",
+     "row": 7,
+     "label": "Multi function lock",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-8",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Choose which controls the LOCK switch locks.",
+     "kw": [
+      "lock",
+      "lock switch",
+      "dial lock",
+      "control lock",
+      "prevent changes"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     1,
+     4
+    ]
+   }
+  },
+  {
+   "id": "customize-all-2",
+   "tab": "customize",
+   "modes": [
+    "movie"
+   ],
+   "name": "Customized controls when shooting",
+   "items": [
+    {
+     "key": "customize-buttons-for-shooting",
+     "row": 1,
+     "label": "Customize buttons for shooting",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-1",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Assign functions to buttons for shooting (e.g. back-button AF on AF-ON, AE lock, M-Fn).",
+     "kw": [
+      "back button focus",
+      "bbf",
+      "af-on",
+      "button assignment",
+      "custom buttons",
+      "reassign buttons",
+      "remap",
+      "custom function button",
+      "m-fn",
+      "ae lock button",
+      "star button",
+      "dof preview button",
+      "set button function"
+     ]
+    },
+    {
+     "key": "shutter-btn-function-for-movies",
+     "row": 2,
+     "label": "Shutter btn function for movies",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-2",
+     "subs": [],
+     "opts": [
+      "Half-press",
+      "Fully-press",
+      "Start/stop mov rec"
+     ],
+     "topics": [],
+     "desc": "What half- and full-pressing the shutter button does in movie mode.",
+     "kw": [
+      "shutter button movie",
+      "start recording with shutter",
+      "half press movie",
+      "record button"
+     ]
+    },
+    {
+     "key": "customize-dials-control-ring",
+     "row": 3,
+     "label": "Customize dials/control ring",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-3",
+     "subs": [],
+     "opts": [
+      "Fv"
+     ],
+     "topics": [],
+     "desc": "Assign functions to the dials and the lens control ring.",
+     "kw": [
+      "dials",
+      "control ring",
+      "lens ring",
+      "customize dials",
+      "dial functions",
+      "ring function",
+      "iso on ring"
+     ]
+    },
+    {
+     "key": "main-qcd2-qcd1-direction-to-set-tv-av",
+     "row": 4,
+     "label": "{main}{qcd2}{qcd1}direction to set Tv/Av",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-4",
+     "subs": [],
+     "opts": [
+      "Tv",
+      "Av",
+      "Normal",
+      "Reverse direction"
+     ],
+     "topics": [],
+     "desc": "Reverse the direction of the dials when setting shutter speed/aperture.",
+     "kw": [
+      "dial direction",
+      "reverse dial",
+      "invert dial"
+     ]
+    },
+    {
+     "key": "ring-direction-to-set-tv-av",
+     "row": 5,
+     "label": "{ring}direction to set Tv/Av",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-5",
+     "subs": [],
+     "opts": [
+      "Normal",
+      "Reverse direction"
+     ],
+     "topics": [],
+     "desc": "Reverse the lens control ring direction when setting shutter speed/aperture.",
+     "kw": [
+      "ring direction",
+      "reverse ring",
+      "control ring direction"
+     ]
+    },
+    {
+     "key": "switch-main-qcd2-when-shooting",
+     "row": 6,
+     "label": "Switch{main}/{qcd2}when shooting",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-6",
+     "subs": [],
+     "opts": [
+      "OFF",
+      "Disable",
+      "ON",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Swap the functions of the Main dial and Quick control dial 2 when shooting.",
+     "kw": [
+      "swap dials",
+      "switch dials",
+      "dial swap"
+     ]
+    },
+    {
+     "key": "multi-function-lock",
+     "row": 7,
+     "label": "Multi function lock",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_1-8",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Choose which controls the LOCK switch locks.",
+     "kw": [
+      "lock",
+      "lock switch",
+      "dial lock",
+      "control lock",
+      "prevent changes"
+     ]
+    }
+   ],
+   "pos": {
+    "movie": [
+     1,
+     4
+    ]
+   }
+  },
+  {
+   "id": "customize-all-3",
+   "tab": "customize",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Customized controls when shooting",
+   "items": [
+    {
+     "key": "touch-drag-af-settings",
+     "row": 1,
+     "label": "Touch & drag AF settings",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_2-1",
+     "subs": [],
+     "opts": [
+      "Touch & drag AF",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Move the AF point by dragging on the screen while using the viewfinder.",
+     "kw": [
+      "touch and drag",
+      "touchpad af",
+      "touch af",
+      "drag af point",
+      "absolute",
+      "relative",
+      "active area",
+      "nose"
+     ]
+    },
+    {
+     "key": "af-area-selection-control",
+     "row": 2,
+     "label": "AF area selection control",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_2-5",
+     "subs": [],
+     "opts": [
+      "→M-Fn button",
+      "→Main Dial"
+     ],
+     "topics": [],
+     "desc": "After pressing the AF point selection button, which control switches the AF area: the M-Fn button or the Main dial.",
+     "kw": [
+      "change af area",
+      "af area button",
+      "switch af mode"
+     ]
+    },
+    {
+     "key": "mc-sensitivity-af-pt-select",
+     "row": 3,
+     "label": "{mc}sensitivity- AF pt select",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_2-6",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "How fast the multi-controller moves the AF point.",
+     "kw": [
+      "joystick",
+      "multi controller",
+      "joystick speed",
+      "af point speed"
+     ]
+    },
+    {
+     "key": "focus-control-ring",
+     "row": 4,
+     "label": "Focus/control ring",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_2-7",
+     "subs": [],
+     "opts": [
+      "Use as focus ring",
+      "Use as control ring",
+      "AF",
+      "Focus mode is AF when used as a control ring"
+     ],
+     "topics": [],
+     "desc": "Switch an RF lens's focus/control ring between focus and control-ring functions.",
+     "kw": [
+      "focus ring",
+      "control ring",
+      "focus control ring",
+      "ring mode"
+     ]
+    },
+    {
+     "key": "focus-ring-rotation",
+     "row": 5,
+     "label": "Focus ring rotation",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_2-8",
+     "subs": [],
+     "opts": [
+      "Normal",
+      "Reverse direction"
+     ],
+     "topics": [],
+     "desc": "Reverse the focus ring direction.",
+     "kw": [
+      "focus ring direction",
+      "reverse focus",
+      "nikon direction",
+      "manual focus direction"
+     ]
+    },
+    {
+     "key": "rf-lens-mf-focus-ring-sensitivity",
+     "row": 6,
+     "label": "RF lens MF focus ring sensitivity",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_2-9",
+     "subs": [],
+     "opts": [
+      "Varies with rotation speed",
+      "Linked to rotation degree"
+     ],
+     "topics": [],
+     "desc": "Focus ring response: varies with rotation speed, or linear (linked to rotation angle).",
+     "kw": [
+      "linear focus",
+      "focus by wire",
+      "focus ring sensitivity",
+      "linear response",
+      "focus throw"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     2,
+     4
+    ],
+    "movie": [
+     2,
+     4
+    ]
+   }
+  },
+  {
+   "id": "customize-all-4",
+   "tab": "customize",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Customized controls when playback",
+   "items": [
+    {
+     "key": "customize-buttons-for-playback",
+     "row": 1,
+     "label": "Customize buttons for playback",
+     "creative": true,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_3-1",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Assign functions to buttons during playback.",
+     "kw": [
+      "playback buttons",
+      "button assignment playback",
+      "remap playback"
+     ]
+    },
+    {
+     "key": "image-jump-w-main",
+     "row": 2,
+     "label": "Image jump w/{main}",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_3-2",
+     "subs": [],
+     "opts": [
+      "Jump images by the specified number",
+      "Display by image rating"
+     ],
+     "topics": [],
+     "desc": "How many images the Main dial jumps in playback (1, 10, 100, by date, rating...).",
+     "kw": [
+      "image jump",
+      "skip images",
+      "jump 10",
+      "browse faster"
+     ]
+    },
+    {
+     "key": "img-jump-w-assign-qcd1",
+     "row": 3,
+     "label": "Img jump w/{assign}+{qcd1}",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_3-3",
+     "subs": [],
+     "opts": [
+      "Jump images by the specified number",
+      "Display by image rating"
+     ],
+     "topics": [],
+     "desc": "Image jump method when holding an assigned button and turning Quick control dial 1.",
+     "kw": [
+      "image jump",
+      "skip images",
+      "jump"
+     ]
+    },
+    {
+     "key": "switch-main-qcd2-during-playback",
+     "row": 4,
+     "label": "Switch{main}/{qcd2}during playback",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_3-4",
+     "subs": [],
+     "opts": [
+      "Disable",
+      "Image jump",
+      "Magnify/Index view",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Swap the Main dial and Quick control dial 2 functions in playback.",
+     "kw": [
+      "swap dials playback",
+      "playback dial",
+      "zoom dial"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     3,
+     4
+    ],
+    "movie": [
+     3,
+     4
+    ]
+   }
+  },
+  {
+   "id": "customize-all-5",
+   "tab": "customize",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Customized controls/Reset",
+   "items": [
+    {
+     "key": "eye-control",
+     "row": 1,
+     "label": "Eye control",
+     "creative": false,
+     "ref": "UG-01_Preparations_0110.html",
+     "subs": [
+      "Calibration (CAL)",
+      "CAL no.",
+      "Save/load (card)",
+      "Save to card",
+      "Delete"
+     ],
+     "opts": [
+      "Start",
+      "Refine",
+      "Exit",
+      "On",
+      "Off",
+      "Whole area AF",
+      "Move AF point by eye control",
+      "Metering and AF start",
+      "Pointer display",
+      "Shtg standby",
+      "Sensitivity",
+      "Color",
+      "Orange",
+      "Purple",
+      "White",
+      "Display size",
+      "Standard",
+      "Small",
+      "Display format",
+      "OK",
+      "Load from card",
+      "Delete all"
+     ],
+     "topics": [
+      "Performing Calibration",
+      "Points to know before calibration",
+      "Calibration operations",
+      "Adding calibration data",
+      "Using Eye Control for AF",
+      "Menu settings",
+      "Operations in viewfinder shooting",
+      "Using eye control to display the focus guide",
+      "General eye control precautions",
+      "Enhancing eye control accuracy",
+      "Configuring Pointer Display",
+      "Managing Calibration Data"
+     ],
+     "desc": "Eye Control AF: move the AF point by looking at it in the viewfinder, with calibration.",
+     "kw": [
+      "eye control",
+      "eye controlled af",
+      "look to focus",
+      "calibration",
+      "eye tracking af"
+     ]
+    },
+    {
+     "key": "touch-control",
+     "row": 2,
+     "label": "Touch control",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_4-1",
+     "subs": [],
+     "opts": [
+      "Sensitive",
+      "Standard",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Touchscreen sensitivity, or turn touch off.",
+     "kw": [
+      "touchscreen",
+      "touch screen",
+      "disable touch",
+      "touch sensitivity"
+     ]
+    },
+    {
+     "key": "clear-all-customized-controls",
+     "row": 3,
+     "label": "Clear all customized controls",
+     "creative": false,
+     "ref": "UG-08_Customize_0030.html#Customize_0030_4-2",
+     "subs": [],
+     "opts": [],
+     "topics": [],
+     "desc": "Resets all button/dial customizations.",
+     "kw": [
+      "reset buttons",
+      "clear custom controls",
+      "default buttons"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     4,
+     4
+    ],
+    "movie": [
+     4,
+     4
+    ]
+   }
+  },
+  {
+   "id": "cfn-all-1",
+   "tab": "cfn",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Shooting mode/Exposure",
+   "items": [
+    {
+     "key": "restrict-shooting-modes",
+     "row": 1,
+     "label": "Restrict shooting modes",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_1-1",
+     "subs": [],
+     "opts": [
+      "Fv",
+      "Av",
+      "Tv",
+      "BULB",
+      "C1",
+      "C2",
+      "C3",
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Limit which shooting modes the MODE button cycles through.",
+     "kw": [
+      "mode button",
+      "limit modes",
+      "hide modes",
+      "restrict modes"
+     ]
+    },
+    {
+     "key": "exposure-level-increments",
+     "row": 2,
+     "label": "Exposure level increments",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_1-2",
+     "subs": [],
+     "opts": [
+      "1/3-stop",
+      "1/2-stop"
+     ],
+     "topics": [],
+     "desc": "Shutter, aperture and exposure compensation steps: 1/3 or 1/2 stop.",
+     "kw": [
+      "exposure steps",
+      "1/3 stop",
+      "1/2 stop",
+      "increments",
+      "stops"
+     ]
+    },
+    {
+     "key": "iso-speed-setting-increments",
+     "row": 3,
+     "label": "ISO speed setting increments",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_1-3",
+     "subs": [],
+     "opts": [
+      "1/3-stop",
+      "1-stop"
+     ],
+     "topics": [],
+     "desc": "ISO steps: 1/3 or full stop.",
+     "kw": [
+      "iso steps",
+      "iso increments",
+      "full stop iso"
+     ]
+    },
+    {
+     "key": "speed-from-metering-iso-auto",
+     "row": 4,
+     "label": "Speed from metering/ISO Auto",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_1-4",
+     "subs": [],
+     "opts": [
+      "Tv",
+      "Av",
+      "BULB",
+      "Restore Auto after metering",
+      "Retain speed after metering"
+     ],
+     "topics": [],
+     "desc": "With Auto ISO, whether ISO returns to Auto after metering ends or keeps the value used.",
+     "kw": [
+      "auto iso behavior",
+      "iso after metering",
+      "retain iso"
+     ]
+    },
+    {
+     "key": "bracketing-auto-cancel",
+     "row": 5,
+     "label": "Bracketing auto cancel",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_1-5",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Whether bracketing turns off when you power off the camera.",
+     "kw": [
+      "bracketing cancel",
+      "aeb off",
+      "bracket reset"
+     ]
+    },
+    {
+     "key": "bracketing-sequence",
+     "row": 6,
+     "label": "Bracketing sequence",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_1-6",
+     "subs": [],
+     "opts": [
+      "0, -, +",
+      "-, 0, +",
+      "+, 0, -"
+     ],
+     "topics": [],
+     "desc": "Order of bracketed shots (0, -, + etc.).",
+     "kw": [
+      "bracket order",
+      "sequence",
+      "aeb order"
+     ]
+    },
+    {
+     "key": "number-of-bracketed-shots",
+     "row": 7,
+     "label": "Number of bracketed shots",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_1-7",
+     "subs": [],
+     "opts": [
+      "0, -, +",
+      "3 shots",
+      "2 shots",
+      "5 shots",
+      "7 shots"
+     ],
+     "topics": [],
+     "desc": "How many shots per bracket: 2, 3, 5 or 7.",
+     "kw": [
+      "bracket shots",
+      "aeb count",
+      "5 shots",
+      "7 shots",
+      "hdr bracketing"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     1,
+     4
+    ],
+    "movie": [
+     1,
+     4
+    ]
+   }
+  },
+  {
+   "id": "cfn-all-2",
+   "tab": "cfn",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Exposure",
+   "items": [
+    {
+     "key": "safety-shift",
+     "row": 1,
+     "label": "Safety shift",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_2-1",
+     "subs": [],
+     "opts": [
+      "Shutter speed/Aperture",
+      "Tv",
+      "Av",
+      "ISO speed",
+      "Disable",
+      "ISO speed range",
+      "Min. shutter spd.",
+      "Auto range"
+     ],
+     "topics": [],
+     "desc": "Lets the camera shift shutter speed/aperture or ISO when your setting would give a bad exposure.",
+     "kw": [
+      "safety shift",
+      "auto adjust exposure",
+      "exposure safety"
+     ]
+    },
+    {
+     "key": "same-expo-for-new-aperture",
+     "row": 2,
+     "label": "Same expo. for new aperture",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_2-2",
+     "subs": [],
+     "opts": [
+      "ISO speed/Shutter speed",
+      "Disable",
+      "ISO speed",
+      "Shutter speed",
+      "ISO speed range",
+      "Electronic"
+     ],
+     "topics": [],
+     "desc": "Keeps exposure the same when the max aperture changes (zoom lenses, extenders) by adjusting ISO or shutter.",
+     "kw": [
+      "variable aperture",
+      "zoom exposure",
+      "extender",
+      "aperture change"
+     ]
+    },
+    {
+     "key": "ae-lock-meter-mode-after-focus",
+     "row": 3,
+     "label": "AE lock meter. mode after focus",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_2-3",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [],
+     "desc": "Choose which metering modes lock exposure when One-Shot AF locks focus.",
+     "kw": [
+      "ae lock",
+      "focus and lock exposure",
+      "half press ae lock"
+     ]
+    },
+    {
+     "key": "set-shutter-speed-range",
+     "row": 4,
+     "label": "Set shutter speed range",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_2-4",
+     "subs": [],
+     "opts": [
+      "Fv",
+      "Tv",
+      "Av",
+      "AUTO",
+      "OK",
+      "Mech shutter/elec 1st-curtain",
+      "Lowest speed",
+      "Highest speed",
+      "Electronic"
+     ],
+     "topics": [],
+     "desc": "Limit the shutter speeds the camera can use.",
+     "kw": [
+      "shutter speed limit",
+      "shutter range",
+      "minimum shutter",
+      "max shutter"
+     ]
+    },
+    {
+     "key": "set-aperture-range",
+     "row": 5,
+     "label": "Set aperture range",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_2-5",
+     "subs": [],
+     "opts": [
+      "Fv",
+      "Av",
+      "BULB",
+      "Tv",
+      "AUTO",
+      "OK",
+      "Max. aperture",
+      "Min. aperture"
+     ],
+     "topics": [],
+     "desc": "Limit the apertures the camera can use.",
+     "kw": [
+      "aperture limit",
+      "f-stop range",
+      "aperture range"
+     ]
+    },
+    {
+     "key": "ae-microadjustment",
+     "row": 6,
+     "label": "AE Microadjustment",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_2-6",
+     "subs": [],
+     "opts": [
+      "Disable",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Fine-tunes the camera's standard exposure level if auto exposure always runs bright or dark.",
+     "kw": [
+      "exposure calibration",
+      "ae calibration",
+      "meter calibration",
+      "underexposed",
+      "overexposed"
+     ]
+    },
+    {
+     "key": "fe-microadjustment",
+     "row": 7,
+     "label": "FE Microadjustment",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_2-7",
+     "subs": [],
+     "opts": [
+      "Disable",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Fine-tunes the standard flash exposure level if auto flash always runs bright or dark.",
+     "kw": [
+      "flash calibration",
+      "fe calibration",
+      "flash exposure",
+      "ttl calibration"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     2,
+     4
+    ],
+    "movie": [
+     2,
+     4
+    ]
+   }
+  },
+  {
+   "id": "cfn-all-3",
+   "tab": "cfn",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Drive",
+   "items": [
+    {
+     "key": "continuous-shooting-speed",
+     "row": 1,
+     "label": "Continuous shooting speed",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_3-1",
+     "subs": [],
+     "opts": [
+      "OK",
+      "High speed continuous +",
+      "High speed",
+      "Low speed",
+      "Electronic"
+     ],
+     "topics": [],
+     "desc": "Set the frames per second for each continuous (burst) drive mode.",
+     "kw": [
+      "fps",
+      "frames per second",
+      "burst speed",
+      "continuous speed",
+      "drive speed",
+      "burst rate"
+     ]
+    },
+    {
+     "key": "limit-continuous-shot-count",
+     "row": 2,
+     "label": "Limit continuous shot count",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_3-2",
+     "subs": [],
+     "opts": [
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Stop a burst automatically after a set number of shots.",
+     "kw": [
+      "burst limit",
+      "limit burst",
+      "max burst",
+      "shot count"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     3,
+     4
+    ],
+    "movie": [
+     3,
+     4
+    ]
+   }
+  },
+  {
+   "id": "cfn-all-4",
+   "tab": "cfn",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "Various settings/Reset",
+   "items": [
+    {
+     "key": "add-cropping-information",
+     "row": 1,
+     "label": "Add cropping information",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_4-1",
+     "subs": [],
+     "opts": [
+      "Disable",
+      "Aspect ratio 6:6",
+      "Aspect ratio 3:4",
+      "Aspect ratio 4:5",
+      "Aspect ratio 6:7",
+      "Aspect ratio 10:12",
+      "Aspect ratio 5:7",
+      "Full-frame"
+     ],
+     "topics": [],
+     "desc": "Adds crop/aspect lines (6:6, 4:5 etc.) to the display and records them for later cropping.",
+     "kw": [
+      "crop lines",
+      "4:5",
+      "instagram",
+      "aspect lines",
+      "5:7",
+      "frame guide"
+     ]
+    },
+    {
+     "key": "default-erase-option",
+     "row": 2,
+     "label": "Default Erase option",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_4-2",
+     "subs": [],
+     "opts": [
+      "Cancel",
+      "[Cancel] selected",
+      "[Erase] selected",
+      "[Erase voice memo] selected"
+     ],
+     "topics": [],
+     "desc": "Which option is pre-selected when you press Erase.",
+     "kw": [
+      "erase default",
+      "delete default",
+      "quick delete"
+     ]
+    },
+    {
+     "key": "av-setting-without-lens",
+     "row": 3,
+     "label": "Av setting without lens",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_4-3",
+     "subs": [],
+     "opts": [
+      "Disable",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Allows setting the aperture value before a lens is attached.",
+     "kw": [
+      "aperture without lens",
+      "set f-stop without lens"
+     ]
+    },
+    {
+     "key": "release-shutter-w-o-lens",
+     "row": 4,
+     "label": "Release shutter w/o lens",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_4-4",
+     "subs": [],
+     "opts": [
+      "Disable",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Allows shooting with no lens attached (pinholes, freelensing, some adapters).",
+     "kw": [
+      "no lens",
+      "without lens",
+      "pinhole",
+      "adapter",
+      "freelensing",
+      "telescope"
+     ]
+    },
+    {
+     "key": "retract-lens-on-power-off",
+     "row": 5,
+     "label": "Retract lens on power off",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_4-5",
+     "subs": [],
+     "opts": [
+      "Enable",
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Retracts STM/retractable lenses when the camera turns off.",
+     "kw": [
+      "retract lens",
+      "lens retract",
+      "power off lens"
+     ]
+    },
+    {
+     "key": "add-iptc-information",
+     "row": 6,
+     "label": "Add IPTC information",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_4-6",
+     "subs": [],
+     "opts": [
+      "Disable",
+      "Enable"
+     ],
+     "topics": [],
+     "desc": "Embeds IPTC metadata (registered via EOS Utility) in images.",
+     "kw": [
+      "iptc",
+      "metadata",
+      "caption",
+      "photographer info",
+      "press"
+     ]
+    },
+    {
+     "key": "clear-all-custom-func-c-fn",
+     "row": 7,
+     "label": "Clear all Custom Func. (C.Fn)",
+     "creative": false,
+     "ref": "UG-09_Custom_0030.html#Custom_0030_4-7",
+     "subs": [],
+     "opts": [
+      "Disable"
+     ],
+     "topics": [],
+     "desc": "Resets all Custom Functions.",
+     "kw": [
+      "reset custom functions",
+      "clear c.fn",
+      "reset cfn"
+     ]
+    }
+   ],
+   "pos": {
+    "photo": [
+     4,
+     4
+    ],
+    "movie": [
+     4,
+     4
+    ]
+   }
+  },
+  {
+   "id": "mymenu-all-1",
+   "tab": "mymenu",
+   "modes": [
+    "photo",
+    "movie"
+   ],
+   "name": "My Menu management",
+   "items": [
+    {
+     "key": "add-my-menu-tab",
+     "row": 1,
+     "label": "Add My Menu tab",
+     "creative": false,
+     "ref": "UG-09_Custom_0050.html#Custom_0050_1",
+     "subs": [],
+     "opts": [
+      "OK"
+     ],
+     "topics": [
+      "Creating and Adding My Menu Tabs"
+     ],
+     "desc": "Create your own My Menu tab and fill it with your most-used items.",
+     "kw": [
+      "my menu",
+      "favorites",
+      "custom menu",
+      "favorite settings",
+      "shortcut menu"
+     ]
+    },
+    {
+     "key": "delete-all-my-menu-tabs",
+     "row": 2,
+     "label": "Delete all My Menu tabs",
+     "creative": false,
+     "ref": "UG-09_Custom_0050.html#Custom_0050_4",
+     "subs": [],
+     "opts": [
+      "MY MENU1",
+      "MY MENU5",
+      "Delete tab",
+      "Rename tab"
+     ],
+     "topics": [
+      "Deleting All My Menu Tabs/Deleting All Items"
+     ],
+     "desc": "Deletes all My Menu tabs.",
+     "kw": [
+      "delete my menu",
+      "clear my menu"
+     ]
+    },
+    {
+     "key": "delete-all-items",
+     "row": 3,
+     "label": "Delete all items",
+     "creative": false,
+     "ref": "UG-09_Custom_0050.html#Custom_0050_4",
+     "subs": [],
+     "opts": [
+      "MY MENU1",
+      "MY MENU5",
+      "Delete tab",
+      "Rename tab"
+     ],
+     "topics": [
+      "Deleting All My Menu Tabs/Deleting All Items"
+     ],
+     "desc": "Deletes all items from My Menu tabs.",
+     "kw": [
+      "clear my menu items"
+     ]
+    },
+    {
+     "key": "menu-display",
+     "row": 4,
+     "label": "Menu display",
+     "creative": false,
+     "ref": "UG-09_Custom_0050.html#Custom_0050_5",
+     "subs": [],
+     "opts": [
+      "Normal display",
+      "Display from My Menu tab",
+      "Display only My Menu tab"
+     ],
+     "topics": [
+      "Menu Display Settings"
+     ],
+     "desc": "Open the menu on My Menu first, or show only My Menu.",
+     "kw": [
+      "menu start",
+      "open my menu first",
+      "only my menu"
+     ]
+    }
+   ],
+   "notes": [
+    "Only this management page exists until you add your own My Menu tabs. Each tab you add becomes another page here."
+   ],
+   "pos": {
+    "photo": [
+     1,
+     1
+    ],
+    "movie": [
+     1,
+     1
+    ]
+   }
+  }
+ ]
+}

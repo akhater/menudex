@@ -1,0 +1,18 @@
+{
+ "_pages": {
+  "af-photo-3": {
+   "layout": "graphic",
+   "notes": [
+    "This page is a picture, not a list: pick AUTO (Case Auto), M (Case Manual) or SP (Case Special) on the left, then adjust the settings shown for it. Row numbers here follow the manual's callouts."
+   ]
+  },
+  "mymenu-all-1": {
+   "notes": [
+    "Only this management page exists until you add your own My Menu tabs. Each tab you add becomes another page here."
+   ]
+  }
+ },
+ "quality": {
+  "label": "JPEG/HEIF quality"
+ }
+}
